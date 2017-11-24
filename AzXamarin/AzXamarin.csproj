@@ -42,6 +42,30 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Signup2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PastVisit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpcomingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitAppointment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -60,6 +84,24 @@
     <Compile Include="Signup.xaml.cs">
       <DependentUpon>Signup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Signup2.xaml.cs">
+      <DependentUpon>Signup2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp3.xaml.cs">
+      <DependentUpon>SignUp3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PastVisit.xaml.cs">
+      <DependentUpon>PastVisit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UpcomingPage.xaml.cs">
+      <DependentUpon>UpcomingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VisitAppointment.xaml.cs">
+      <DependentUpon>VisitAppointment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -74,6 +116,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Resources\address.png" />
+    <None Include="Resources\appoin.png" />
+    <None Include="Resources\Aprikas_light_Demo.otf" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\circle.png" />
+    <None Include="Resources\city.png" />
+    <None Include="Resources\dob.png" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\gender.png" />
+    <None Include="Resources\hamburger.png" />
+    <None Include="Resources\HeartLine.png" />
+    <None Include="Resources\History.png" />
+    <None Include="Resources\Lato-Italic.ttf.meta" />
+    <None Include="Resources\Lato-Light.ttf" />
+    <None Include="Resources\Login_Name.png" />
+    <None Include="Resources\Login_passw.png" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\loginscreen.png" />
+    <None Include="Resources\mobile.png" />
+    <None Include="Resources\Next.png" />
+    <None Include="Resources\past visits block.png" />
+    <None Include="Resources\pc.png" />
+    <None Include="Resources\Prev.png" />
+    <None Include="Resources\Schd.png" />
+    <None Include="Resources\social.png" />
+    <None Include="Resources\state.png" />
+    <None Include="Resources\telephone.png" />
+    <None Include="Resources\welcome-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />

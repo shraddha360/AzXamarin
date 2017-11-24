@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AzXamarin.SignUp3">
+	<ContentPage.Content>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
+              HorizontalOptions="FillAndExpand" Padding="0,30" Spacing="10" BackgroundColor="Aqua" >
+
+                 <Label Text="Sign up"  TextColor="Black" 
+                    FontSize="45" HorizontalOptions="Center" 
+                    VerticalOptions="Center"  
+                  /> 
+                <Label Text="Consent" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Center"/>
+
+           
+            <Grid  Padding="10,50,20,-100" ColumnSpacing="10" RowSpacing="30" 
+                VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"
+                    BackgroundColor="Transparent" 
+                    >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="2*" />
+                    <RowDefinition Height="7*" />
+                    <RowDefinition Height="7*" />
+                     <RowDefinition Height="7*" />
+ </Grid.RowDefinitions>
+                
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="350"  />
+    <ColumnDefinition Width="300" />
+                    
+   </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0" Text="Patient Consent" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Start" />
+                 <Label Grid.Row="1" Grid.Column="0"
+                    Text="By Clicking Accept, I aggree that any access I have is authorized and will be followed by HIPPA Compilance" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Start"/>
+                <Button  Grid.Row="2" Grid.Column="0" Text = "I Accept" TextColor="Black" WidthRequest="100" HeightRequest="50" 
+                VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                         Clicked= "HomeGo" >  
+                  </Button>
+                </Grid>
+           
+            </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,7 @@ namespace AzXamarin
         {
             InitializeComponent();
 
-            MainPage = new Welcome();
+            MainPage = new NavigationPage(new Welcome());
         }
 
         protected override void OnStart()

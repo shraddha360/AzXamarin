@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup2">
+	<ContentPage.Content>
+
+          <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
+              HorizontalOptions="FillAndExpand" Padding="0,20" Spacing="10" BackgroundColor="Aqua" >
+
+            
+                 <Label Text="Sign up"  TextColor="Black" 
+                    FontSize="45" HorizontalOptions="Center" 
+                    VerticalOptions="Center" /> 
+
+            <Label Text="Contact Details" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Center"/>
+
+            <ScrollView Padding="10,50"  Orientation="Vertical" VerticalOptions="FillAndExpand" >
+                    
+            
+                    
+            <Grid  Padding="-30,30,20,-100" ColumnSpacing="10" RowSpacing="30" VerticalOptions="Center" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
+                    >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="7*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+                        <RowDefinition Height="8*" />
+                        <RowDefinition Height="8*" />
+                          <RowDefinition Height="8*" />
+                          <RowDefinition Height="8*" />
+                                           
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="50"  />
+    <ColumnDefinition Width="300" />
+      
+  </Grid.ColumnDefinitions>
+                 
+                  
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter your address" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry>
+                    
+                 
+                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="Enter your City " PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry>
+               <Picker Grid.Row="2" Grid.Column="1" x:Name="State" Title="Enter your state" TextColor="White" 
+                    SelectedIndex="{Binding Industry}" 
+                    BackgroundColor="Transparent" 
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="300"  HeightRequest="40">
+                    <Picker.Items>
+                       <x:String>Andra Pradesh </x:String> 
+                       <x:String>Assam</x:String>
+                       <x:String>Karnataka </x:String> 
+                       <x:String>Kerala</x:String>
+                       <x:String>Uttar Pradesh </x:String> 
+                       <x:String>Goa</x:String>
+                       <x:String>Maharashtra</x:String> 
+                       <x:String>Gujrat</x:String>
+                    </Picker.Items>
+                 </Picker> 
+                  <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Enter your email-id" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry> 
+                <Entry Grid.Row="4" Grid.Column="1"  Placeholder="Enter your mobile number" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry> 
+                <Entry Grid.Row="5" Grid.Column="1"  Placeholder="Enter your phone number" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry> 
+
+
+                    <Label Grid.Row="6" Grid.Column="1"  Text="Emergency Contact Details" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                  <Entry Grid.Row="7" Grid.Column="1"  Placeholder="Alternate email-id" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry> 
+                <Entry Grid.Row="8" Grid.Column="1"  Placeholder="Alternate cell Number" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry> 
+
+                </Grid>
+                </ScrollView>
+              <Button  Text = "Next" TextColor="Black" WidthRequest="100" HeightRequest="50" 
+                VerticalOptions="End" HorizontalOptions="End"
+                         Clicked= "Sign3" >  
+                  </Button>
+            </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

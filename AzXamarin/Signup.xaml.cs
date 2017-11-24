@@ -11,5 +11,12 @@ namespace AzXamarin
         {
             InitializeComponent();
         }
+        public void SignNext(object sender, System.EventArgs e)
+        {
+
+            Navigation.PushAsync(new Signup2());
+
+        }
+
     }
 }

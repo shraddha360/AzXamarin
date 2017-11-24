@@ -14,14 +14,13 @@ namespace AzXamarin
 
         public void Loginpage(object sender, System.EventArgs e){
 
-            Navigation.PushModalAsync(new LoginPage());
-          
+            Navigation.PushAsync(new LoginPage());
 
         }
 
         public void Sign(object sender, System.EventArgs e){
 
-            Navigation.PushModalAsync(new Signup());
+            Navigation.PushAsync(new Signup());
         }
 
     }

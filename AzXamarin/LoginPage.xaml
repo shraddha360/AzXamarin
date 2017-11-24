@@ -2,6 +2,75 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.LoginPage">
 	<ContentPage.Content>
 
-        
+        <StackLayout BackgroundColor="Aqua" Padding="0,50">
+            
+         <Label Text="Login"  TextColor="Black" 
+                    FontSize="60" HorizontalOptions="Center" FontFamily="./Lato-Light.ttf"
+                    VerticalOptions="Start"  
+                  />
+            
+            <Grid  Padding="-30,150,20,-100" ColumnSpacing="10"
+                RowSpacing="45" VerticalOptions="Center" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
+                    >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="9*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+                        
+                                           
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="50"  />
+    <ColumnDefinition Width="300" />
+      
+  </Grid.ColumnDefinitions>
+                    
+                
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter Email "  HeightRequest="50"
+                    PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="400" HorizontalOptions="CenterAndExpand" Text=""  >
+                </Entry>
+                 
+                <Entry  Grid.Row="1" Grid.Column="1"  Placeholder="Enter Password " HeightRequest="50"
+                    PlaceholderColor="Black" IsPassword="true" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="400" HorizontalOptions="CenterAndExpand" Text="" >
+                 </Entry>
+
+                </Grid>
+
+            <Grid  Padding="85,-20,20,-100" ColumnSpacing="-40" 
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="4*" />
+    <RowDefinition Height="4*" />
+    <RowDefinition Height="4*" />
+    <RowDefinition Height="4*" />
+      <RowDefinition Height="4*" />
+                                          
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="200"  />
+    <ColumnDefinition Width="200" />
+      <ColumnDefinition Width="200"  />
+    <ColumnDefinition Width="200" />
+  </Grid.ColumnDefinitions>
+                    
+
+          <Button Grid.Row="0" Grid.Column="0" Text = "Submit" FontAttributes="Bold"
+          TextColor="Black" WidthRequest="180" HeightRequest="70" 
+          Clicked= "HomePge"> </Button>
+                
+       <Button Grid.Row="1" Grid.Column="0"  Text = "Create an Account" 
+                    TextColor="Black"  FontSize="18"
+                        WidthRequest="150" HeightRequest="50"
+        Clicked= "Signup"></Button>  
+                  
+                </Grid>
+
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

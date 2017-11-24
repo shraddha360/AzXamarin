@@ -1,5 +1,72 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup">
 	<ContentPage.Content>
-	</ContentPage.Content>
+
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
+              HorizontalOptions="FillAndExpand" Padding="0,20" Spacing="10" BackgroundColor="Aqua" >
+
+                 <Label Text="Sign up"  TextColor="Black" 
+                    FontSize="45" HorizontalOptions="Center" 
+                    VerticalOptions="Center"  
+                  /> 
+                <Label Text="Personal Details" TextColor="Black"
+                  FontSize="20" HorizontalTextAlignment="Center"/>
+
+            <Grid  Padding="-30,50,20,-100" ColumnSpacing="10" RowSpacing="30" VerticalOptions="Center" HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
+                    >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="7*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+    <RowDefinition Height="8*" />
+                        <RowDefinition Height="8*" />
+                        <RowDefinition Height="8*" />
+                                           
+  </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="50"  />
+    <ColumnDefinition Width="300" />
+      
+  </Grid.ColumnDefinitions>
+                 
+                  
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="enter your social number" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry>
+                    
+                 
+                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="enter your full name" PlaceholderColor="Black" TextColor= "Black" BackgroundColor="Transparent" 
+                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
+                </Entry>
+                    
+                     
+                
+                <DatePicker Grid.Row="2" Grid.Column="1"  WidthRequest="300" 
+                         HorizontalOptions="Center" 
+                BackgroundColor="Transparent"
+                VerticalOptions="Center"     TextColor="Black"  />  
+              
+                <Picker Grid.Row="3" Grid.Column="1" WidthRequest="300" 
+                         HorizontalOptions="Center" Title="enter your gender"
+                BackgroundColor="Transparent"
+                VerticalOptions="Center"     TextColor="Black">
+                <Picker.Items>
+                       <x:String>Female</x:String> 
+                       <x:String>Male</x:String>
+               </Picker.Items>
+
+                    </Picker>
+               
+                </Grid>
+
+            <Button  Text = "Next" TextColor="Black" WidthRequest="100" HeightRequest="50" 
+                VerticalOptions="End" HorizontalOptions="End"
+                         Clicked= "SignNext" >  
+                  </Button>
+            </StackLayout>
+        
+        
+</ContentPage.Content>
 </ContentPage>
