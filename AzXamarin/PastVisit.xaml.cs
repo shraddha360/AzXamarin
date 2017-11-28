@@ -10,6 +10,15 @@ namespace AzXamarin
         public PastVisit()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
         }
+
+        public void Appoint(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new VisitAppointment());
+
+        }
+
     }
 }

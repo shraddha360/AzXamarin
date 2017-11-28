@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip AzXamarin_App__ctor
 AzXamarin_App__ctor:
-.file 1 "/Users/shraddha/Projects/AzXamarin/AzXamarin/App.xaml.cs"
+.file 1 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/App.xaml.cs"
 .loc 1 7 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -352,7 +352,7 @@ Lme_3:
 	.align 4
 	.no_dead_strip AzXamarin_App_InitializeComponent
 AzXamarin_App_InitializeComponent:
-.file 2 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs"
+.file 2 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs"
 .loc 2 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -413,7 +413,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip AzXamarin_AzXamarinPage__ctor
 AzXamarin_AzXamarinPage__ctor:
-.file 3 "/Users/shraddha/Projects/AzXamarin/AzXamarin/AzXamarinPage.xaml.cs"
+.file 3 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/AzXamarinPage.xaml.cs"
 .loc 3 7 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -481,7 +481,7 @@ Lme_5:
 	.align 4
 	.no_dead_strip AzXamarin_AzXamarinPage_InitializeComponent
 AzXamarin_AzXamarinPage_InitializeComponent:
-.file 4 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.AzXamarinPage.xaml.g.cs"
+.file 4 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.AzXamarinPage.xaml.g.cs"
 .loc 4 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -542,7 +542,7 @@ Lme_6:
 	.align 4
 	.no_dead_strip AzXamarin_Welcome__ctor
 AzXamarin_Welcome__ctor:
-.file 5 "/Users/shraddha/Projects/AzXamarin/AzXamarin/Welcome.xaml.cs"
+.file 5 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/Welcome.xaml.cs"
 .loc 5 10 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -596,8 +596,36 @@ bl _p_11
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_12
 .word 0xf9400fb1
-.word 0xf940ce31
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 5 15 0
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -608,9 +636,9 @@ bl _p_11
 Lme_7:
 .text
 	.align 4
-	.no_dead_strip AzXamarin_Welcome_Loginpage_object_System_EventArgs
-AzXamarin_Welcome_Loginpage_object_System_EventArgs:
-.loc 5 15 0 prologue_end
+	.no_dead_strip AzXamarin_Welcome_Loginpge_object_System_EventArgs
+AzXamarin_Welcome_Loginpge_object_System_EventArgs:
+.loc 5 18 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -635,13 +663,13 @@ ldr x16, [x16, #312]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 17 0
+.loc 5 20 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_14
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -655,7 +683,7 @@ ldr x0, [x16, #320]
 .word 0xd2803901
 bl _p_3
 .word 0xf90023a0
-bl _p_13
+bl _p_15
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -676,7 +704,7 @@ ldr x15, [x16, #328]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 19 0
+.loc 5 22 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
@@ -694,7 +722,7 @@ Lme_8:
 	.align 4
 	.no_dead_strip AzXamarin_Welcome_Sign_object_System_EventArgs
 AzXamarin_Welcome_Sign_object_System_EventArgs:
-.loc 5 21 0 prologue_end
+.loc 5 25 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -719,13 +747,13 @@ ldr x16, [x16, #336]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 23 0
+.loc 5 27 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_14
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -739,7 +767,7 @@ ldr x0, [x16, #344]
 .word 0xd2803901
 bl _p_3
 .word 0xf90023a0
-bl _p_14
+bl _p_16
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -760,7 +788,7 @@ ldr x15, [x16, #328]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 5 24 0
+.loc 5 28 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
@@ -778,7 +806,7 @@ Lme_9:
 	.align 4
 	.no_dead_strip AzXamarin_Welcome_InitializeComponent
 AzXamarin_Welcome_InitializeComponent:
-.file 6 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Welcome.xaml.g.cs"
+.file 6 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Welcome.xaml.g.cs"
 .loc 6 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -816,7 +844,7 @@ ldr x1, [x16, #360]
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x15, [x16, #368]
-bl _p_15
+bl _p_17
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -839,7 +867,7 @@ Lme_a:
 	.align 4
 	.no_dead_strip AzXamarin_LoginPage__ctor
 AzXamarin_LoginPage__ctor:
-.file 7 "/Users/shraddha/Projects/AzXamarin/AzXamarin/LoginPage.xaml.cs"
+.file 7 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/LoginPage.xaml.cs"
 .loc 7 10 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -883,7 +911,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_16
+bl _p_18
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -893,8 +921,36 @@ bl _p_16
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_12
 .word 0xf9400fb1
-.word 0xf940ce31
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 7 15 0
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -907,7 +963,7 @@ Lme_b:
 	.align 4
 	.no_dead_strip AzXamarin_LoginPage_Signup_object_System_EventArgs
 AzXamarin_LoginPage_Signup_object_System_EventArgs:
-.loc 7 15 0 prologue_end
+.loc 7 17 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -932,13 +988,13 @@ ldr x16, [x16, #384]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 17 0
+.loc 7 19 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_14
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -952,7 +1008,7 @@ ldr x0, [x16, #344]
 .word 0xd2803901
 bl _p_3
 .word 0xf90023a0
-bl _p_14
+bl _p_16
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -973,7 +1029,7 @@ ldr x15, [x16, #328]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 18 0
+.loc 7 20 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
@@ -991,7 +1047,7 @@ Lme_c:
 	.align 4
 	.no_dead_strip AzXamarin_LoginPage_HomePge_object_System_EventArgs
 AzXamarin_LoginPage_HomePge_object_System_EventArgs:
-.loc 7 20 0 prologue_end
+.loc 7 22 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -1016,13 +1072,13 @@ ldr x16, [x16, #392]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 22 0
+.loc 7 24 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_14
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -1032,11 +1088,11 @@ bl _p_12
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x0, [x16, #400]
-.word 0xd2803901
-.word 0xd2803901
+.word 0xd2803b01
+.word 0xd2803b01
 bl _p_3
 .word 0xf90023a0
-bl _p_17
+bl _p_19
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -1057,7 +1113,7 @@ ldr x15, [x16, #328]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 7 23 0
+.loc 7 25 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
@@ -1075,7 +1131,7 @@ Lme_d:
 	.align 4
 	.no_dead_strip AzXamarin_LoginPage_InitializeComponent
 AzXamarin_LoginPage_InitializeComponent:
-.file 8 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.LoginPage.xaml.g.cs"
+.file 8 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.LoginPage.xaml.g.cs"
 .loc 8 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1113,7 +1169,7 @@ ldr x1, [x16, #416]
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x15, [x16, #424]
-bl _p_18
+bl _p_20
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -1136,7 +1192,7 @@ Lme_e:
 	.align 4
 	.no_dead_strip AzXamarin_Signup__ctor
 AzXamarin_Signup__ctor:
-.file 9 "/Users/shraddha/Projects/AzXamarin/AzXamarin/Signup.xaml.cs"
+.file 9 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/Signup.xaml.cs"
 .loc 9 10 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1180,7 +1236,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_19
+bl _p_21
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -1190,8 +1246,22 @@ bl _p_19
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
 .word 0xf9400fb1
-.word 0xf940ce31
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 9 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -1204,7 +1274,7 @@ Lme_f:
 	.align 4
 	.no_dead_strip AzXamarin_Signup_SignNext_object_System_EventArgs
 AzXamarin_Signup_SignNext_object_System_EventArgs:
-.loc 9 15 0 prologue_end
+.loc 9 16 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -1229,13 +1299,13 @@ ldr x16, [x16, #440]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 9 17 0
+.loc 9 18 0
 .word 0xf94017b1
 .word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-bl _p_12
+bl _p_14
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9408631
@@ -1245,11 +1315,11 @@ bl _p_12
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x0, [x16, #448]
-.word 0xd2803901
-.word 0xd2803901
+.word 0xd2803a01
+.word 0xd2803a01
 bl _p_3
 .word 0xf90023a0
-bl _p_20
+bl _p_22
 .word 0xf94017b1
 .word 0xf940b631
 .word 0xb4000051
@@ -1270,7 +1340,7 @@ ldr x15, [x16, #328]
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 9 19 0
+.loc 9 20 0
 .word 0xf94017b1
 .word 0xf9410231
 .word 0xb4000051
@@ -1288,7 +1358,7 @@ Lme_10:
 	.align 4
 	.no_dead_strip AzXamarin_Signup_InitializeComponent
 AzXamarin_Signup_InitializeComponent:
-.file 10 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Signup.xaml.g.cs"
+.file 10 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Signup.xaml.g.cs"
 .loc 10 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1326,7 +1396,7 @@ ldr x1, [x16, #464]
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x15, [x16, #472]
-bl _p_21
+bl _p_23
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -1349,7 +1419,7 @@ Lme_11:
 	.align 4
 	.no_dead_strip AzXamarin_Signup2__ctor
 AzXamarin_Signup2__ctor:
-.file 11 "/Users/shraddha/Projects/AzXamarin/AzXamarin/Signup2.xaml.cs"
+.file 11 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/Signup2.xaml.cs"
 .loc 11 10 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1393,7 +1463,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_22
+bl _p_24
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -1403,8 +1473,22 @@ bl _p_22
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
 .word 0xf9400fb1
-.word 0xf940ce31
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 11 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -1415,22 +1499,107 @@ bl _p_22
 Lme_12:
 .text
 	.align 4
-	.no_dead_strip AzXamarin_Signup2_InitializeComponent
-AzXamarin_Signup2_InitializeComponent:
-.file 12 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Signup2.xaml.g.cs"
-.loc 12 18 0 prologue_end
-.word 0xa9bd7bfd
+	.no_dead_strip AzXamarin_Signup2_Sign3_object_System_EventArgs
+AzXamarin_Signup2_Sign3_object_System_EventArgs:
+.loc 11 15 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
 ldr x16, [x16, #488]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 11 17 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #496]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_25
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 11 18 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_13:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Signup2_InitializeComponent
+AzXamarin_Signup2_InitializeComponent:
+.file 12 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Signup2.xaml.g.cs"
+.loc 12 21 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
 .word 0xf9400fb1
-.word 0xf9403231
+.word 0xf9403631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
@@ -1438,47 +1607,85 @@ ldr x16, [x16, #488]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9405231
+.word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 19 0
+.loc 12 22 0
 .word 0xf9400fb1
-.word 0xf9406231
+.word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9400ba0
+.word 0xaa1a03e0
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x1, [x16, #496]
+ldr x1, [x16, #512]
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x15, [x16, #504]
-bl _p_23
+ldr x15, [x16, #520]
+.word 0xaa1a03e0
+bl _p_26
 .word 0xf9400fb1
-.word 0xf9409231
+.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 12 20 0
+.loc 12 23 0
 .word 0xf9400fb1
-.word 0xf940a231
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #528]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #536]
+.word 0xaa1a03e0
+bl _p_27
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf900e740
+.word 0x91072341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 12 24 0
+.word 0xf9400fb1
+.word 0xf9412a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf940b231
+.word 0xf9413a31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xf9400bba
 .word 0x910003bf
-.word 0xa8c37bfd
+.word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_14:
 .text
 	.align 4
-	.no_dead_strip AzXamarin_HomePage__ctor
-AzXamarin_HomePage__ctor:
-.file 13 "/Users/shraddha/Projects/AzXamarin/AzXamarin/HomePage.xaml.cs"
+	.no_dead_strip AzXamarin_SignUp3__ctor
+AzXamarin_SignUp3__ctor:
+.file 13 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/SignUp3.xaml.cs"
 .loc 13 10 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1487,7 +1694,7 @@ AzXamarin_HomePage__ctor:
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1522,7 +1729,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_24
+bl _p_28
 .word 0xf9400fb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -1532,8 +1739,22 @@ bl _p_24
 .word 0xf940be31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
 .word 0xf9400fb1
-.word 0xf940ce31
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 13 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -1541,12 +1762,96 @@ bl _p_24
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_14:
+Lme_15:
 .text
 	.align 4
-	.no_dead_strip AzXamarin_HomePage_InitializeComponent
-AzXamarin_HomePage_InitializeComponent:
-.file 14 "/Users/shraddha/Projects/AzXamarin/AzXamarin/obj/Debug/AzXamarin.HomePage.xaml.g.cs"
+	.no_dead_strip AzXamarin_SignUp3_HomeGo_object_System_EventArgs
+AzXamarin_SignUp3_HomeGo_object_System_EventArgs:
+.loc 13 15 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #552]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 13 17 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #400]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_19
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 13 21 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_16:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_SignUp3_InitializeComponent
+AzXamarin_SignUp3_InitializeComponent:
+.file 14 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.SignUp3.xaml.g.cs"
 .loc 14 18 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -1554,7 +1859,7 @@ AzXamarin_HomePage_InitializeComponent:
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1579,12 +1884,12 @@ ldr x16, [x16, #520]
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x1, [x16, #528]
+ldr x1, [x16, #568]
 
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x15, [x16, #536]
-bl _p_25
+ldr x15, [x16, #576]
+bl _p_29
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -1602,7 +1907,3026 @@ bl _p_25
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_15:
+Lme_17:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_PastVisit__ctor
+AzXamarin_PastVisit__ctor:
+.file 15 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/PastVisit.xaml.cs"
+.loc 15 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #584]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_8
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 11 0
+.word 0xf9400fb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 12 0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_30
+.word 0xf9400fb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 13 0
+.word 0xf9400fb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_12
+.word 0xf9400fb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 14 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 15 0
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_18:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_PastVisit_Appoint_object_System_EventArgs
+AzXamarin_PastVisit_Appoint_object_System_EventArgs:
+.loc 15 18 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #592]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 19 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #600]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_31
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 15 21 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_19:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_PastVisit_InitializeComponent
+AzXamarin_PastVisit_InitializeComponent:
+.file 16 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.PastVisit.xaml.g.cs"
+.loc 16 18 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #608]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 19 0
+.word 0xf9400fb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #616]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #624]
+bl _p_32
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 16 20 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1a:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage__ctor
+AzXamarin_UpcomingPage__ctor:
+.file 17 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/UpcomingPage.xaml.cs"
+.loc 17 11 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #632]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_8
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 12 0
+.word 0xf9400fb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 13 0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_33
+.word 0xf9400fb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 14 0
+.word 0xf9400fb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 15 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1b:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs
+AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs:
+.loc 17 21 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #640]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 22 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x39074340
+.loc 17 23 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000320
+.loc 17 24 0
+.word 0xf9401bb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 25 0
+.word 0xf9401bb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 26 0
+.word 0xf9401bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000018
+.loc 17 28 0
+.word 0xf9401bb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 29 0
+.word 0xf9401bb1
+.word 0xf9413e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 31 0
+.word 0xf9401bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 32 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_1c:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_Goback_object_System_EventArgs
+AzXamarin_UpcomingPage_Goback_object_System_EventArgs:
+.loc 17 34 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #648]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 35 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #600]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_31
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 36 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_1d:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_Home_object_System_EventArgs
+AzXamarin_UpcomingPage_Home_object_System_EventArgs:
+.loc 17 39 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #656]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 40 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #400]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_19
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 42 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_1e:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_Appoint_object_System_EventArgs
+AzXamarin_UpcomingPage_Appoint_object_System_EventArgs:
+.loc 17 45 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #664]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 46 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 47 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 49 0
+.word 0xf94017b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_Logout_object_System_EventArgs
+AzXamarin_UpcomingPage_Logout_object_System_EventArgs:
+.loc 17 51 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #672]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 52 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 53 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #208]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_4
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 17 54 0
+.word 0xf94017b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_20:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_UpcomingPage_InitializeComponent
+AzXamarin_UpcomingPage_InitializeComponent:
+.file 18 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.UpcomingPage.xaml.g.cs"
+.loc 18 21 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #680]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 18 22 0
+.word 0xf9400fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #688]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #696]
+.word 0xaa1a03e0
+bl _p_35
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 18 23 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #704]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #712]
+.word 0xaa1a03e0
+bl _p_36
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf900e740
+.word 0x91072341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 18 24 0
+.word 0xf9400fb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_21:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment__ctor
+AzXamarin_VisitAppointment__ctor:
+.file 19 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/VisitAppointment.xaml.cs"
+.loc 19 11 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #720]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd280003e
+.word 0x3907435e
+.loc 19 13 0
+.word 0xf9400fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_8
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 14 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 15 0
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_37
+.word 0xf9400fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 16 0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 17 0
+.word 0xf9400fb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_22:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs
+AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs:
+.loc 19 20 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #728]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 21 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x39074340
+.loc 19 22 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 23 0
+.word 0xf9401bb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000320
+.loc 19 24 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 25 0
+.word 0xf9401bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 26 0
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000018
+.loc 19 28 0
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 29 0
+.word 0xf9401bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 31 0
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 32 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_23:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Logout_object_System_EventArgs
+AzXamarin_VisitAppointment_Logout_object_System_EventArgs:
+.loc 19 34 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #736]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 35 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 36 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #208]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_4
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 37 0
+.word 0xf94017b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_24:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Home_object_System_EventArgs
+AzXamarin_VisitAppointment_Home_object_System_EventArgs:
+.loc 19 40 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #744]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 41 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 42 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #400]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_19
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 44 0
+.word 0xf94017b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_25:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Appoint_object_System_EventArgs
+AzXamarin_VisitAppointment_Appoint_object_System_EventArgs:
+.loc 19 47 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #752]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 48 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 49 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 51 0
+.word 0xf94017b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_26:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Past_object_System_EventArgs
+AzXamarin_VisitAppointment_Past_object_System_EventArgs:
+.loc 19 53 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #760]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 55 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #768]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_38
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 57 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_27:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs
+AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs:
+.loc 19 60 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #776]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 61 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #784]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_39
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 63 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_28:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs
+AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs:
+.loc 19 68 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #792]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 70 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #784]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_39
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 19 73 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_29:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_VisitAppointment_InitializeComponent
+AzXamarin_VisitAppointment_InitializeComponent:
+.file 20 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.VisitAppointment.xaml.g.cs"
+.loc 20 21 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #800]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 20 22 0
+.word 0xf9400fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #808]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #816]
+.word 0xaa1a03e0
+bl _p_40
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 20 23 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #704]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #712]
+.word 0xaa1a03e0
+bl _p_36
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf900e740
+.word 0x91072341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 20 24 0
+.word 0xf9400fb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_2a:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home__ctor
+AzXamarin_Home__ctor:
+.file 21 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/Home.xaml.cs"
+.loc 21 10 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #824]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800020
+.word 0xd280003e
+.word 0x3907435e
+.loc 21 12 0
+.word 0xf9400fb1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_8
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 13 0
+.word 0xf9400fb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 14 0
+.word 0xf9400fb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_41
+.word 0xf9400fb1
+.word 0xf940ce31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 15 0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_12
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 16 0
+.word 0xf9400fb1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_13
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 17 0
+.word 0xf9400fb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_2b:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_Mainmenu_object_System_EventArgs
+AzXamarin_Home_Mainmenu_object_System_EventArgs:
+.loc 21 20 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #832]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 21 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x39074340
+.loc 21 22 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 23 0
+.word 0xf9401bb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000320
+.loc 21 24 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 25 0
+.word 0xf9401bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 26 0
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000018
+.loc 21 28 0
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 29 0
+.word 0xf9401bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 31 0
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 32 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_2c:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_Sched_object_System_EventArgs
+AzXamarin_Home_Sched_object_System_EventArgs:
+.loc 21 35 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #840]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 37 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #784]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_39
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 38 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_2d:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_Visitapp_object_System_EventArgs
+AzXamarin_Home_Visitapp_object_System_EventArgs:
+.loc 21 43 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #848]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 45 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #600]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_31
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 46 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_2e:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_Logout_object_System_EventArgs
+AzXamarin_Home_Logout_object_System_EventArgs:
+.loc 21 50 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #856]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 51 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 52 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #208]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_4
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 53 0
+.word 0xf94017b1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_2f:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_Homepage_object_System_EventArgs
+AzXamarin_Home_Homepage_object_System_EventArgs:
+.loc 21 56 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #864]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 57 0
+.word 0xf94017b1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 58 0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 21 60 0
+.word 0xf94017b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_30:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_Home_InitializeComponent
+AzXamarin_Home_InitializeComponent:
+.file 22 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.Home.xaml.g.cs"
+.loc 22 21 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #872]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 22 22 0
+.word 0xf9400fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #880]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #888]
+.word 0xaa1a03e0
+bl _p_42
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 22 23 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #704]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #712]
+.word 0xaa1a03e0
+bl _p_36
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf900e740
+.word 0x91072341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 22 24 0
+.word 0xf9400fb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_31:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint__ctor
+AzXamarin_ScheduleAppoint__ctor:
+.file 23 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/ScheduleAppoint.xaml.cs"
+.loc 23 13 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #896]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_8
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 14 0
+.word 0xf9400fb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 15 0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_43
+.word 0xf9400fb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 16 0
+.word 0xf9400fb1
+.word 0xf940be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xd2800000
+.word 0xaa1a03e0
+.word 0xd2800001
+bl _p_12
+.word 0xf9400fb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 17 0
+.word 0xf9400fb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_32:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs
+AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs:
+.loc 23 20 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xa9016bb9
+.word 0xaa0003fa
+.word 0xf90013a1
+.word 0xf90017a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #904]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 22 0
+.word 0xf9401bb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0x39074340
+.loc 23 24 0
+.word 0xf9401bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xaa1a03e0
+.word 0x39474341
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 25 0
+.word 0xf9401bb1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x39474340
+.word 0xd2800001
+.word 0x6b1f001f
+.word 0x9a9f17e0
+.word 0xaa0003f9
+.word 0xaa1903e0
+.word 0x34000320
+.loc 23 26 0
+.word 0xf9401bb1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 27 0
+.word 0xf9401bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800020
+.word 0xaa0203e0
+.word 0xd2800021
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 28 0
+.word 0xf9401bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000018
+.loc 23 30 0
+.word 0xf9401bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 31 0
+.word 0xf9401bb1
+.word 0xf9417a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf940e742
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf9401bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 33 0
+.word 0xf9401bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 34 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9416bb9
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_33:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs
+AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs:
+.loc 23 36 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #912]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 38 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #208]
+.word 0xd2803901
+.word 0xd2803901
+bl _p_3
+.word 0xf90023a0
+bl _p_4
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 39 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_34:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs
+AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs:
+.loc 23 42 0 prologue_end
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #920]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 43 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+bl _p_14
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x0, [x16, #600]
+.word 0xd2803b01
+.word 0xd2803b01
+bl _p_3
+.word 0xf90023a0
+bl _p_31
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #328]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 45 0
+.word 0xf94017b1
+.word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_35:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs
+AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs:
+.loc 23 47 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #928]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 49 0
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf940e402
+.word 0xd2800000
+.word 0xaa0203e0
+.word 0xd2800001
+.word 0xf940005e
+bl _p_34
+.word 0xf94017b1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 23 51 0
+.word 0xf94017b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_36:
+.text
+	.align 4
+	.no_dead_strip AzXamarin_ScheduleAppoint_InitializeComponent
+AzXamarin_ScheduleAppoint_InitializeComponent:
+.file 24 "/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.ScheduleAppoint.xaml.g.cs"
+.loc 24 21 0 prologue_end
+.word 0xa9bc7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #936]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 24 22 0
+.word 0xf9400fb1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #944]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #952]
+.word 0xaa1a03e0
+bl _p_44
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 24 23 0
+.word 0xf9400fb1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x1, [x16, #704]
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x15, [x16, #712]
+.word 0xaa1a03e0
+bl _p_36
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+.word 0xf900e740
+.word 0x91072341
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 24 24 0
+.word 0xf9400fb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c47bfd
+.word 0xd65f03c0
+
+Lme_37:
 .text
 	.align 3
 jit_code_end:
@@ -1620,7 +4944,7 @@ bl AzXamarin_App_InitializeComponent
 bl AzXamarin_AzXamarinPage__ctor
 bl AzXamarin_AzXamarinPage_InitializeComponent
 bl AzXamarin_Welcome__ctor
-bl AzXamarin_Welcome_Loginpage_object_System_EventArgs
+bl AzXamarin_Welcome_Loginpge_object_System_EventArgs
 bl AzXamarin_Welcome_Sign_object_System_EventArgs
 bl AzXamarin_Welcome_InitializeComponent
 bl AzXamarin_LoginPage__ctor
@@ -1631,9 +4955,43 @@ bl AzXamarin_Signup__ctor
 bl AzXamarin_Signup_SignNext_object_System_EventArgs
 bl AzXamarin_Signup_InitializeComponent
 bl AzXamarin_Signup2__ctor
+bl AzXamarin_Signup2_Sign3_object_System_EventArgs
 bl AzXamarin_Signup2_InitializeComponent
-bl AzXamarin_HomePage__ctor
-bl AzXamarin_HomePage_InitializeComponent
+bl AzXamarin_SignUp3__ctor
+bl AzXamarin_SignUp3_HomeGo_object_System_EventArgs
+bl AzXamarin_SignUp3_InitializeComponent
+bl AzXamarin_PastVisit__ctor
+bl AzXamarin_PastVisit_Appoint_object_System_EventArgs
+bl AzXamarin_PastVisit_InitializeComponent
+bl AzXamarin_UpcomingPage__ctor
+bl AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs
+bl AzXamarin_UpcomingPage_Goback_object_System_EventArgs
+bl AzXamarin_UpcomingPage_Home_object_System_EventArgs
+bl AzXamarin_UpcomingPage_Appoint_object_System_EventArgs
+bl AzXamarin_UpcomingPage_Logout_object_System_EventArgs
+bl AzXamarin_UpcomingPage_InitializeComponent
+bl AzXamarin_VisitAppointment__ctor
+bl AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs
+bl AzXamarin_VisitAppointment_Logout_object_System_EventArgs
+bl AzXamarin_VisitAppointment_Home_object_System_EventArgs
+bl AzXamarin_VisitAppointment_Appoint_object_System_EventArgs
+bl AzXamarin_VisitAppointment_Past_object_System_EventArgs
+bl AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs
+bl AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs
+bl AzXamarin_VisitAppointment_InitializeComponent
+bl AzXamarin_Home__ctor
+bl AzXamarin_Home_Mainmenu_object_System_EventArgs
+bl AzXamarin_Home_Sched_object_System_EventArgs
+bl AzXamarin_Home_Visitapp_object_System_EventArgs
+bl AzXamarin_Home_Logout_object_System_EventArgs
+bl AzXamarin_Home_Homepage_object_System_EventArgs
+bl AzXamarin_Home_InitializeComponent
+bl AzXamarin_ScheduleAppoint__ctor
+bl AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs
+bl AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs
+bl AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs
+bl AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs
+bl AzXamarin_ScheduleAppoint_InitializeComponent
 bl method_addresses
 method_addresses_end:
 
@@ -1653,7 +5011,9 @@ unbox_trampoline_addresses:
 unwind_info:
 
 	.byte 16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6,13,12,31,0,68,14,48,157,6,158,5,68,13,29,16
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,13,12,31,0,68,14,80,157,10,158,9,68,13,29
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,13,12,31,0,68,14,80,157,10,158,9,68,13,29,18,12
+	.byte 31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68
+	.byte 154,8,13,12,31,0,68,14,64,157,8,158,7,68,13,29
 
 .text
 	.align 4
@@ -1664,205 +5024,357 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #968]
 br x16
-.word 556
+.word 881
 	.no_dead_strip plt_AzXamarin_App_InitializeComponent
 plt_AzXamarin_App_InitializeComponent:
 _p_2:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #976]
 br x16
-.word 561
+.word 886
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_3:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #984]
 br x16
-.word 563
+.word 888
 	.no_dead_strip plt_AzXamarin_Welcome__ctor
 plt_AzXamarin_Welcome__ctor:
 _p_4:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #992]
 br x16
-.word 571
+.word 896
 	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
 plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
 _p_5:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #1000]
 br x16
-.word 573
+.word 898
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_6:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #1008]
 br x16
-.word 578
+.word 903
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_App_AzXamarin_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_App_AzXamarin_App_System_Type:
 _p_7:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #1016]
 br x16
-.word 583
+.word 908
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_8:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #1024]
 br x16
-.word 595
+.word 920
 	.no_dead_strip plt_AzXamarin_AzXamarinPage_InitializeComponent
 plt_AzXamarin_AzXamarinPage_InitializeComponent:
 _p_9:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #1032]
 br x16
-.word 600
+.word 925
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_AzXamarinPage_AzXamarin_AzXamarinPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_AzXamarinPage_AzXamarin_AzXamarinPage_System_Type:
 _p_10:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #1040]
 br x16
-.word 602
+.word 927
 	.no_dead_strip plt_AzXamarin_Welcome_InitializeComponent
 plt_AzXamarin_Welcome_InitializeComponent:
 _p_11:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #1048]
 br x16
-.word 614
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Navigation
-plt_Xamarin_Forms_VisualElement_get_Navigation:
+.word 939
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool
+plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool:
 _p_12:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #1056]
 br x16
-.word 616
-	.no_dead_strip plt_AzXamarin_LoginPage__ctor
-plt_AzXamarin_LoginPage__ctor:
+.word 941
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_SetHasNavigationBar_Xamarin_Forms_BindableObject_bool
+plt_Xamarin_Forms_NavigationPage_SetHasNavigationBar_Xamarin_Forms_BindableObject_bool:
 _p_13:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #1064]
 br x16
-.word 621
-	.no_dead_strip plt_AzXamarin_Signup__ctor
-plt_AzXamarin_Signup__ctor:
+.word 946
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Navigation
+plt_Xamarin_Forms_VisualElement_get_Navigation:
 _p_14:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #1072]
 br x16
-.word 623
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Welcome_AzXamarin_Welcome_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Welcome_AzXamarin_Welcome_System_Type:
+.word 951
+	.no_dead_strip plt_AzXamarin_LoginPage__ctor
+plt_AzXamarin_LoginPage__ctor:
 _p_15:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #1080]
 br x16
-.word 625
-	.no_dead_strip plt_AzXamarin_LoginPage_InitializeComponent
-plt_AzXamarin_LoginPage_InitializeComponent:
+.word 956
+	.no_dead_strip plt_AzXamarin_Signup__ctor
+plt_AzXamarin_Signup__ctor:
 _p_16:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #1088]
 br x16
-.word 637
-	.no_dead_strip plt_AzXamarin_HomePage__ctor
-plt_AzXamarin_HomePage__ctor:
+.word 958
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Welcome_AzXamarin_Welcome_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Welcome_AzXamarin_Welcome_System_Type:
 _p_17:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #1096]
 br x16
-.word 639
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_LoginPage_AzXamarin_LoginPage_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_LoginPage_AzXamarin_LoginPage_System_Type:
+.word 960
+	.no_dead_strip plt_AzXamarin_LoginPage_InitializeComponent
+plt_AzXamarin_LoginPage_InitializeComponent:
 _p_18:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #1104]
 br x16
-.word 641
-	.no_dead_strip plt_AzXamarin_Signup_InitializeComponent
-plt_AzXamarin_Signup_InitializeComponent:
+.word 972
+	.no_dead_strip plt_AzXamarin_Home__ctor
+plt_AzXamarin_Home__ctor:
 _p_19:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #1112]
 br x16
-.word 653
-	.no_dead_strip plt_AzXamarin_Signup2__ctor
-plt_AzXamarin_Signup2__ctor:
+.word 974
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_LoginPage_AzXamarin_LoginPage_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_LoginPage_AzXamarin_LoginPage_System_Type:
 _p_20:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #1120]
 br x16
-.word 655
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup_AzXamarin_Signup_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup_AzXamarin_Signup_System_Type:
+.word 976
+	.no_dead_strip plt_AzXamarin_Signup_InitializeComponent
+plt_AzXamarin_Signup_InitializeComponent:
 _p_21:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #1128]
 br x16
-.word 657
-	.no_dead_strip plt_AzXamarin_Signup2_InitializeComponent
-plt_AzXamarin_Signup2_InitializeComponent:
+.word 988
+	.no_dead_strip plt_AzXamarin_Signup2__ctor
+plt_AzXamarin_Signup2__ctor:
 _p_22:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #1136]
 br x16
-.word 669
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup2_AzXamarin_Signup2_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup2_AzXamarin_Signup2_System_Type:
+.word 990
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup_AzXamarin_Signup_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup_AzXamarin_Signup_System_Type:
 _p_23:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #1144]
 br x16
-.word 671
-	.no_dead_strip plt_AzXamarin_HomePage_InitializeComponent
-plt_AzXamarin_HomePage_InitializeComponent:
+.word 992
+	.no_dead_strip plt_AzXamarin_Signup2_InitializeComponent
+plt_AzXamarin_Signup2_InitializeComponent:
 _p_24:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #1152]
 br x16
-.word 683
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_HomePage_AzXamarin_HomePage_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_HomePage_AzXamarin_HomePage_System_Type:
+.word 1004
+	.no_dead_strip plt_AzXamarin_SignUp3__ctor
+plt_AzXamarin_SignUp3__ctor:
 _p_25:
 adrp x16, mono_aot_AzXamarin_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #1160]
 br x16
-.word 685
+.word 1006
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup2_AzXamarin_Signup2_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Signup2_AzXamarin_Signup2_System_Type:
+_p_26:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1168]
+br x16
+.word 1008
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string:
+_p_27:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1176]
+br x16
+.word 1020
+	.no_dead_strip plt_AzXamarin_SignUp3_InitializeComponent
+plt_AzXamarin_SignUp3_InitializeComponent:
+_p_28:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1184]
+br x16
+.word 1032
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_SignUp3_AzXamarin_SignUp3_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_SignUp3_AzXamarin_SignUp3_System_Type:
+_p_29:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1192]
+br x16
+.word 1034
+	.no_dead_strip plt_AzXamarin_PastVisit_InitializeComponent
+plt_AzXamarin_PastVisit_InitializeComponent:
+_p_30:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1200]
+br x16
+.word 1046
+	.no_dead_strip plt_AzXamarin_VisitAppointment__ctor
+plt_AzXamarin_VisitAppointment__ctor:
+_p_31:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1208]
+br x16
+.word 1048
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_PastVisit_AzXamarin_PastVisit_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_PastVisit_AzXamarin_PastVisit_System_Type:
+_p_32:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1216]
+br x16
+.word 1050
+	.no_dead_strip plt_AzXamarin_UpcomingPage_InitializeComponent
+plt_AzXamarin_UpcomingPage_InitializeComponent:
+_p_33:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1224]
+br x16
+.word 1062
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_IsVisible_bool
+plt_Xamarin_Forms_VisualElement_set_IsVisible_bool:
+_p_34:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1232]
+br x16
+.word 1064
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_UpcomingPage_AzXamarin_UpcomingPage_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_UpcomingPage_AzXamarin_UpcomingPage_System_Type:
+_p_35:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1240]
+br x16
+.word 1069
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
+_p_36:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1248]
+br x16
+.word 1081
+	.no_dead_strip plt_AzXamarin_VisitAppointment_InitializeComponent
+plt_AzXamarin_VisitAppointment_InitializeComponent:
+_p_37:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1256]
+br x16
+.word 1093
+	.no_dead_strip plt_AzXamarin_PastVisit__ctor
+plt_AzXamarin_PastVisit__ctor:
+_p_38:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1264]
+br x16
+.word 1095
+	.no_dead_strip plt_AzXamarin_UpcomingPage__ctor
+plt_AzXamarin_UpcomingPage__ctor:
+_p_39:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1272]
+br x16
+.word 1097
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_VisitAppointment_AzXamarin_VisitAppointment_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_VisitAppointment_AzXamarin_VisitAppointment_System_Type:
+_p_40:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1280]
+br x16
+.word 1099
+	.no_dead_strip plt_AzXamarin_Home_InitializeComponent
+plt_AzXamarin_Home_InitializeComponent:
+_p_41:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1288]
+br x16
+.word 1111
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Home_AzXamarin_Home_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_Home_AzXamarin_Home_System_Type:
+_p_42:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1296]
+br x16
+.word 1113
+	.no_dead_strip plt_AzXamarin_ScheduleAppoint_InitializeComponent
+plt_AzXamarin_ScheduleAppoint_InitializeComponent:
+_p_43:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1304]
+br x16
+.word 1125
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_ScheduleAppoint_AzXamarin_ScheduleAppoint_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_AzXamarin_ScheduleAppoint_AzXamarin_ScheduleAppoint_System_Type:
+_p_44:
+adrp x16, mono_aot_AzXamarin_got@PAGE+0
+add x16, x16, mono_aot_AzXamarin_got@PAGEOFF
+ldr x16, [x16, #1312]
+br x16
+.word 1127
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_AzXamarin_got, 752
+.lcomm mono_aot_AzXamarin_got, 1320
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -1885,7 +5397,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "81F66199-81BF-4ED1-BBF1-652F121C5C14"
+	.asciz "2CB09A8A-F3F9-49E5-8439-2BDDE61A2906"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -1962,13 +5474,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 68,752,26,23,70,391195135,0,4849
-	.long 128,8,8,10,0,25,5672,816
-	.long 488,208,0,392,448,288,0,200
-	.long 56,0,0,0,0,0,0,0
+	.long 120,1320,45,57,70,391195135,0,11552
+	.long 128,8,8,10,0,25,12568,1008
+	.long 680,248,0,520,632,344,0,240
+	.long 96,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 186,147,217,84,82,229,161,18,108,235,165,216,227,164,207,32
+	.byte 70,240,218,186,237,136,248,132,126,56,13,106,125,181,108,86
 	.globl _mono_aot_module_AzXamarin_info
 	.align 3
 _mono_aot_module_AzXamarin_info:
@@ -6831,11 +10343,11 @@ LTDIE_132_REFERENCE:
 LDIFF_SYM849=LTDIE_132 - Ldebug_info_start
 	.long LDIFF_SYM849
 	.byte 2
-	.asciz "AzXamarin.Welcome:Loginpage"
-	.asciz "AzXamarin_Welcome_Loginpage_object_System_EventArgs"
+	.asciz "AzXamarin.Welcome:Loginpge"
+	.asciz "AzXamarin_Welcome_Loginpge_object_System_EventArgs"
 
-	.byte 5,15
-	.quad AzXamarin_Welcome_Loginpage_object_System_EventArgs
+	.byte 5,18
+	.quad AzXamarin_Welcome_Loginpge_object_System_EventArgs
 	.quad Lme_8
 
 	.byte 2,118,16,3
@@ -6863,9 +10375,9 @@ Lfde8_start:
 
 	.long 0
 	.align 3
-	.quad AzXamarin_Welcome_Loginpage_object_System_EventArgs
+	.quad AzXamarin_Welcome_Loginpge_object_System_EventArgs
 
-LDIFF_SYM854=Lme_8 - AzXamarin_Welcome_Loginpage_object_System_EventArgs
+LDIFF_SYM854=Lme_8 - AzXamarin_Welcome_Loginpge_object_System_EventArgs
 	.long LDIFF_SYM854
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
@@ -6878,7 +10390,7 @@ Lfde8_end:
 	.asciz "AzXamarin.Welcome:Sign"
 	.asciz "AzXamarin_Welcome_Sign_object_System_EventArgs"
 
-	.byte 5,21
+	.byte 5,25
 	.quad AzXamarin_Welcome_Sign_object_System_EventArgs
 	.quad Lme_9
 
@@ -7012,7 +10524,7 @@ Lfde11_end:
 	.asciz "AzXamarin.LoginPage:Signup"
 	.asciz "AzXamarin_LoginPage_Signup_object_System_EventArgs"
 
-	.byte 7,15
+	.byte 7,17
 	.quad AzXamarin_LoginPage_Signup_object_System_EventArgs
 	.quad Lme_c
 
@@ -7056,7 +10568,7 @@ Lfde12_end:
 	.asciz "AzXamarin.LoginPage:HomePge"
 	.asciz "AzXamarin_LoginPage_HomePge_object_System_EventArgs"
 
-	.byte 7,20
+	.byte 7,22
 	.quad AzXamarin_LoginPage_HomePge_object_System_EventArgs
 	.quad Lme_d
 
@@ -7190,7 +10702,7 @@ Lfde15_end:
 	.asciz "AzXamarin.Signup:SignNext"
 	.asciz "AzXamarin_Signup_SignNext_object_System_EventArgs"
 
-	.byte 9,15
+	.byte 9,16
 	.quad AzXamarin_Signup_SignNext_object_System_EventArgs
 	.quad Lme_10
 
@@ -7263,29 +10775,368 @@ LDIFF_SYM897=Lme_11 - AzXamarin_Signup_InitializeComponent
 Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_140:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
+
+LDIFF_SYM898=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM898
+LTDIE_140_POINTER:
+
+	.byte 13
+LDIFF_SYM899=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM899
+LTDIE_140_REFERENCE:
+
+	.byte 14
+LDIFF_SYM900=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM900
+LTDIE_139:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+	.byte 32,16
+LDIFF_SYM901=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM901
+	.byte 2,35,0,6
+	.asciz "items"
+
+LDIFF_SYM902=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM902
+	.byte 2,35,16,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM903=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM903
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_ObjectModel_Collection`1"
+
+LDIFF_SYM904=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM904
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM905=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM905
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM906=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM906
+LTDIE_141:
+
+	.byte 5
+	.asciz "_SimpleMonitor"
+
+	.byte 20,16
+LDIFF_SYM907=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM907
+	.byte 2,35,0,6
+	.asciz "_busyCount"
+
+LDIFF_SYM908=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM908
+	.byte 2,35,16,0,7
+	.asciz "_SimpleMonitor"
+
+LDIFF_SYM909=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM909
+LTDIE_141_POINTER:
+
+	.byte 13
+LDIFF_SYM910=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM910
+LTDIE_141_REFERENCE:
+
+	.byte 14
+LDIFF_SYM911=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM911
+LTDIE_138:
+
+	.byte 5
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+	.byte 56,16
+LDIFF_SYM912=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM912
+	.byte 2,35,0,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM913=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM913
+	.byte 2,35,32,6
+	.asciz "PropertyChanged"
+
+LDIFF_SYM914=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
+	.byte 2,35,40,6
+	.asciz "_monitor"
+
+LDIFF_SYM915=LTDIE_141_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
+	.byte 2,35,48,0,7
+	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
+
+LDIFF_SYM916=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM916
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM917=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM917
+LTDIE_138_REFERENCE:
+
+	.byte 14
+LDIFF_SYM918=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM918
+LTDIE_137:
+
+	.byte 5
+	.asciz "Xamarin_Forms_View"
+
+	.byte 232,2,16
+LDIFF_SYM919=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM919
+	.byte 2,35,0,6
+	.asciz "_gestureRecognizers"
+
+LDIFF_SYM920=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
+	.byte 3,35,224,2,0,7
+	.asciz "Xamarin_Forms_View"
+
+LDIFF_SYM921=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM921
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM922=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM922
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM923=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM923
+LTDIE_143:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM924=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM924
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM925=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM925
+LTDIE_143_POINTER:
+
+	.byte 13
+LDIFF_SYM926=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM926
+LTDIE_143_REFERENCE:
+
+	.byte 14
+LDIFF_SYM927=LTDIE_143 - Ldebug_info_start
+	.long LDIFF_SYM927
+LTDIE_142:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM928=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM928
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM929=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM929
+	.byte 2,35,16,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM930=LTDIE_143_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM930
+	.byte 2,35,24,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM931=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM931
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM932=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM932
+LTDIE_142_POINTER:
+
+	.byte 13
+LDIFF_SYM933=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM933
+LTDIE_142_REFERENCE:
+
+	.byte 14
+LDIFF_SYM934=LTDIE_142 - Ldebug_info_start
+	.long LDIFF_SYM934
+LTDIE_145:
+
+	.byte 8
+	.asciz "Xamarin_Forms_BindingMode"
+
+	.byte 4
+LDIFF_SYM935=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM935
+	.byte 9
+	.asciz "Default"
+
+	.byte 0,9
+	.asciz "TwoWay"
+
+	.byte 1,9
+	.asciz "OneWay"
+
+	.byte 2,9
+	.asciz "OneWayToSource"
+
+	.byte 3,0,7
+	.asciz "Xamarin_Forms_BindingMode"
+
+LDIFF_SYM936=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM936
+LTDIE_145_POINTER:
+
+	.byte 13
+LDIFF_SYM937=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM937
+LTDIE_145_REFERENCE:
+
+	.byte 14
+LDIFF_SYM938=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM938
+LTDIE_144:
+
+	.byte 5
+	.asciz "Xamarin_Forms_BindingBase"
+
+	.byte 40,16
+LDIFF_SYM939=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM939
+	.byte 2,35,0,6
+	.asciz "_mode"
+
+LDIFF_SYM940=LTDIE_145 - Ldebug_info_start
+	.long LDIFF_SYM940
+	.byte 2,35,32,6
+	.asciz "_stringFormat"
+
+LDIFF_SYM941=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM941
+	.byte 2,35,16,6
+	.asciz "<AllowChaining>k__BackingField"
+
+LDIFF_SYM942=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM942
+	.byte 2,35,36,6
+	.asciz "<Context>k__BackingField"
+
+LDIFF_SYM943=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM943
+	.byte 2,35,24,6
+	.asciz "<IsApplied>k__BackingField"
+
+LDIFF_SYM944=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM944
+	.byte 2,35,37,0,7
+	.asciz "Xamarin_Forms_BindingBase"
+
+LDIFF_SYM945=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM945
+LTDIE_144_POINTER:
+
+	.byte 13
+LDIFF_SYM946=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM946
+LTDIE_144_REFERENCE:
+
+	.byte 14
+LDIFF_SYM947=LTDIE_144 - Ldebug_info_start
+	.long LDIFF_SYM947
+LTDIE_136:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Picker"
+
+	.byte 136,3,16
+LDIFF_SYM948=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM948
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM949=LTDIE_142_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM949
+	.byte 3,35,232,2,6
+	.asciz "<Items>k__BackingField"
+
+LDIFF_SYM950=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM950
+	.byte 3,35,240,2,6
+	.asciz "_itemDisplayBinding"
+
+LDIFF_SYM951=LTDIE_144_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM951
+	.byte 3,35,248,2,6
+	.asciz "SelectedIndexChanged"
+
+LDIFF_SYM952=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM952
+	.byte 3,35,128,3,0,7
+	.asciz "Xamarin_Forms_Picker"
+
+LDIFF_SYM953=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM953
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM954=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM954
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM955=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM955
 LTDIE_135:
 
 	.byte 5
 	.asciz "AzXamarin_Signup2"
 
-	.byte 200,3,16
-LDIFF_SYM898=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM898
-	.byte 2,35,0,0,7
+	.byte 208,3,16
+LDIFF_SYM956=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM956
+	.byte 2,35,0,6
+	.asciz "State"
+
+LDIFF_SYM957=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM957
+	.byte 3,35,200,3,0,7
 	.asciz "AzXamarin_Signup2"
 
-LDIFF_SYM899=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM958=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM958
 LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM900=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM900
+LDIFF_SYM959=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM959
 LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM901=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM901
+LDIFF_SYM960=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM960
 	.byte 2
 	.asciz "AzXamarin.Signup2:.ctor"
 	.asciz "AzXamarin_Signup2__ctor"
@@ -7297,22 +11148,22 @@ LDIFF_SYM901=LTDIE_135 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM902=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM961=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM961
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM903=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM903
+LDIFF_SYM962=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM962
 Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad AzXamarin_Signup2__ctor
 
-LDIFF_SYM904=Lme_12 - AzXamarin_Signup2__ctor
-	.long LDIFF_SYM904
+LDIFF_SYM963=Lme_12 - AzXamarin_Signup2__ctor
+	.long LDIFF_SYM963
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -7321,126 +11172,1920 @@ Lfde18_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "AzXamarin.Signup2:InitializeComponent"
-	.asciz "AzXamarin_Signup2_InitializeComponent"
+	.asciz "AzXamarin.Signup2:Sign3"
+	.asciz "AzXamarin_Signup2_Sign3_object_System_EventArgs"
 
-	.byte 12,18
-	.quad AzXamarin_Signup2_InitializeComponent
+	.byte 11,15
+	.quad AzXamarin_Signup2_Sign3_object_System_EventArgs
 	.quad Lme_13
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM905=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM905
-	.byte 2,141,16,0
+LDIFF_SYM964=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM964
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM965=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM965
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM966=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM966
+	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM906=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM906
+LDIFF_SYM967=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM967
 Lfde19_start:
 
 	.long 0
 	.align 3
-	.quad AzXamarin_Signup2_InitializeComponent
+	.quad AzXamarin_Signup2_Sign3_object_System_EventArgs
 
-LDIFF_SYM907=Lme_13 - AzXamarin_Signup2_InitializeComponent
-	.long LDIFF_SYM907
+LDIFF_SYM968=Lme_13 - AzXamarin_Signup2_Sign3_object_System_EventArgs
+	.long LDIFF_SYM968
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde19_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_136:
 
-	.byte 5
-	.asciz "AzXamarin_HomePage"
-
-	.byte 200,3,16
-LDIFF_SYM908=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM908
-	.byte 2,35,0,0,7
-	.asciz "AzXamarin_HomePage"
-
-LDIFF_SYM909=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM909
-LTDIE_136_POINTER:
-
-	.byte 13
-LDIFF_SYM910=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM910
-LTDIE_136_REFERENCE:
-
-	.byte 14
-LDIFF_SYM911=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM911
 	.byte 2
-	.asciz "AzXamarin.HomePage:.ctor"
-	.asciz "AzXamarin_HomePage__ctor"
+	.asciz "AzXamarin.Signup2:InitializeComponent"
+	.asciz "AzXamarin_Signup2_InitializeComponent"
 
-	.byte 13,10
-	.quad AzXamarin_HomePage__ctor
+	.byte 12,21
+	.quad AzXamarin_Signup2_InitializeComponent
 	.quad Lme_14
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM912=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM912
+LDIFF_SYM969=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM969
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM913=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM913
+LDIFF_SYM970=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM970
 Lfde20_start:
 
 	.long 0
 	.align 3
-	.quad AzXamarin_HomePage__ctor
+	.quad AzXamarin_Signup2_InitializeComponent
 
-LDIFF_SYM914=Lme_14 - AzXamarin_HomePage__ctor
-	.long LDIFF_SYM914
+LDIFF_SYM971=Lme_14 - AzXamarin_Signup2_InitializeComponent
+	.long LDIFF_SYM971
 	.long 0
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
 Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_146:
 
+	.byte 5
+	.asciz "AzXamarin_SignUp3"
+
+	.byte 200,3,16
+LDIFF_SYM972=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM972
+	.byte 2,35,0,0,7
+	.asciz "AzXamarin_SignUp3"
+
+LDIFF_SYM973=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM973
+LTDIE_146_POINTER:
+
+	.byte 13
+LDIFF_SYM974=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM974
+LTDIE_146_REFERENCE:
+
+	.byte 14
+LDIFF_SYM975=LTDIE_146 - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 2
-	.asciz "AzXamarin.HomePage:InitializeComponent"
-	.asciz "AzXamarin_HomePage_InitializeComponent"
+	.asciz "AzXamarin.SignUp3:.ctor"
+	.asciz "AzXamarin_SignUp3__ctor"
 
-	.byte 14,18
-	.quad AzXamarin_HomePage_InitializeComponent
+	.byte 13,10
+	.quad AzXamarin_SignUp3__ctor
 	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM915=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM915
-	.byte 2,141,16,0
+LDIFF_SYM976=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM976
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM916=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM916
+LDIFF_SYM977=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM977
 Lfde21_start:
 
 	.long 0
 	.align 3
-	.quad AzXamarin_HomePage_InitializeComponent
+	.quad AzXamarin_SignUp3__ctor
 
-LDIFF_SYM917=Lme_15 - AzXamarin_HomePage_InitializeComponent
-	.long LDIFF_SYM917
+LDIFF_SYM978=Lme_15 - AzXamarin_SignUp3__ctor
+	.long LDIFF_SYM978
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde21_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.SignUp3:HomeGo"
+	.asciz "AzXamarin_SignUp3_HomeGo_object_System_EventArgs"
+
+	.byte 13,15
+	.quad AzXamarin_SignUp3_HomeGo_object_System_EventArgs
+	.quad Lme_16
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM979=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM979
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM980=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM980
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM981=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM981
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM982=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM982
+Lfde22_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_SignUp3_HomeGo_object_System_EventArgs
+
+LDIFF_SYM983=Lme_16 - AzXamarin_SignUp3_HomeGo_object_System_EventArgs
+	.long LDIFF_SYM983
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde22_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.SignUp3:InitializeComponent"
+	.asciz "AzXamarin_SignUp3_InitializeComponent"
+
+	.byte 14,18
+	.quad AzXamarin_SignUp3_InitializeComponent
+	.quad Lme_17
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM984=LTDIE_146_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM984
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM985=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM985
+Lfde23_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_SignUp3_InitializeComponent
+
+LDIFF_SYM986=Lme_17 - AzXamarin_SignUp3_InitializeComponent
+	.long LDIFF_SYM986
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde21_end:
+Lfde23_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_147:
+
+	.byte 5
+	.asciz "AzXamarin_PastVisit"
+
+	.byte 200,3,16
+LDIFF_SYM987=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM987
+	.byte 2,35,0,0,7
+	.asciz "AzXamarin_PastVisit"
+
+LDIFF_SYM988=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM988
+LTDIE_147_POINTER:
+
+	.byte 13
+LDIFF_SYM989=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM989
+LTDIE_147_REFERENCE:
+
+	.byte 14
+LDIFF_SYM990=LTDIE_147 - Ldebug_info_start
+	.long LDIFF_SYM990
+	.byte 2
+	.asciz "AzXamarin.PastVisit:.ctor"
+	.asciz "AzXamarin_PastVisit__ctor"
+
+	.byte 15,10
+	.quad AzXamarin_PastVisit__ctor
+	.quad Lme_18
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM991=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM991
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM992=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM992
+Lfde24_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_PastVisit__ctor
+
+LDIFF_SYM993=Lme_18 - AzXamarin_PastVisit__ctor
+	.long LDIFF_SYM993
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde24_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.PastVisit:Appoint"
+	.asciz "AzXamarin_PastVisit_Appoint_object_System_EventArgs"
+
+	.byte 15,18
+	.quad AzXamarin_PastVisit_Appoint_object_System_EventArgs
+	.quad Lme_19
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM994=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM994
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM995=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM995
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM996=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM996
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM997=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM997
+Lfde25_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_PastVisit_Appoint_object_System_EventArgs
+
+LDIFF_SYM998=Lme_19 - AzXamarin_PastVisit_Appoint_object_System_EventArgs
+	.long LDIFF_SYM998
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde25_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.PastVisit:InitializeComponent"
+	.asciz "AzXamarin_PastVisit_InitializeComponent"
+
+	.byte 16,18
+	.quad AzXamarin_PastVisit_InitializeComponent
+	.quad Lme_1a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM999=LTDIE_147_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM999
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1000=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1000
+Lfde26_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_PastVisit_InitializeComponent
+
+LDIFF_SYM1001=Lme_1a - AzXamarin_PastVisit_InitializeComponent
+	.long LDIFF_SYM1001
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde26_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_151:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Layout"
+
+	.byte 152,3,16
+LDIFF_SYM1002=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1002
+	.byte 2,35,0,6
+	.asciz "_allocatedFlag"
+
+LDIFF_SYM1003=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1003
+	.byte 3,35,128,3,6
+	.asciz "_hasDoneLayout"
+
+LDIFF_SYM1004=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1004
+	.byte 3,35,129,3,6
+	.asciz "_lastLayoutSize"
+
+LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1005
+	.byte 3,35,136,3,6
+	.asciz "_logicalChildren"
+
+LDIFF_SYM1006=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1006
+	.byte 3,35,232,2,6
+	.asciz "<InternalChildren>k__BackingField"
+
+LDIFF_SYM1007=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1007
+	.byte 3,35,240,2,6
+	.asciz "LayoutChanged"
+
+LDIFF_SYM1008=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1008
+	.byte 3,35,248,2,0,7
+	.asciz "Xamarin_Forms_Layout"
+
+LDIFF_SYM1009=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1009
+LTDIE_151_POINTER:
+
+	.byte 13
+LDIFF_SYM1010=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1010
+LTDIE_151_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1011=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1011
+LTDIE_153:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+	.byte 40,16
+LDIFF_SYM1012=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1012
+	.byte 2,35,0,6
+	.asciz "_list"
+
+LDIFF_SYM1013=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
+	.byte 2,35,16,6
+	.asciz "<IsReadOnly>k__BackingField"
+
+LDIFF_SYM1014=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1014
+	.byte 2,35,32,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM1015=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1015
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+LDIFF_SYM1016=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1016
+LTDIE_153_POINTER:
+
+	.byte 13
+LDIFF_SYM1017=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1017
+LTDIE_153_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1018=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1018
+LTDIE_152:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ElementCollection`1"
+
+	.byte 40,16
+LDIFF_SYM1019=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM1019
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ElementCollection`1"
+
+LDIFF_SYM1020=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1020
+LTDIE_152_POINTER:
+
+	.byte 13
+LDIFF_SYM1021=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1021
+LTDIE_152_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1022=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM1022
+LTDIE_150:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Layout`1"
+
+	.byte 160,3,16
+LDIFF_SYM1023=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM1023
+	.byte 2,35,0,6
+	.asciz "_children"
+
+LDIFF_SYM1024=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1024
+	.byte 3,35,152,3,0,7
+	.asciz "Xamarin_Forms_Layout`1"
+
+LDIFF_SYM1025=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1025
+LTDIE_150_POINTER:
+
+	.byte 13
+LDIFF_SYM1026=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1026
+LTDIE_150_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1027=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1027
+LTDIE_154:
+
+	.byte 5
+	.asciz "_LayoutInformation"
+
+	.byte 112,16
+LDIFF_SYM1028=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1028
+	.byte 2,35,0,6
+	.asciz "Bounds"
+
+LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1029
+	.byte 2,35,32,6
+	.asciz "CompressionSpace"
+
+LDIFF_SYM1030=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1030
+	.byte 2,35,64,6
+	.asciz "Constraint"
+
+LDIFF_SYM1031=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1031
+	.byte 2,35,72,6
+	.asciz "Expanders"
+
+LDIFF_SYM1032=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1032
+	.byte 2,35,88,6
+	.asciz "MinimumSize"
+
+LDIFF_SYM1033=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1033
+	.byte 2,35,96,6
+	.asciz "Plots"
+
+LDIFF_SYM1034=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1034
+	.byte 2,35,16,6
+	.asciz "Requests"
+
+LDIFF_SYM1035=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1035
+	.byte 2,35,24,0,7
+	.asciz "_LayoutInformation"
+
+LDIFF_SYM1036=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1036
+LTDIE_154_POINTER:
+
+	.byte 13
+LDIFF_SYM1037=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1037
+LTDIE_154_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1038=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1038
+LTDIE_149:
+
+	.byte 5
+	.asciz "Xamarin_Forms_StackLayout"
+
+	.byte 168,3,16
+LDIFF_SYM1039=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM1039
+	.byte 2,35,0,6
+	.asciz "_layoutInformation"
+
+LDIFF_SYM1040=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1040
+	.byte 3,35,160,3,0,7
+	.asciz "Xamarin_Forms_StackLayout"
+
+LDIFF_SYM1041=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1041
+LTDIE_149_POINTER:
+
+	.byte 13
+LDIFF_SYM1042=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1042
+LTDIE_149_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1043=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM1043
+LTDIE_148:
+
+	.byte 5
+	.asciz "AzXamarin_UpcomingPage"
+
+	.byte 216,3,16
+LDIFF_SYM1044=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1044
+	.byte 2,35,0,6
+	.asciz "menu"
+
+LDIFF_SYM1045=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1045
+	.byte 3,35,208,3,6
+	.asciz "Menu"
+
+LDIFF_SYM1046=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1046
+	.byte 3,35,200,3,0,7
+	.asciz "AzXamarin_UpcomingPage"
+
+LDIFF_SYM1047=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1047
+LTDIE_148_POINTER:
+
+	.byte 13
+LDIFF_SYM1048=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1048
+LTDIE_148_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1049=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM1049
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:.ctor"
+	.asciz "AzXamarin_UpcomingPage__ctor"
+
+	.byte 17,11
+	.quad AzXamarin_UpcomingPage__ctor
+	.quad Lme_1b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1050=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1050
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1051=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1051
+Lfde27_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage__ctor
+
+LDIFF_SYM1052=Lme_1b - AzXamarin_UpcomingPage__ctor
+	.long LDIFF_SYM1052
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde27_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:Mainmenu"
+	.asciz "AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs"
+
+	.byte 17,21
+	.quad AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs
+	.quad Lme_1c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1053=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1053
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1054=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1054
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM1055=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1055
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM1056=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1056
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1057=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1057
+Lfde28_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs
+
+LDIFF_SYM1058=Lme_1c - AzXamarin_UpcomingPage_Mainmenu_object_System_EventArgs
+	.long LDIFF_SYM1058
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde28_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:Goback"
+	.asciz "AzXamarin_UpcomingPage_Goback_object_System_EventArgs"
+
+	.byte 17,34
+	.quad AzXamarin_UpcomingPage_Goback_object_System_EventArgs
+	.quad Lme_1d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1059=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1059
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1060=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1060
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1061=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1061
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1062=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1062
+Lfde29_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_Goback_object_System_EventArgs
+
+LDIFF_SYM1063=Lme_1d - AzXamarin_UpcomingPage_Goback_object_System_EventArgs
+	.long LDIFF_SYM1063
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde29_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:Home"
+	.asciz "AzXamarin_UpcomingPage_Home_object_System_EventArgs"
+
+	.byte 17,39
+	.quad AzXamarin_UpcomingPage_Home_object_System_EventArgs
+	.quad Lme_1e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1064=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1064
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1065=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1065
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1066=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1066
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1067=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1067
+Lfde30_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_Home_object_System_EventArgs
+
+LDIFF_SYM1068=Lme_1e - AzXamarin_UpcomingPage_Home_object_System_EventArgs
+	.long LDIFF_SYM1068
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:Appoint"
+	.asciz "AzXamarin_UpcomingPage_Appoint_object_System_EventArgs"
+
+	.byte 17,45
+	.quad AzXamarin_UpcomingPage_Appoint_object_System_EventArgs
+	.quad Lme_1f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1069=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1069
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1070=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1070
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1071=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1071
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1072=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1072
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_Appoint_object_System_EventArgs
+
+LDIFF_SYM1073=Lme_1f - AzXamarin_UpcomingPage_Appoint_object_System_EventArgs
+	.long LDIFF_SYM1073
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde31_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:Logout"
+	.asciz "AzXamarin_UpcomingPage_Logout_object_System_EventArgs"
+
+	.byte 17,51
+	.quad AzXamarin_UpcomingPage_Logout_object_System_EventArgs
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1074=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1074
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1075=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1075
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1076=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1076
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1077=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1077
+Lfde32_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_Logout_object_System_EventArgs
+
+LDIFF_SYM1078=Lme_20 - AzXamarin_UpcomingPage_Logout_object_System_EventArgs
+	.long LDIFF_SYM1078
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde32_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.UpcomingPage:InitializeComponent"
+	.asciz "AzXamarin_UpcomingPage_InitializeComponent"
+
+	.byte 18,21
+	.quad AzXamarin_UpcomingPage_InitializeComponent
+	.quad Lme_21
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1079=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1079
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1080=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1080
+Lfde33_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_UpcomingPage_InitializeComponent
+
+LDIFF_SYM1081=Lme_21 - AzXamarin_UpcomingPage_InitializeComponent
+	.long LDIFF_SYM1081
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde33_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_155:
+
+	.byte 5
+	.asciz "AzXamarin_VisitAppointment"
+
+	.byte 216,3,16
+LDIFF_SYM1082=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1082
+	.byte 2,35,0,6
+	.asciz "menu"
+
+LDIFF_SYM1083=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1083
+	.byte 3,35,208,3,6
+	.asciz "Menu"
+
+LDIFF_SYM1084=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1084
+	.byte 3,35,200,3,0,7
+	.asciz "AzXamarin_VisitAppointment"
+
+LDIFF_SYM1085=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1085
+LTDIE_155_POINTER:
+
+	.byte 13
+LDIFF_SYM1086=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1086
+LTDIE_155_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1087=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1087
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:.ctor"
+	.asciz "AzXamarin_VisitAppointment__ctor"
+
+	.byte 19,11
+	.quad AzXamarin_VisitAppointment__ctor
+	.quad Lme_22
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1088=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1088
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1089=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1089
+Lfde34_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment__ctor
+
+LDIFF_SYM1090=Lme_22 - AzXamarin_VisitAppointment__ctor
+	.long LDIFF_SYM1090
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde34_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Mainmenu"
+	.asciz "AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs"
+
+	.byte 19,20
+	.quad AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs
+	.quad Lme_23
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1091=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1091
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1092=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1092
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM1093=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1093
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM1094=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1094
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1095=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1095
+Lfde35_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs
+
+LDIFF_SYM1096=Lme_23 - AzXamarin_VisitAppointment_Mainmenu_object_System_EventArgs
+	.long LDIFF_SYM1096
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde35_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Logout"
+	.asciz "AzXamarin_VisitAppointment_Logout_object_System_EventArgs"
+
+	.byte 19,34
+	.quad AzXamarin_VisitAppointment_Logout_object_System_EventArgs
+	.quad Lme_24
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1097=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1097
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1098=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1098
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1099=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1099
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1100=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1100
+Lfde36_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Logout_object_System_EventArgs
+
+LDIFF_SYM1101=Lme_24 - AzXamarin_VisitAppointment_Logout_object_System_EventArgs
+	.long LDIFF_SYM1101
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde36_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Home"
+	.asciz "AzXamarin_VisitAppointment_Home_object_System_EventArgs"
+
+	.byte 19,40
+	.quad AzXamarin_VisitAppointment_Home_object_System_EventArgs
+	.quad Lme_25
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1102=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1102
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1103=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1103
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1104=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1104
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1105=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1105
+Lfde37_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Home_object_System_EventArgs
+
+LDIFF_SYM1106=Lme_25 - AzXamarin_VisitAppointment_Home_object_System_EventArgs
+	.long LDIFF_SYM1106
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde37_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Appoint"
+	.asciz "AzXamarin_VisitAppointment_Appoint_object_System_EventArgs"
+
+	.byte 19,47
+	.quad AzXamarin_VisitAppointment_Appoint_object_System_EventArgs
+	.quad Lme_26
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1107=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1108=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1108
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1109=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1109
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1110=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1110
+Lfde38_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Appoint_object_System_EventArgs
+
+LDIFF_SYM1111=Lme_26 - AzXamarin_VisitAppointment_Appoint_object_System_EventArgs
+	.long LDIFF_SYM1111
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde38_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Past"
+	.asciz "AzXamarin_VisitAppointment_Past_object_System_EventArgs"
+
+	.byte 19,53
+	.quad AzXamarin_VisitAppointment_Past_object_System_EventArgs
+	.quad Lme_27
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1112=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1112
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1113=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1113
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1114=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1114
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1115=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1115
+Lfde39_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Past_object_System_EventArgs
+
+LDIFF_SYM1116=Lme_27 - AzXamarin_VisitAppointment_Past_object_System_EventArgs
+	.long LDIFF_SYM1116
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde39_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:Upcoming"
+	.asciz "AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs"
+
+	.byte 19,60
+	.quad AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs
+	.quad Lme_28
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1117=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1117
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1118=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1118
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1119=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1119
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1120=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1120
+Lfde40_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs
+
+LDIFF_SYM1121=Lme_28 - AzXamarin_VisitAppointment_Upcoming_object_System_EventArgs
+	.long LDIFF_SYM1121
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde40_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:OnTapGesture"
+	.asciz "AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs"
+
+	.byte 19,68
+	.quad AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs
+	.quad Lme_29
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1122=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1122
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1123=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1123
+	.byte 2,141,24,3
+	.asciz "args"
+
+LDIFF_SYM1124=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1124
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1125=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1125
+Lfde41_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs
+
+LDIFF_SYM1126=Lme_29 - AzXamarin_VisitAppointment_OnTapGesture_object_System_EventArgs
+	.long LDIFF_SYM1126
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde41_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.VisitAppointment:InitializeComponent"
+	.asciz "AzXamarin_VisitAppointment_InitializeComponent"
+
+	.byte 20,21
+	.quad AzXamarin_VisitAppointment_InitializeComponent
+	.quad Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1127=LTDIE_155_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1127
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1128=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1128
+Lfde42_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_VisitAppointment_InitializeComponent
+
+LDIFF_SYM1129=Lme_2a - AzXamarin_VisitAppointment_InitializeComponent
+	.long LDIFF_SYM1129
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde42_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_156:
+
+	.byte 5
+	.asciz "AzXamarin_Home"
+
+	.byte 216,3,16
+LDIFF_SYM1130=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1130
+	.byte 2,35,0,6
+	.asciz "menu"
+
+LDIFF_SYM1131=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1131
+	.byte 3,35,208,3,6
+	.asciz "Menu"
+
+LDIFF_SYM1132=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1132
+	.byte 3,35,200,3,0,7
+	.asciz "AzXamarin_Home"
+
+LDIFF_SYM1133=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1133
+LTDIE_156_POINTER:
+
+	.byte 13
+LDIFF_SYM1134=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1134
+LTDIE_156_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1135=LTDIE_156 - Ldebug_info_start
+	.long LDIFF_SYM1135
+	.byte 2
+	.asciz "AzXamarin.Home:.ctor"
+	.asciz "AzXamarin_Home__ctor"
+
+	.byte 21,10
+	.quad AzXamarin_Home__ctor
+	.quad Lme_2b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1136=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1136
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1137=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1137
+Lfde43_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home__ctor
+
+LDIFF_SYM1138=Lme_2b - AzXamarin_Home__ctor
+	.long LDIFF_SYM1138
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde43_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:Mainmenu"
+	.asciz "AzXamarin_Home_Mainmenu_object_System_EventArgs"
+
+	.byte 21,20
+	.quad AzXamarin_Home_Mainmenu_object_System_EventArgs
+	.quad Lme_2c
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1139=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1139
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1140=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1140
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM1141=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1141
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM1142=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1142
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1143=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1143
+Lfde44_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_Mainmenu_object_System_EventArgs
+
+LDIFF_SYM1144=Lme_2c - AzXamarin_Home_Mainmenu_object_System_EventArgs
+	.long LDIFF_SYM1144
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde44_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:Sched"
+	.asciz "AzXamarin_Home_Sched_object_System_EventArgs"
+
+	.byte 21,35
+	.quad AzXamarin_Home_Sched_object_System_EventArgs
+	.quad Lme_2d
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1145=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1145
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1146=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1146
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1147=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1147
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1148=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1148
+Lfde45_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_Sched_object_System_EventArgs
+
+LDIFF_SYM1149=Lme_2d - AzXamarin_Home_Sched_object_System_EventArgs
+	.long LDIFF_SYM1149
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde45_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:Visitapp"
+	.asciz "AzXamarin_Home_Visitapp_object_System_EventArgs"
+
+	.byte 21,43
+	.quad AzXamarin_Home_Visitapp_object_System_EventArgs
+	.quad Lme_2e
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1150=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1150
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1151=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1151
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1152=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1152
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1153=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1153
+Lfde46_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_Visitapp_object_System_EventArgs
+
+LDIFF_SYM1154=Lme_2e - AzXamarin_Home_Visitapp_object_System_EventArgs
+	.long LDIFF_SYM1154
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde46_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:Logout"
+	.asciz "AzXamarin_Home_Logout_object_System_EventArgs"
+
+	.byte 21,50
+	.quad AzXamarin_Home_Logout_object_System_EventArgs
+	.quad Lme_2f
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1155=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1155
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1156=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1157=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1157
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1158=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1158
+Lfde47_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_Logout_object_System_EventArgs
+
+LDIFF_SYM1159=Lme_2f - AzXamarin_Home_Logout_object_System_EventArgs
+	.long LDIFF_SYM1159
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde47_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:Homepage"
+	.asciz "AzXamarin_Home_Homepage_object_System_EventArgs"
+
+	.byte 21,56
+	.quad AzXamarin_Home_Homepage_object_System_EventArgs
+	.quad Lme_30
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1160=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1160
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1161=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1161
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1162=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1162
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1163=Lfde48_end - Lfde48_start
+	.long LDIFF_SYM1163
+Lfde48_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_Homepage_object_System_EventArgs
+
+LDIFF_SYM1164=Lme_30 - AzXamarin_Home_Homepage_object_System_EventArgs
+	.long LDIFF_SYM1164
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde48_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.Home:InitializeComponent"
+	.asciz "AzXamarin_Home_InitializeComponent"
+
+	.byte 22,21
+	.quad AzXamarin_Home_InitializeComponent
+	.quad Lme_31
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1165=LTDIE_156_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1165
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1166=Lfde49_end - Lfde49_start
+	.long LDIFF_SYM1166
+Lfde49_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_Home_InitializeComponent
+
+LDIFF_SYM1167=Lme_31 - AzXamarin_Home_InitializeComponent
+	.long LDIFF_SYM1167
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde49_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_157:
+
+	.byte 5
+	.asciz "AzXamarin_ScheduleAppoint"
+
+	.byte 216,3,16
+LDIFF_SYM1168=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM1168
+	.byte 2,35,0,6
+	.asciz "menu"
+
+LDIFF_SYM1169=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1169
+	.byte 3,35,208,3,6
+	.asciz "Menu"
+
+LDIFF_SYM1170=LTDIE_149_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1170
+	.byte 3,35,200,3,0,7
+	.asciz "AzXamarin_ScheduleAppoint"
+
+LDIFF_SYM1171=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1171
+LTDIE_157_POINTER:
+
+	.byte 13
+LDIFF_SYM1172=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1172
+LTDIE_157_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1173=LTDIE_157 - Ldebug_info_start
+	.long LDIFF_SYM1173
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:.ctor"
+	.asciz "AzXamarin_ScheduleAppoint__ctor"
+
+	.byte 23,13
+	.quad AzXamarin_ScheduleAppoint__ctor
+	.quad Lme_32
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1174=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1174
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1175=Lfde50_end - Lfde50_start
+	.long LDIFF_SYM1175
+Lfde50_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint__ctor
+
+LDIFF_SYM1176=Lme_32 - AzXamarin_ScheduleAppoint__ctor
+	.long LDIFF_SYM1176
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
+	.align 3
+Lfde50_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:Mainmenu"
+	.asciz "AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs"
+
+	.byte 23,20
+	.quad AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs
+	.quad Lme_33
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1177=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1177
+	.byte 1,106,3
+	.asciz "sender"
+
+LDIFF_SYM1178=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1178
+	.byte 2,141,32,3
+	.asciz "e"
+
+LDIFF_SYM1179=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1179
+	.byte 2,141,40,11
+	.asciz "V_0"
+
+LDIFF_SYM1180=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1180
+	.byte 1,105,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1181=Lfde51_end - Lfde51_start
+	.long LDIFF_SYM1181
+Lfde51_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs
+
+LDIFF_SYM1182=Lme_33 - AzXamarin_ScheduleAppoint_Mainmenu_object_System_EventArgs
+	.long LDIFF_SYM1182
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
+	.align 3
+Lfde51_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:Logout"
+	.asciz "AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs"
+
+	.byte 23,36
+	.quad AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs
+	.quad Lme_34
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1183=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1183
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1184=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1184
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1185=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1185
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1186=Lfde52_end - Lfde52_start
+	.long LDIFF_SYM1186
+Lfde52_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs
+
+LDIFF_SYM1187=Lme_34 - AzXamarin_ScheduleAppoint_Logout_object_System_EventArgs
+	.long LDIFF_SYM1187
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde52_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:HomePg"
+	.asciz "AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs"
+
+	.byte 23,42
+	.quad AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs
+	.quad Lme_35
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1188=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1189=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1189
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1190=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1190
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1191=Lfde53_end - Lfde53_start
+	.long LDIFF_SYM1191
+Lfde53_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs
+
+LDIFF_SYM1192=Lme_35 - AzXamarin_ScheduleAppoint_HomePg_object_System_EventArgs
+	.long LDIFF_SYM1192
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde53_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:Appoint"
+	.asciz "AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs"
+
+	.byte 23,47
+	.quad AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs
+	.quad Lme_36
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1193=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM1194=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1194
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM1195=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1195
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1196=Lfde54_end - Lfde54_start
+	.long LDIFF_SYM1196
+Lfde54_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs
+
+LDIFF_SYM1197=Lme_36 - AzXamarin_ScheduleAppoint_Appoint_object_System_EventArgs
+	.long LDIFF_SYM1197
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde54_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "AzXamarin.ScheduleAppoint:InitializeComponent"
+	.asciz "AzXamarin_ScheduleAppoint_InitializeComponent"
+
+	.byte 24,21
+	.quad AzXamarin_ScheduleAppoint_InitializeComponent
+	.quad Lme_37
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1198=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1198
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1199=Lfde55_end - Lfde55_start
+	.long LDIFF_SYM1199
+Lfde55_start:
+
+	.long 0
+	.align 3
+	.quad AzXamarin_ScheduleAppoint_InitializeComponent
+
+LDIFF_SYM1200=Lme_37 - AzXamarin_ScheduleAppoint_InitializeComponent
+	.long LDIFF_SYM1200
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
+	.align 3
+Lfde55_end:
 
 .section __DWARF, __debug_info,regular,debug
 

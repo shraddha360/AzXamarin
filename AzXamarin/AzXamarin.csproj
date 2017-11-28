@@ -66,6 +66,36 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\address.png" />
+    <EmbeddedResource Include="Resources\appoin.png" />
+    <EmbeddedResource Include="Resources\back.png" />
+    <EmbeddedResource Include="Resources\box.png" />
+    <EmbeddedResource Include="Resources\circle.png" />
+    <EmbeddedResource Include="Resources\city.png" />
+    <EmbeddedResource Include="Resources\dob.png" />
+    <EmbeddedResource Include="Resources\email.png" />
+    <EmbeddedResource Include="Resources\gender.png" />
+    <EmbeddedResource Include="Resources\hamburger.png" />
+    <EmbeddedResource Include="Resources\HeartLine.png" />
+    <EmbeddedResource Include="Resources\History.png" />
+    <EmbeddedResource Include="Resources\Login_Name.png" />
+    <EmbeddedResource Include="Resources\Login_passw.png" />
+    <EmbeddedResource Include="Resources\login.png" />
+    <EmbeddedResource Include="Resources\loginscreen.png" />
+    <EmbeddedResource Include="Resources\mobile.png" />
+    <EmbeddedResource Include="Resources\Next.png" />
+    <EmbeddedResource Include="Resources\past visits block.png" />
+    <EmbeddedResource Include="Resources\pc.png" />
+    <EmbeddedResource Include="Resources\Prev.png" />
+    <EmbeddedResource Include="Resources\Schd.png" />
+    <EmbeddedResource Include="Resources\social.png" />
+    <EmbeddedResource Include="Resources\state.png" />
+    <EmbeddedResource Include="Resources\telephone.png" />
+    <EmbeddedResource Include="Resources\welcome-05.png" />
+    <EmbeddedResource Include="ScheduleAppoint.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -102,6 +132,9 @@
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ScheduleAppoint.xaml.cs">
+      <DependentUpon>ScheduleAppoint.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -116,35 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Resources\address.png" />
-    <None Include="Resources\appoin.png" />
-    <None Include="Resources\Aprikas_light_Demo.otf" />
-    <None Include="Resources\back.png" />
-    <None Include="Resources\box.png" />
-    <None Include="Resources\circle.png" />
-    <None Include="Resources\city.png" />
-    <None Include="Resources\dob.png" />
-    <None Include="Resources\email.png" />
-    <None Include="Resources\gender.png" />
-    <None Include="Resources\hamburger.png" />
-    <None Include="Resources\HeartLine.png" />
-    <None Include="Resources\History.png" />
-    <None Include="Resources\Lato-Italic.ttf.meta" />
-    <None Include="Resources\Lato-Light.ttf" />
-    <None Include="Resources\Login_Name.png" />
-    <None Include="Resources\Login_passw.png" />
-    <None Include="Resources\login.png" />
-    <None Include="Resources\loginscreen.png" />
-    <None Include="Resources\mobile.png" />
-    <None Include="Resources\Next.png" />
-    <None Include="Resources\past visits block.png" />
-    <None Include="Resources\pc.png" />
-    <None Include="Resources\Prev.png" />
-    <None Include="Resources\Schd.png" />
-    <None Include="Resources\social.png" />
-    <None Include="Resources\state.png" />
-    <None Include="Resources\telephone.png" />
-    <None Include="Resources\welcome-05.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

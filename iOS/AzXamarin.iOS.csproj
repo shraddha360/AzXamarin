@@ -42,7 +42,7 @@
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
+<RunCodeAnalysis>true</RunCodeAnalysis>  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -67,15 +67,17 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <DeviceSpecificBuild>true</DeviceSpecificBuild>
     <MtouchDebug>true</MtouchDebug>
-    <MtouchNoSymbolStrip>true</MtouchNoSymbolStrip>
+    <MtouchNoSymbolStrip>false</MtouchNoSymbolStrip>
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchFloat32>true</MtouchFloat32>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
-    <IOSDebuggerPort>19230</IOSDebuggerPort>
+    <IOSDebuggerPort>19231</IOSDebuggerPort>
     <MtouchLink>SdkOnly</MtouchLink>
     <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+<RunCodeAnalysis>true</RunCodeAnalysis><IOSDebugOverWiFi>true</IOSDebugOverWiFi>
+<MtouchEnableSGenConc>true</MtouchEnableSGenConc>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -122,6 +124,39 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\address.png" />
+    <BundleResource Include="Resources\appoin.png" />
+    <BundleResource Include="Resources\Aprikas_light_Demo.otf" />
+    <BundleResource Include="Resources\back.png" />
+    <BundleResource Include="Resources\box.png" />
+    <BundleResource Include="Resources\circle.png" />
+    <BundleResource Include="Resources\city.png" />
+    <BundleResource Include="Resources\dob.png" />
+    <BundleResource Include="Resources\email.png" />
+    <BundleResource Include="Resources\gender.png" />
+    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\HeartLine.png" />
+    <BundleResource Include="Resources\History.png" />
+    <BundleResource Include="Resources\Lato-Italic.ttf.meta" />
+    <BundleResource Include="Resources\Login_Name.png" />
+    <BundleResource Include="Resources\Login_passw.png" />
+    <BundleResource Include="Resources\login.png" />
+    <BundleResource Include="Resources\loginscreen.png" />
+    <BundleResource Include="Resources\mobile.png" />
+    <BundleResource Include="Resources\Next.png" />
+    <BundleResource Include="Resources\past visits block.png" />
+    <BundleResource Include="Resources\pc.png" />
+    <BundleResource Include="Resources\Prev.png" />
+    <BundleResource Include="Resources\Schd.png" />
+    <BundleResource Include="Resources\social.png" />
+    <BundleResource Include="Resources\state.png" />
+    <BundleResource Include="Resources\telephone.png" />
+    <BundleResource Include="Resources\welcome-05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AtlasTexture Include="Resources\Lato-Light.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.4.0.280\build\netstandard1.0\Xamarin.Forms.targets')" />

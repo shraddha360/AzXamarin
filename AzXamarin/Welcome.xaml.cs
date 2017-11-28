@@ -10,15 +10,19 @@ namespace AzXamarin
         public Welcome()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        public void Loginpage(object sender, System.EventArgs e){
+        public void Loginpge(object sender, System.EventArgs e)
+        {
 
             Navigation.PushAsync(new LoginPage());
 
         }
 
-        public void Sign(object sender, System.EventArgs e){
+        public void Sign(object sender, System.EventArgs e)
+        {
 
             Navigation.PushAsync(new Signup());
         }

@@ -10,6 +10,7 @@ namespace AzXamarin
         public Signup2()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         public void Sign3(object sender, System.EventArgs e){
 

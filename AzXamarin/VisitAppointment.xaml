@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.VisitAppointment">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AzXamarin.VisitAppointment">
 	<ContentPage.Content>
 
-     <RelativeLayout BackgroundColor="#5089A7"  >
-
-            <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
-                <Button  VerticalOptions="EndAndExpand" 
-                    WidthRequest="30"
-                    HeightRequest="20" Clicked="Mainmenu">
-                </Button>
-                
-           <Label Text="Home"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"  
-                  /> 
-            </StackLayout>
+   <RelativeLayout BackgroundColor="#5089A7"  >
             
-   <StackLayout Orientation="Horizontal" 
+        <StackLayout Orientation="Horizontal" 
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" Padding="42,0,60,400"
+                HorizontalOptions="CenterAndExpand" Padding="42,20,60,400"
                 Spacing="-4" RelativeLayout.HeightConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
@@ -43,12 +24,11 @@
 
                     BorderColor="White" BorderWidth="2"/>
                     <Button WidthRequest="150" Text=" Past Visits " TextColor="White" BackgroundColor="Transparent" BorderRadius="0"
-                    BorderColor="White" Clicked="PastV" BorderWidth="2"/>
+                    BorderColor="White" Clicked="Past" BorderWidth="2"/>
        </StackLayout>
 
 
-      
-        <StackLayout VerticalOptions="CenterAndExpand" Padding="20,-100,20,-160" 
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="20,-100,20,-160" 
             HorizontalOptions="CenterAndExpand" Orientation="Vertical" 
 
                 Spacing="10" 
@@ -63,8 +43,11 @@
 
                 <Frame BackgroundColor="#E8F2F4" Padding="10,10,20,0">
            
-                <Grid   ColumnSpacing="-50" RowSpacing="-10">
-                <Grid.GestureRecognizers>
+                <Grid   ColumnSpacing="-50" RowSpacing="-10" >
+
+
+                    
+            <Grid.GestureRecognizers>
                 <TapGestureRecognizer Tapped ="OnTapGesture"/>      
              </Grid.GestureRecognizers>
       <Grid.RowDefinitions>
@@ -106,7 +89,8 @@
                     </Frame>
 
                 <Frame Padding="10,10,20,0" BackgroundColor="#E8F2F4">
-                <Grid   ColumnSpacing="-50" RowSpacing="-10">
+                <Grid   ColumnSpacing="-50" RowSpacing="-10"
+                    >
                     
       <Grid.RowDefinitions>
     <RowDefinition Height="40" />
@@ -148,7 +132,7 @@
             </StackLayout> 
 
             <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
-                BackgroundColor="#90C0D4" 
+                BackgroundColor="#5DBCD2" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="StartAndExpand"
                 Orientation="Vertical"
@@ -177,8 +161,31 @@
                 </Button>
                 
                       </StackLayout> 
-             
-            </RelativeLayout>
+     
+           <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="15,0,55,20"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
+                 "{ConstraintExpression Type=RelativeToParent,
+                                Property=Width,
+                                Factor=1}"
+                  RelativeLayout.HeightConstraint=
+                 "{ConstraintExpression Type=RelativeToParent,
+                                Property=Height,
+                                Factor=1}">
+                <Button  VerticalOptions="EndAndExpand" Image="./hamburger"
+                    WidthRequest="30"
+                    HeightRequest="20" Clicked="Mainmenu">
+
+                </Button>
+                
+           <Label Text=" Appointment"  TextColor="White" 
+                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
+                    VerticalOptions="EndAndExpand"  
+                  /> 
+            </StackLayout>
+
+        </RelativeLayout>
+        
         
 	</ContentPage.Content>
 </ContentPage>

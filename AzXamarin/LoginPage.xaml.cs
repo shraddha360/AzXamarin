@@ -10,6 +10,8 @@ namespace AzXamarin
         public LoginPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasBackButton(this, false);
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         public void Signup(object sender, System.EventArgs e)
         {

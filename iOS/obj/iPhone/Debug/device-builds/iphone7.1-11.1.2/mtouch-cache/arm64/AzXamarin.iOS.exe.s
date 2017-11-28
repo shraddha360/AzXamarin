@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_Application_Main_string__
 AzXamarin_iOS_Application_Main_string__:
-.file 1 "/Users/shraddha/Projects/AzXamarin/iOS/Main.cs"
+.file 1 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/shraddha/Projects/AzXamarin/iOS/AppDelegate.cs"
+.file 2 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "45D2F61B-9C77-4991-B062-A9EC94066FC3"
+	.asciz "F4B1709E-D472-4549-8AE3-9325C23F36E4"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -566,7 +566,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 150,148,51,165,220,128,134,194,23,161,199,236,189,207,16,220
+	.byte 121,215,50,162,36,2,30,202,247,42,143,110,155,93,182,147
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:

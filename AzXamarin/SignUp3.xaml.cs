@@ -10,10 +10,12 @@ namespace AzXamarin
         public SignUp3()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         public void HomeGo(object sender, System.EventArgs e){
 
             Navigation.PushAsync(new Home());
+
 
         
         }

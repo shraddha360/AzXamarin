@@ -1,2 +1,2 @@
-USB Debugging: 1
-Port: 19230
+IP: 192.168.10.113
+Port: 19231
