@@ -13,42 +13,28 @@ namespace AzXamarin
         public VisitAppointment()
         {
             InitializeComponent();
-            NavigationPage.SetHasNavigationBar(this, false);
+
         }
 
-        public void Mainmenu(object sender, System.EventArgs e)
-        {
-            menu = !menu;
-            Menu.IsVisible = menu;
-            if (menu == false)
-            {
-                Menu.IsVisible = true;
-            }
-            else
-            {
-                Menu.IsVisible = false;
+        public void Menuclick(object sender, System.EventArgs e){
+            
 
-            }
         }
+
         public void Logout(object sender, System.EventArgs e)
         {
-            Menu.IsVisible = menu;
+            
             Navigation.PushAsync(new Welcome());
         }
 
         public void Home(object sender, System.EventArgs e)
         {
-            Menu.IsVisible = menu;
+            
             Navigation.PushAsync(new Home());
 
         }
 
-        public void Appoint(object sender, System.EventArgs e)
-        {
-            Menu.IsVisible = menu;
-            Menu.IsVisible = false;
 
-        }
         public void Past(object sender, System.EventArgs e)
         {
 

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace AzXamarin
@@ -8,27 +8,13 @@ namespace AzXamarin
     public partial class Home : ContentPage
     {
         public bool menu = true;
+       
 
         public Home()
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetHasNavigationBar(this, false);
-        }
-
-        public void Mainmenu(object sender, System.EventArgs e)
-        {
-            menu = !menu;
-            Menu.IsVisible = menu;
-            if (menu == false)
-            {
-                Menu.IsVisible = true;
-            }
-            else
-            {
-                Menu.IsVisible = false;
-
-            }
+           
         }
 
         public void Sched(object sender, System.EventArgs e)
@@ -48,15 +34,10 @@ namespace AzXamarin
 
         public void Logout(object sender, System.EventArgs e)
         {
-            Menu.IsVisible = menu;
+            //Menu.IsVisible = menu;
             Navigation.PushAsync(new Welcome());
         }
 
-        public void Homepage(object sender, System.EventArgs e)
-        {
-            Menu.IsVisible = menu;
-            Menu.IsVisible = false;
-
-        }
+       
     }
 }

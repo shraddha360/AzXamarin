@@ -119,7 +119,7 @@
            </StackLayout> 
 
 
-            <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
+            <!--<StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
                 BackgroundColor="#5DBCD2" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="StartAndExpand"
@@ -148,7 +148,7 @@
                 </Button>
                 <Button Text="Logout" TextColor="White" Clicked="Logout">
                 </Button>
-               </StackLayout> 
+               </StackLayout> -->
 
             <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
                 VerticalOptions="StartAndExpand" 
@@ -160,11 +160,11 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
-                <Button  VerticalOptions="EndAndExpand" Image="./hamburger"
+                <!--<Button  VerticalOptions="EndAndExpand" Image="./hamburger"
                     WidthRequest="30"
                     HeightRequest="20" Clicked="Mainmenu">
 
-                </Button>
+                </Button>-->
                 
            <Label Text="   Upcoming Appointment"  TextColor="White" 
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"

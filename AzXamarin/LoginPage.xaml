@@ -4,19 +4,15 @@
     x:Class="AzXamarin.LoginPage">
 	<ContentPage.Content>
         
-     
-        
    <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
            <Image Source="loginscreen.png" Aspect="Fill" />
-            
-       
         
-        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="15,80" Spacing="10"
-     RelativeLayout.WidthConstraint=
+        <StackLayout Orientation="Vertical"
+                VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="15,80" 
+                Spacing="10" RelativeLayout.WidthConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
-                                Factor=1}"
-     RelativeLayout.HeightConstraint=
+                                Factor=1}"  RelativeLayout.HeightConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
@@ -53,8 +49,7 @@
                     PlaceholderColor="White" IsPassword="true" TextColor= "White" BackgroundColor="Transparent" 
                         WidthRequest="400" HorizontalOptions="CenterAndExpand" Text="" >
                  </Entry>
-
-                </Grid>
+                 </Grid>
 
             <Grid  Padding="85,-20,20,-100" ColumnSpacing="10" 
                     VerticalOptions="Center" HorizontalOptions="Center"
@@ -83,9 +78,7 @@
                     TextColor="White"  FontSize="20"
                         WidthRequest="180" HeightRequest="150" 
         Clicked= "Signup"></Button>  
-                  
                 </Grid>
-
         </StackLayout>
             </RelativeLayout>
 	</ContentPage.Content>

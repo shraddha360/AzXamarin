@@ -53,3 +53,4 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csprojResolveAssemblyReference.cache
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.FirstPage.xaml.g.cs

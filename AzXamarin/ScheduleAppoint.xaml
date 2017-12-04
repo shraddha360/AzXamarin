@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Title="Schedule Appointment"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.ScheduleAppoint">
 	<ContentPage.Content>
 
          <RelativeLayout BackgroundColor="Transparent">
          <Image Source="./loginscreen.png" Aspect="Fill" />
-             <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
+           <!--  <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
                 BackgroundColor="#90C0D4" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="StartAndExpand"
@@ -32,34 +32,8 @@
                 </Button>
                 <Button Text="Logout" TextColor="White" Clicked="Logout">
                 </Button>
-                 </StackLayout> 
-
-           <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
-                <Button  VerticalOptions="EndAndExpand" Image="./hamburger"
-                    WidthRequest="30"
-                    HeightRequest="20" Clicked="Mainmenu">
-
-                </Button>
-                
-           <Label Text="Schedule Appointment"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"  
-                  /> 
-            </StackLayout>
-           
-
-
-
-           <StackLayout  Orientation="Vertical" VerticalOptions="Center"
+                 </StackLayout> -->
+      <StackLayout  Orientation="Vertical" VerticalOptions="Center"
            HorizontalOptions="Center"
                 Padding= "30,0,10,-10" Spacing="30"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
@@ -91,7 +65,7 @@
                     Source = "./social.png" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="50" WidthRequest="50"/>  
                 <Entry Grid.Row="0" Grid.Column="1"  Placeholder="Select Exam" 
                         PlaceholderColor="White" TextColor= "White" 
- BackgroundColor="Transparent" Text=""
+           BackgroundColor="Transparent" Text=""
                         WidthRequest="300" HeightRequest= "40" HorizontalOptions="CenterAndExpand">
                 </Entry>
                     
@@ -147,8 +121,7 @@
                                 Factor=1}" >
 
                  <Grid  Padding="10,0,0,-10" ColumnSpacing="-50"
-                    BackgroundColor="Transparent" 
-                    >
+                    BackgroundColor="Transparent">
       <Grid.RowDefinitions>
     <RowDefinition Height="40" />
     <RowDefinition Height="40" />

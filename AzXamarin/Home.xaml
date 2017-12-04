@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Home">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AzXamarin.Home" Title="Home" >
 	<ContentPage.Content>
         
     <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            
-        <Image Source="./loginscreen.png" Aspect="Fill" ></Image>
+
+         <Image Source="./loginscreen.png" Aspect="Fill" ></Image>
             
      <StackLayout  Orientation="Horizontal"  BackgroundColor="Transparent"
                 VerticalOptions="StartAndExpand" 
@@ -58,8 +59,6 @@
 
             </StackLayout>
             
-                       
-       
             <StackLayout  BackgroundColor="Transparent" HeightRequest="100" Orientation="Horizontal" Padding="10,0,55,20"
                 VerticalOptions="EndAndExpand" 
                 HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
@@ -74,7 +73,7 @@
 
             </StackLayout>
 
-            <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
+         <!--   <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
                 BackgroundColor="#5DBCD2" 
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="StartAndExpand"
@@ -102,29 +101,8 @@
                 </Button>
                 <Button Text="Logout" TextColor="White" Clicked="Logout">
                 </Button>
- </StackLayout> 
-             <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
-                <Button  VerticalOptions="EndAndExpand" Image="./hamburger"
-                    WidthRequest="30"
-                    HeightRequest="20" Clicked="Mainmenu">
-
-                </Button>
-                
-           <Label Text="Home"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"  
-                  /> 
-            </StackLayout>
-            
+ </StackLayout>--> 
+           
             </RelativeLayout>
         
 	</ContentPage.Content>

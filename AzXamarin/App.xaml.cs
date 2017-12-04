@@ -9,6 +9,9 @@ namespace AzXamarin
             InitializeComponent();
 
             MainPage = new NavigationPage(new Welcome());
+
+           
+
         }
 
         protected override void OnStart()

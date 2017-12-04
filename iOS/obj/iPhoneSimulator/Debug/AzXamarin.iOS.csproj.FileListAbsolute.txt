@@ -141,3 +141,15 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/telephone.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/welcome-05.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/atlas/_BundleResourceWithLogicalName.items
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/menu-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/help-icon-selected.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/help-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/home-icon-selected.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/home-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logout-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/notification-icon-selected.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/notification-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/settings-icon-selected.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/settings-icon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/visits-icon-selected.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/visits-icon.png

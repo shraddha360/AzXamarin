@@ -141,3 +141,4 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.1.2/optimized/telephone.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.1.2/optimized/welcome-05.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone9.3-11.1.2/optimized/
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/device-builds/iphone9.3-11.1.2/mtouch.stamp

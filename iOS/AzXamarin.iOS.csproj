@@ -154,6 +154,29 @@
     <BundleResource Include="Resources\state.png" />
     <BundleResource Include="Resources\telephone.png" />
     <BundleResource Include="Resources\welcome-05.png" />
+    <BundleResource Include="Resources\menu-icon.png" />
+    <BundleResource Include="Resources\help-icon-selected.png" />
+    <BundleResource Include="Resources\help-icon-selected.png.meta" />
+    <BundleResource Include="Resources\help-icon.png" />
+    <BundleResource Include="Resources\help-icon.png.meta" />
+    <BundleResource Include="Resources\home-icon-selected.png" />
+    <BundleResource Include="Resources\home-icon-selected.png.meta" />
+    <BundleResource Include="Resources\home-icon.png" />
+    <BundleResource Include="Resources\home-icon.png.meta" />
+    <BundleResource Include="Resources\logout-icon.png" />
+    <BundleResource Include="Resources\logout-icon.png.meta" />
+    <BundleResource Include="Resources\notification-icon-selected.png" />
+    <BundleResource Include="Resources\notification-icon-selected.png.meta" />
+    <BundleResource Include="Resources\notification-icon.png" />
+    <BundleResource Include="Resources\notification-icon.png.meta" />
+    <BundleResource Include="Resources\settings-icon-selected.png" />
+    <BundleResource Include="Resources\settings-icon-selected.png.meta" />
+    <BundleResource Include="Resources\settings-icon.png" />
+    <BundleResource Include="Resources\settings-icon.png.meta" />
+    <BundleResource Include="Resources\visits-icon-selected.png" />
+    <BundleResource Include="Resources\visits-icon-selected.png.meta" />
+    <BundleResource Include="Resources\visits-icon.png" />
+    <BundleResource Include="Resources\visits-icon.png.meta" />
   </ItemGroup>
   <ItemGroup>
     <AtlasTexture Include="Resources\Lato-Light.ttf" />
