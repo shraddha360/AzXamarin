@@ -2,8 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.PastVisit">
 	<ContentPage.Content>
         
-         <RelativeLayout BackgroundColor="#5089A7">
-           <StackLayout  BackgroundColor="#5DBCD2" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
+         <RelativeLayout BackgroundColor="#0A93B9">
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center" 
+               Padding="8,525" >
+            <Image Source="HeartLine.png" VerticalOptions="End"/>
+                </StackLayout>
+           <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
@@ -15,7 +19,8 @@
                                 Factor=1}">
                 
            <Label Text="  Past Visits"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
+                    FontSize="25" HorizontalOptions="CenterAndExpand"
+                    FontFamily="Lato-Light.ttf"
                     VerticalOptions="EndAndExpand"/> 
             </StackLayout>
 
@@ -68,7 +73,7 @@
 
                    <Label Grid.Row="3" Grid.Column="1" Text="CONFIRMED" TextColor="#5DBCD2"> </Label>
 
-                  <Button Grid.Row="4" Text="RESCHEDULE" Grid.Column="1" BorderColor="#5089A7"></Button>
+                  <Button Grid.Row="4" Text="RESCHEDULE" Grid.Column="1" TextColor="#008BAA" BorderColor="#5089A7"></Button>
                     
                 </Grid>
                 </Frame>
@@ -86,12 +91,13 @@
 
                 <Button VerticalOptions="StartAndExpand" 
                     HorizontalOptions="StartAndExpand" 
-                    Text="  Appointments  "  TextColor="White"
-                    BackgroundColor="Transparent" BorderRadius="0" WidthRequest="150" Clicked="Appoint"
+                    Text="  Appointments  "  TextColor="White" BackgroundColor="#36454f" 
+                    BorderRadius="0" WidthRequest="150" Clicked="Appoint"
 
                     BorderColor="White" BorderWidth="2"/>
-                    <Button WidthRequest="150" Text=" Past Visits " TextColor="White"
-                    BackgroundColor="#5DBCD2" BorderRadius="0"
+                    <Button WidthRequest="150" 
+                    Text=" Past Visits " TextColor="White"
+                    BackgroundColor="#17DBF3" BorderRadius="0"
                     BorderColor="White"  BorderWidth="2" />
                
             </StackLayout>

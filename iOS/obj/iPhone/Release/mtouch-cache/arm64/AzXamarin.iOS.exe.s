@@ -319,7 +319,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "7A7881BB-3216-46E1-AF8B-0A750CCB7C6B"
+	.asciz "C1CBBAC7-8286-488B-8F3C-820B71F241BB"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -402,7 +402,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 252,221,239,181,252,23,204,240,80,43,151,180,29,254,197,129
+	.byte 245,109,253,11,212,94,9,112,195,144,172,68,19,193,2,39
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:

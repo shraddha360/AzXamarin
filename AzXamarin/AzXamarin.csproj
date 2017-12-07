@@ -96,10 +96,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="FirstPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -139,9 +135,6 @@
     <Compile Include="ScheduleAppoint.xaml.cs">
       <DependentUpon>ScheduleAppoint.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FirstPage.xaml.cs">
-      <DependentUpon>FirstPage.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -156,48 +149,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Resources\attach-icon.png" />
-    <None Include="Resources\attach-icon.png.meta" />
-    <None Include="Resources\az-tech-logo.png" />
-    <None Include="Resources\az-tech-logo.png.meta" />
-    <None Include="Resources\checkbox-checked.png" />
-    <None Include="Resources\checkbox-checked.png.meta" />
-    <None Include="Resources\checkbox-unchecked.png" />
-    <None Include="Resources\checkbox-unchecked.png.meta" />
-    <None Include="Resources\close-icon.png" />
-    <None Include="Resources\close-icon.png.meta" />
-    <None Include="Resources\date-icon.png" />
-    <None Include="Resources\date-icon.png.meta" />
-    <None Include="Resources\drop-down-icon.png" />
-    <None Include="Resources\drop-down-icon.png.meta" />
-    <None Include="Resources\drop-down-up-icon.png" />
-    <None Include="Resources\drop-down-up-icon.png.meta" />
-    <None Include="Resources\forward-icon.png" />
-    <None Include="Resources\forward-icon.png.meta" />
-    <None Include="Resources\header-bg.png" />
-    <None Include="Resources\header-bg.png.meta" />
-    <None Include="Resources\helensys-logo-vertical.png" />
-    <None Include="Resources\helensys-logo-vertical.png.meta" />
-    <None Include="Resources\helensys-logo.png" />
-    <None Include="Resources\helensys-logo.png.meta" />
-    <None Include="Resources\Helenzys-big.png" />
-    <None Include="Resources\Helenzys-big.png.meta" />
-    <None Include="Resources\helenzys-small.png" />
-    <None Include="Resources\helenzys-small.png.meta" />
-    <None Include="Resources\image-uploaded.png" />
-    <None Include="Resources\image-uploaded.png.meta" />
-    <None Include="Resources\location-icon.png" />
-    <None Include="Resources\location-icon.png.meta" />
-    <None Include="Resources\pdf-uploaded.png" />
-    <None Include="Resources\pdf-uploaded.png.meta" />
-    <None Include="Resources\success-bg.png" />
-    <None Include="Resources\success-bg.png.meta" />
-    <None Include="Resources\time-icon.png" />
-    <None Include="Resources\time-icon.png.meta" />
-    <None Include="Resources\visits-bg.png" />
-    <None Include="Resources\visits-bg.png.meta" />
-    <None Include="Resources\welcome page buttons.png" />
-    <None Include="Resources\welcome page buttons.png.meta" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

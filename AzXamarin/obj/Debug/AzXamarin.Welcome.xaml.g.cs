@@ -11,16 +11,13 @@
 namespace AzXamarin {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/Welcome.xaml")]
-    public partial class Welcome : global::Xamarin.Forms.MasterDetailPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.StackLayout Menu;
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/AzXa" +
+        "marin/Welcome.xaml")]
+    public partial class Welcome : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Welcome));
-            Menu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Menu");
         }
     }
 }

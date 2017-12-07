@@ -1,27 +1,93 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
-	<dependencies>
-		<deployment identifier="iOS" />
-		<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530" />
-	</dependencies>
-	<scenes>
-		<!--View Controller-->
-		<scene sceneID="EHf-IW-A2E">
-			<objects>
-				<viewController id="01J-lp-oVM" sceneMemberID="viewController">
-					<layoutGuides>
-						<viewControllerLayoutGuide type="top" id="Llm-lL-Icb" />
-						<viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok" />
-					</layoutGuides>
-					<view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-						<rect key="frame" x="0.0" y="0.0" width="600" height="600" />
-						<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
-						<color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" />
-					</view>
-				</viewController>
-				<placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
-			</objects>
-			<point key="canvasLocation" x="53" y="375" />
-		</scene>
-	</scenes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="address.png" width="66" height="69"/>
+        <image name="appoin.png" width="100" height="104"/>
+        <image name="back.png" width="50" height="35"/>
+        <image name="box.png" width="527" height="595"/>
+        <image name="circle.png" width="102" height="101"/>
+        <image name="city.png" width="56" height="69"/>
+        <image name="dob.png" width="54" height="54"/>
+        <image name="email.png" width="50" height="41"/>
+        <image name="gender.png" width="64" height="60"/>
+        <image name="hamburger.png" width="97" height="64"/>
+        <image name="HeartLine.png" width="757" height="246"/>
+        <image name="History.png" width="118" height="101"/>
+        <image name="Login_Name.png" width="50" height="50"/>
+        <image name="Login_passw.png" width="50" height="50"/>
+        <image name="login.png" width="511" height="113"/>
+        <image name="loginscreen.png" width="3126" height="5560"/>
+        <image name="mobile.png" width="40" height="61"/>
+        <image name="Next.png" width="284" height="113"/>
+        <image name="past visits block.png" width="661" height="244"/>
+        <image name="pc.png" width="64" height="55"/>
+        <image name="Prev.png" width="284" height="113"/>
+        <image name="Schd.png" width="64" height="55"/>
+        <image name="social.png" width="52" height="51"/>
+        <image name="state.png" width="50" height="69"/>
+        <image name="telephone.png" width="62" height="63"/>
+        <image name="welcome-05.png" width="3126" height="5560"/>
+        <image name="attach-icon.png" width="65" height="65"/>
+        <image name="az-tech-logo.png" width="610" height="82"/>
+        <image name="checkbox-checked.png" width="51" height="51"/>
+        <image name="checkbox-unchecked.png" width="51" height="51"/>
+        <image name="close-icon.png" width="50" height="50"/>
+        <image name="date-icon.png" width="30" height="30"/>
+        <image name="drop-down-icon.png" width="40" height="40"/>
+        <image name="drop-down-up-icon.png" width="40" height="40"/>
+        <image name="forward-icon.png" width="60" height="60"/>
+        <image name="header-bg.png" width="1080" height="188"/>
+        <image name="helensys-logo-vertical.png" width="600" height="164"/>
+        <image name="helensys-logo.png" width="600" height="400"/>
+        <image name="Helenzys-big.png" width="1081" height="710"/>
+        <image name="helenzys-small.png" width="1081" height="450"/>
+        <image name="image-uploaded.png" width="120" height="100"/>
+        <image name="location-icon.png" width="30" height="30"/>
+        <image name="pdf-uploaded.png" width="120" height="100"/>
+        <image name="success-bg.png" width="904" height="923"/>
+        <image name="time-icon.png" width="30" height="30"/>
+        <image name="visits-bg.png" width="451" height="87"/>
+        <image name="welcome page buttons.png" width="520" height="133"/>
+        <image name="cell-icon.png" width="70" height="70"/>
+        <image name="dob-icon.png" width="70" height="70"/>
+        <image name="email-icon.png" width="70" height="70"/>
+        <image name="gender-icon.png" width="70" height="70"/>
+        <image name="next-icon.png" width="50" height="50"/>
+        <image name="next-prev-button-bg.png" width="302" height="100"/>
+        <image name="password-icon.png" width="70" height="70"/>
+        <image name="previous-icon.png" width="50" height="50"/>
+        <image name="radio-selected.png" width="60" height="60"/>
+        <image name="radio-unselected.png" width="60" height="60"/>
+        <image name="sign-in-button.png" width="560" height="140"/>
+        <image name="sign-in-txt-field-bg.png" width="890" height="110"/>
+        <image name="sign-up-bg.png" width="1080" height="450"/>
+        <image name="signin-bg.png" width="1080" height="710"/>
+        <image name="user-icon.png" width="70" height="70"/>
+        <image name="user-image-rounded.png" width="500" height="500"/>
+        <image name="Splash.png" width="1081" height="1920"/>
+    </resources>
 </document>

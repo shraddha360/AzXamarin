@@ -2,15 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup">
 	<ContentPage.Content>
 
-        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
-              HorizontalOptions="FillAndExpand" Padding="0,20" Spacing="10" BackgroundColor="#008BAA" >
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"
+            BackgroundColor= "Transparent"
+              HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="10">
+         <Image Source="helenzys-small.png" BackgroundColor="Transparent" 
+            VerticalOptions="Start"  />
 
-                 <Label Text="Sign up"  TextColor="White" 
-                    FontSize="45" HorizontalOptions="Center" 
-                    VerticalOptions="Center"  
-                  /> 
-                <Label Text="Personal Details" TextColor="White"
-                  FontSize="20" HorizontalTextAlignment="Center"/>
+                 <Label Text="Create New Account"  TextColor="#36454f" 
+                    FontSize="22" HorizontalOptions="Center"  FontFamily="Lato-Light.ttf"
+                    VerticalOptions="Center"/> 
+                
 
             <Grid  Padding="-30,50,20,-100" ColumnSpacing="10" RowSpacing="30" VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent" 
@@ -18,11 +19,11 @@
  <Grid.RowDefinitions>
     <RowDefinition Height="7*" />
     <RowDefinition Height="8*" />
+    <RowDefinition Height="9*" />
+    <RowDefinition Height="9*" />
     <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
+     <RowDefinition Height="8*" />
+     <RowDefinition Height="8*" />
                                            
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
@@ -32,26 +33,30 @@
   </Grid.ColumnDefinitions>
                  
                   
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="enter your social number" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="0" Grid.Column="1"
+                    Placeholder="enter your social number"
+                    PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
                  
-                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="enter your full name" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="enter your full name" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
                      
                 
-                <DatePicker Grid.Row="2" Grid.Column="1"  WidthRequest="300" 
+                <DatePicker Grid.Row="2" Grid.Column="1"  WidthRequest="300"
+                    HeightRequest="50"
                          HorizontalOptions="Center" 
-                BackgroundColor="Transparent"
-                VerticalOptions="Center"     TextColor="White"  />  
+                BackgroundColor="#E5F0F4"
+                VerticalOptions="Center"  TextColor="Gray"  />  
               
                 <Picker Grid.Row="3" Grid.Column="1" WidthRequest="300" 
+                    HeightRequest="50"
                          HorizontalOptions="Center" Title="enter your gender"
-                BackgroundColor="Transparent"
-                VerticalOptions="Center"     TextColor="White">
+                BackgroundColor="#E5F0F4"
+                VerticalOptions="Center"     TextColor="Gray">
                 <Picker.Items>
                        <x:String>Female</x:String> 
                        <x:String>Male</x:String>
@@ -60,12 +65,19 @@
                     </Picker>
                
                 </Grid>
+            <StackLayout VerticalOptions="End" Padding="10,20" HeightRequest="50">
 
-            <Button  Text = "Next" TextColor="White" WidthRequest="100" HeightRequest="50" 
-                VerticalOptions="End" HorizontalOptions="End"
-                         Clicked= "SignNext" >  
+           
+                <Button  Text = "Next" TextColor="White" 
+                    HeightRequest="50" Image="Next.png" WidthRequest="120"
+                     VerticalOptions="End" HorizontalOptions="End" 
+            Clicked= "SignNext" > 
+             
                   </Button>
+                   
             </StackLayout>
+ </StackLayout>
+         
         
         
 </ContentPage.Content>

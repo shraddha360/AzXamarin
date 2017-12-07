@@ -8,23 +8,12 @@ namespace AzXamarin
     public partial class VisitAppointment : ContentPage
     {
 
-        public bool menu = true;
+       
 
         public VisitAppointment()
         {
             InitializeComponent();
-
-        }
-
-        public void Menuclick(object sender, System.EventArgs e){
-            
-
-        }
-
-        public void Logout(object sender, System.EventArgs e)
-        {
-            
-            Navigation.PushAsync(new Welcome());
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         public void Home(object sender, System.EventArgs e)
@@ -34,21 +23,13 @@ namespace AzXamarin
 
         }
 
-
+       
         public void Past(object sender, System.EventArgs e)
         {
 
             Navigation.PushAsync(new PastVisit());
 
         }
-
-        public void Upcoming(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new UpcomingPage());
-
-        }
-
-
 
         void OnTapGesture(object sender, EventArgs args)
         {

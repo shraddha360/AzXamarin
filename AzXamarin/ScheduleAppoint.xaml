@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Title="Schedule Appointment"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.ScheduleAppoint">
 	<ContentPage.Content>
 
-         <RelativeLayout BackgroundColor="Transparent">
-         <Image Source="./loginscreen.png" Aspect="Fill" />
-           <!--  <StackLayout x:Name="Menu" Padding="30,130,30,150" Spacing="30"  IsVisible="false"
-                BackgroundColor="#90C0D4" 
-                VerticalOptions="FillAndExpand"
-                HorizontalOptions="StartAndExpand"
-                Orientation="Vertical"
-                RelativeLayout.WidthConstraint=
+         <RelativeLayout BackgroundColor="#0A93B9">
+        <StackLayout VerticalOptions="End" HorizontalOptions="Center" HeightRequest="50"
+               Padding="8,550" >
+            <Image Source="HeartLine.png" VerticalOptions="End"/>
+                </StackLayout>
+
+            
+           <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
                   RelativeLayout.HeightConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
-                                Factor=1}" >
+                                Factor=1}">
+                 <Button  VerticalOptions="EndAndExpand" Image="back.png"
+                    WidthRequest="30"
+                    HeightRequest="20" Clicked="HomePg">
 
-                <Button WidthRequest="30" HeightRequest="20" Image="./Login_Name.png" Text ="John" FontSize="20" TextColor="White"/>
-                <BoxView Color="White" WidthRequest="50" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+                </Button>
+                
+           <Label Text="Schedule Appointment"  TextColor="White" 
+                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
+                    VerticalOptions="EndAndExpand"  
+                  /> 
+            </StackLayout>
+           
 
-                <Button Text="Home" TextColor="White" Clicked="HomePg"/>
 
-                <Button Text="Appoinments" TextColor="White" Clicked="Appoint">
-                </Button>
-                <Button Text="History" TextColor="White">
-                </Button>
-                <Button Text="FAQ" TextColor="White">
-                </Button>
-                <Button Text="Logout" TextColor="White" Clicked="Logout">
-                </Button>
-                 </StackLayout> -->
-      <StackLayout  Orientation="Vertical" VerticalOptions="Center"
-           HorizontalOptions="Center"
-                Padding= "30,0,10,-10" Spacing="30"  RelativeLayout.WidthConstraint=
+
+           <StackLayout  Orientation="Vertical" VerticalOptions="Center"
+           HorizontalOptions="Center" Padding= "30,-30,10,-10" Spacing="30"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
@@ -64,55 +65,59 @@
                 <Image  Grid.Row="0" Grid.Column="0" 
                     Source = "./social.png" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="50" WidthRequest="50"/>  
                 <Entry Grid.Row="0" Grid.Column="1"  Placeholder="Select Exam" 
-                        PlaceholderColor="White" TextColor= "White" 
-           BackgroundColor="Transparent" Text=""
+                        PlaceholderColor="Gray" TextColor= "Gray" 
+ BackgroundColor="#E5F0F4" Text=""
                         WidthRequest="300" HeightRequest= "40" HorizontalOptions="CenterAndExpand">
                 </Entry>
                     
                  <Image Grid.Row="1" Grid.Column="0" Source = "./state.png" 
                         HorizontalOptions="Start"
                    HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Select provider " PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Select provider "
+                        PlaceholderColor="Gray" TextColor= "Gray"
+                        BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
                     <Image Grid.Row="2" Grid.Column="0" Source = "./History.png" 
                         HorizontalOptions="Start"
                    HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="2" Grid.Column="1" Placeholder="Attach Documents" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="2" Grid.Column="1" Placeholder="Attach Documents" 
+                        PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
                     <Image Grid.Row="3" Grid.Column="0" Source = "./appoin.png" 
                         HorizontalOptions="Start"
                    HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Region Code" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Region Code" PlaceholderColor="Gray"
+                        TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
-                    <Image Grid.Row="4" Grid.Column="0" Source = "./dob.png" 
+              <Image Grid.Row="4" Grid.Column="0" Source = "./dob.png" 
                         HorizontalOptions="Start"
-                   HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
+       HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
                 
                 <DatePicker Grid.Row="4" Grid.Column="1"  WidthRequest="300" 
                          HorizontalOptions="Center" 
-                BackgroundColor="Transparent"
-                VerticalOptions="Center"     TextColor="White"  />  
+                BackgroundColor="#E5F0F4"
+                VerticalOptions="Center"     TextColor="Gray"  />  
             <Image Grid.Row="5" Grid.Column="0" Source = "./social.png" 
                         HorizontalOptions="Start"
                    HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />    
                 <TimePicker Grid.Row="5" Grid.Column="1" WidthRequest="300" 
                          HorizontalOptions="Center" 
-                BackgroundColor="Transparent"
-                VerticalOptions="Center"     TextColor="White"  />
-               
+                BackgroundColor="#E5F0F4"
+                VerticalOptions="Center" TextColor="Gray"  />
                 </Grid>
           </StackLayout>
 
             <StackLayout Orientation="Vertical" 
-                VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="EndAndExpand"
+                HorizontalOptions="CenterAndExpand" 
 
-                Padding="-50,0,0,-100" Spacing="10" 
+                Padding="-50,0,0,-100" Spacing="15" 
      RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}"
@@ -120,8 +125,9 @@
                                 Property=Height,
                                 Factor=1}" >
 
-                 <Grid  Padding="10,0,0,-10" ColumnSpacing="-50"
-                    BackgroundColor="Transparent">
+                 <Grid  Padding="10,0,0,10" ColumnSpacing="-50" 
+                    RowSpacing="-10"
+                    BackgroundColor="Transparent"  >
       <Grid.RowDefinitions>
     <RowDefinition Height="40" />
     <RowDefinition Height="40" />
@@ -138,9 +144,9 @@
       <ColumnDefinition Width="200"  />
     <ColumnDefinition Width="200" />
   </Grid.ColumnDefinitions>
-                   <Image Source = "./login.png" Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="200"/>           
+     <Image Source = "sign-in-button.png" Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="200"/>           
        
-        <Button Grid.Row="0" Grid.Column="1" Text= "Submit" TextColor="#008BAA" 
+        <Button Grid.Row="0" Grid.Column="1" Text= "Submit" TextColor="White" 
                     WidthRequest="150" HeightRequest="30"
         Clicked= "HomePg" HorizontalOptions="CenterAndExpand" >
         </Button>

@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
 	.asciz "Calabash.dll"
 	.asciz ""
 
@@ -128,7 +128,7 @@ Xamarin_Calabash_Start:
 
 adrp x16, mono_aot_Calabash_got@PAGE+0
 add x16, x16, mono_aot_Calabash_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -190,7 +190,7 @@ mono_aot_Calabash_plt:
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Calabash_got, 216
+.lcomm mono_aot_Calabash_got, 208
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -290,13 +290,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 26,216,1,2,70,391195135,0,345
-	.long 128,8,8,10,0,25,880,528
+	.long 25,208,1,2,70,391195135,0,318
+	.long 128,8,8,10,0,24,856,528
 	.long 344,184,0,288,320,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 125,147,97,161,241,158,219,98,68,227,228,212,82,174,14,253
+	.byte 172,193,112,84,200,22,109,197,118,140,202,89,233,207,33,1
 	.globl _mono_aot_module_Calabash_info
 	.align 3
 _mono_aot_module_Calabash_info:

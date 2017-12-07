@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
 	.asciz "AzXamarin.iOS.exe"
 	.asciz ""
 
@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_Application_Main_string__
 AzXamarin_iOS_Application_Main_string__:
-.file 1 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/Main.cs"
+.file 1 "/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -129,7 +129,7 @@ AzXamarin_iOS_Application_Main_string__:
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -155,7 +155,7 @@ ldr x16, [x16, #200]
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x2, [x16, #208]
+ldr x2, [x16, #200]
 .word 0xd2800001
 bl _p_1
 .word 0xf9400fb1
@@ -186,7 +186,7 @@ AzXamarin_iOS_Application__ctor:
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/AppDelegate.cs"
+.file 2 "/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -223,7 +223,7 @@ AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDic
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -269,7 +269,7 @@ bl _p_3
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #224]
 .word 0xd2802a01
 .word 0xd2802a01
 bl _p_4
@@ -332,7 +332,7 @@ AzXamarin_iOS_AppDelegate__ctor:
 
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -398,69 +398,69 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 br x16
-.word 309
+.word 282
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_2:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 br x16
-.word 314
+.word 287
 	.no_dead_strip plt_Xamarin_Calabash_Start
 plt_Xamarin_Calabash_Start:
 _p_3:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 br x16
-.word 319
+.word 292
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_4:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 br x16
-.word 324
+.word 297
 	.no_dead_strip plt_AzXamarin_App__ctor
 plt_AzXamarin_App__ctor:
 _p_5:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 br x16
-.word 332
+.word 305
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_6:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 br x16
-.word 337
+.word 310
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_7:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 br x16
-.word 342
+.word 315
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_8:
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 br x16
-.word 347
+.word 320
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_AzXamarin_iOS_got, 320
+.lcomm mono_aot_AzXamarin_iOS_got, 312
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F4B1709E-D472-4549-8AE3-9325C23F36E4"
+	.asciz "7AAB0FB4-008D-4E61-9331-14599133BAA4"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -560,13 +560,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 31,320,9,5,70,391195135,0,910
-	.long 128,8,8,10,0,25,1784,864
-	.long 352,184,0,296,328,232,0,176
+	.long 30,312,9,5,70,391195135,0,883
+	.long 128,8,8,10,0,24,1752,856
+	.long 344,184,0,288,320,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 121,215,50,162,36,2,30,202,247,42,143,110,155,93,182,147
+	.byte 102,10,97,22,38,254,128,146,84,6,235,41,104,17,4,77
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:

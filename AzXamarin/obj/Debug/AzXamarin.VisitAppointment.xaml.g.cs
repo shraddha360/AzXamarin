@@ -11,7 +11,8 @@
 namespace AzXamarin {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/VisitAppointment.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/AzXa" +
+        "marin/VisitAppointment.xaml")]
     public partial class VisitAppointment : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

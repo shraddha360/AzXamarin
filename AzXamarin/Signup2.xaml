@@ -3,15 +3,17 @@
 	<ContentPage.Content>
 
           <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
-              HorizontalOptions="FillAndExpand" Padding="0,20" Spacing="10" BackgroundColor="#008BAA" >
-
+              HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="10"
+            BackgroundColor="Transparent" >
+              <Image Source="helenzys-small.png" BackgroundColor="Transparent" 
+            VerticalOptions="Start"  />
             
-                 <Label Text="Sign up"  TextColor="White" 
-                    FontSize="45" HorizontalOptions="Center" 
+                 <Label Text="Create New Account"  TextColor="#36454f" 
+                    FontSize="22" HorizontalOptions="Center" 
                     VerticalOptions="Center" /> 
 
-            <Label Text="Contact Details" TextColor="White"
-                  FontSize="20" HorizontalTextAlignment="Center"/>
+            <Label Text="Contact Details" TextColor="#36454f"
+                  FontSize="18" HorizontalTextAlignment="Center"/>
 
             <ScrollView Padding="10,50"  Orientation="Vertical" VerticalOptions="FillAndExpand" >
                     
@@ -39,19 +41,20 @@
   </Grid.ColumnDefinitions>
                  
                   
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter your address" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter your address" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
                     
                  
-                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="Enter your City " PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="Enter your City " PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry>
-               <Picker Grid.Row="2" Grid.Column="1" x:Name="State" Title="Enter your state" TextColor="White" 
+               <Picker Grid.Row="2" Grid.Column="1" x:Name="State"
+                        Title="Enter your state" TextColor="White" 
                     SelectedIndex="{Binding Industry}" 
-                    BackgroundColor="Transparent" 
+                    BackgroundColor="#E5F0F4" 
                     HorizontalOptions="FillAndExpand"
-                    WidthRequest="300"  HeightRequest="40">
+                    WidthRequest="300"  HeightRequest="50">
                     <Picker.Items>
                        <x:String>Andra Pradesh </x:String> 
                        <x:String>Assam</x:String>
@@ -63,32 +66,35 @@
                        <x:String>Gujrat</x:String>
                     </Picker.Items>
                  </Picker> 
-                  <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Enter your email-id" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                  <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Enter your email-id" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry> 
-                <Entry Grid.Row="4" Grid.Column="1"  Placeholder="Enter your mobile number" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="4" Grid.Column="1"  Placeholder="Enter your mobile number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry> 
-                <Entry Grid.Row="5" Grid.Column="1"  Placeholder="Enter your phone number" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="5" Grid.Column="1"  Placeholder="Enter your phone number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry> 
 
 
-                    <Label Grid.Row="6" Grid.Column="1"  Text="Emergency Contact Details" TextColor="White"
+                    <Label Grid.Row="6" Grid.Column="1"  Text="Emergency Contact Details" TextColor="Gray"
                   FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-                  <Entry Grid.Row="7" Grid.Column="1"  Placeholder="Alternate email-id" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                  <Entry Grid.Row="7" Grid.Column="1"  Placeholder="Alternate email-id" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry> 
-                <Entry Grid.Row="8" Grid.Column="1"  Placeholder="Alternate cell Number" PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
+                <Entry Grid.Row="8" Grid.Column="1"  Placeholder="Alternate cell Number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
                         WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
                 </Entry> 
 
                 </Grid>
                 </ScrollView>
-              <Button  Text = "Next" TextColor="White" WidthRequest="100" HeightRequest="50" 
-                VerticalOptions="End" HorizontalOptions="End"
+              <StackLayout VerticalOptions="End" Padding="10,20" HeightRequest="50">
+
+              <Button  Text = "Next" TextColor="White" WidthRequest="120" HeightRequest="50" 
+                VerticalOptions="End" HorizontalOptions="End"   Image="Next.png"
                          Clicked= "Sign3" >  
                   </Button>
+                </StackLayout>
             </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

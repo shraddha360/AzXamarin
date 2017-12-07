@@ -4,64 +4,67 @@
     x:Class="AzXamarin.LoginPage">
 	<ContentPage.Content>
         
-   <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-           <Image Source="loginscreen.png" Aspect="Fill" />
+     
         
-        <StackLayout Orientation="Vertical"
-                VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="15,80" 
-                Spacing="10" RelativeLayout.WidthConstraint=
+   <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+
+
+            <Image Source="Helenzys-big.png" BackgroundColor="Transparent" />
+      
+        <StackLayout Orientation="Vertical" 
+                BackgroundColor="Transparent" 
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand" 
+                Spacing="20" Padding="0,70"
+     RelativeLayout.WidthConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
-                                Factor=1}"  RelativeLayout.HeightConstraint=
+                                Factor=1}"
+     RelativeLayout.HeightConstraint=
          "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
             
-         <Label Text="Login"  TextColor="White" 
-                    FontSize="60" HorizontalOptions="Center"
-                    VerticalOptions="Start"/>
-            
-            <Grid  Padding="-30,150,20,-100" ColumnSpacing="20"
-                RowSpacing="45" VerticalOptions="Center" HorizontalOptions="Center"
-                    BackgroundColor="Transparent" >
+            <Grid  Padding="-50,240,20,10" ColumnSpacing="20" 
+                    BackgroundColor="Transparent" HeightRequest="150"
+                RowSpacing="50" 
+                    VerticalOptions="Center" HorizontalOptions="Center">
  <Grid.RowDefinitions>
-    <RowDefinition Height="10*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
+    <RowDefinition Height="2*" />
+    <RowDefinition Height="2*" />
                         
-                                           
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="50"  />
-    <ColumnDefinition Width="300" />
+    <ColumnDefinition Width="320" />
       
   </Grid.ColumnDefinitions>
                     
-                
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter Email "  HeightRequest="100"
-                    PlaceholderColor="White" TextColor= "White" BackgroundColor="Transparent" 
-                        WidthRequest="400" HorizontalOptions="CenterAndExpand" Text=""  >
+                <Entry Grid.Row="0" Grid.Column="1"  BackgroundColor="#E5F0F4"
+                        Placeholder="Enter Email "  HeightRequest="-10"
+                    PlaceholderColor="Gray" TextColor= "Gray" 
+                    WidthRequest="400" HorizontalOptions="CenterAndExpand" Text=""  >
                 </Entry>
                  
-                <Entry  Grid.Row="1" Grid.Column="1"  Placeholder="Enter Password " HeightRequest="100"
-                    PlaceholderColor="White" IsPassword="true" TextColor= "White" BackgroundColor="Transparent" 
-                        WidthRequest="400" HorizontalOptions="CenterAndExpand" Text="" >
+                <Entry  Grid.Row="1" Grid.Column="1" HeightRequest="-10"
+                        Placeholder="Enter Password " 
+                    PlaceholderColor="Gray" IsPassword="true" 
+                        TextColor= "Gray" BackgroundColor="#E5F0F4" 
+                        WidthRequest="400" HorizontalOptions="CenterAndExpand"
+                        Text="">
                  </Entry>
-                 </Grid>
 
-            <Grid  Padding="85,-20,20,-100" ColumnSpacing="10" 
-                    VerticalOptions="Center" HorizontalOptions="Center"
-                    BackgroundColor="Transparent" >
+                </Grid>
+
+            <Grid  Padding="110,0,20,5" ColumnSpacing="10" 
+                    RowSpacing="10"
+                    HeightRequest="150" 
+                    BackgroundColor="Transparent"
+                    VerticalOptions="End" HorizontalOptions="Center">
  <Grid.RowDefinitions>
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="4*" />
-    <RowDefinition Height="4*" />
-    <RowDefinition Height="4*" />
-      <RowDefinition Height="4*" />
-                                          
-  </Grid.RowDefinitions>
+    <RowDefinition Height="10*" />
+    <RowDefinition Height="10*" />
+</Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="200"  />
     <ColumnDefinition Width="200" />
@@ -69,16 +72,20 @@
     <ColumnDefinition Width="200" />
   </Grid.ColumnDefinitions>
                     
-         <Image Source = "./login.png" Grid.Row="0" Grid.Column="0" WidthRequest="180" HeightRequest="150"/>  
-          <Button Grid.Row="0" Grid.Column="0" Text = "Submit" FontSize="20"
-          TextColor="#008BAA" WidthRequest="180" HeightRequest="150" 
+         <Image Source = "sign-in-button.png" Grid.Row="0" 
+                    Grid.Column="0" WidthRequest="150" HeightRequest="130"/>  
+          <Button  Grid.Row="0" Grid.Column="0" 
+          Text = "Submit" FontSize="20" HeightRequest="50" 
+          TextColor="White" WidthRequest="100"
           Clicked= "HomePge"> </Button>
                 
        <Button Grid.Row="1" Grid.Column="0"  Text = "Create an Account" 
-                    TextColor="White"  FontSize="20"
-                        WidthRequest="180" HeightRequest="150" 
-        Clicked= "Signup"></Button>  
+                    TextColor="#008BAA"  FontSize="20"
+                        WidthRequest="180"
+        Clicked= "Signup">
+                    </Button>  
                 </Grid>
+
         </StackLayout>
             </RelativeLayout>
 	</ContentPage.Content>

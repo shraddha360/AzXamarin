@@ -1,22 +1,22 @@
 ﻿<Properties StartupConfiguration="{577194CE-2421-49BD-9263-D5077633443E}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="AzXamarin/LoginPage.xaml.cs">
     <Files>
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="AzXamarin/Welcome.xaml" Line="109" Column="1" />
-      <File FileName="AzXamarin/Welcome.xaml.cs" Line="66" Column="10" />
-      <File FileName="AzXamarin/Home.xaml.cs" Line="17" Column="12" />
-      <File FileName="AzXamarin/Home.xaml" Line="110" Column="1" />
-      <File FileName="AzXamarin/App.xaml.cs" Line="13" Column="12" />
-      <File FileName="AzXamarin/FirstPage.xaml" Line="96" Column="1" />
-      <File FileName="AzXamarin/FirstPage.xaml.cs" Line="14" Column="11" />
-      <File FileName="AzXamarin/VisitAppointment.xaml" Line="160" Column="2" />
-      <File FileName="AzXamarin/VisitAppointment.xaml.cs" Line="20" Column="13" />
-      <File FileName="AzXamarin/AzXamarinPage.xaml" Line="5" Column="1" />
-      <File FileName="AzXamarin/AzXamarinPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="152" Column="1" />
-      <File FileName="AzXamarin/ScheduleAppoint.xaml.cs" Line="21" Column="63" />
-      <File FileName="AzXamarin/App.xaml" Line="23" Column="1" />
-      <File FileName="AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs" Line="19" Column="1" />
+      <File FileName="AzXamarin/VisitAppointment.xaml.cs" Line="36" Column="13" />
+      <File FileName="AzXamarin/VisitAppointment.xaml" Line="166" Column="2" />
+      <File FileName="AzXamarin/Home.xaml" Line="90" Column="1" />
+      <File FileName="AzXamarin/Home.xaml.cs" Line="41" Column="2" />
+      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="158" Column="1" />
+      <File FileName="AzXamarin/ScheduleAppoint.xaml.cs" Line="33" Column="6" />
+      <File FileName="AzXamarin/Welcome.xaml" Line="99" Column="1" />
+      <File FileName="AzXamarin/UpcomingPage.xaml.cs" Line="16" Column="1" />
+      <File FileName="AzXamarin/obj/Debug/AzXamarin.ScheduleAppoint.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="AzXamarin/Signup.xaml" Line="85" Column="1" />
+      <File FileName="AzXamarin/Signup2.xaml" Line="101" Column="1" />
+      <File FileName="AzXamarin/LoginPage.xaml" Line="93" Column="1" />
+      <File FileName="AzXamarin/SignUp3.xaml" Line="60" Column="1" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="AzXamarin/LoginPage.xaml.cs" Line="32" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -26,5 +26,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E2115F4-12CF-4E40-8ACF-9EC2217792EF" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5E2115F4-12CF-4E40-8ACF-9EC2217792EF" automaticSigning="False" />
 </Properties>
