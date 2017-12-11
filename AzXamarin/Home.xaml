@@ -74,16 +74,13 @@
                  <Button  VerticalOptions="EndAndExpand" Image="back.png"
                     WidthRequest="30"
                     HeightRequest="20" Clicked="Logout">
-
                 </Button>
                 
            <Label Text="Home"  TextColor="White" 
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"  
-                  /> 
+                    VerticalOptions="EndAndExpand"/> 
             </StackLayout>
             
             </RelativeLayout>
-        
 	</ContentPage.Content>
 </ContentPage>

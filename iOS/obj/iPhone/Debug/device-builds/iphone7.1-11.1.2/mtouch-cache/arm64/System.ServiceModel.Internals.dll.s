@@ -2088,7 +2088,7 @@ add x16, x16, mono_aot_System_ServiceModel_Internals_got@PAGEOFF
 ldr x1, [x16, #576]
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941c830
+.word 0xf941cc30
 .word 0xd63f0200
 .word 0xf90013a0
 
@@ -10424,7 +10424,7 @@ ldr x0, [x16, #1472]
 .word 0xf9400c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b830
+.word 0xf941bc30
 .word 0xd63f0200
 bl _p_176
 .word 0xf9008fa0
@@ -18764,7 +18764,7 @@ _mono_aot_file_info:
 	.long 368,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 129,203,46,239,183,229,10,125,14,4,192,58,56,242,171,65
+	.byte 159,103,135,206,121,23,101,143,29,205,6,95,43,81,164,122
 	.globl _mono_aot_module_System_ServiceModel_Internals_info
 	.align 3
 _mono_aot_module_System_ServiceModel_Internals_info:

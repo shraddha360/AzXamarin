@@ -100,3 +100,11 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/R.cs.flag
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/uploadflags.txt
+bin/Debug/Mono.Android.pdb
+obj/Debug/linksrc/FormsViewGroup.dll.mdb
+obj/Debug/linksrc/Xamarin.Forms.Core.dll.mdb
+obj/Debug/linksrc/Xamarin.Forms.Platform.Android.dll.mdb
+obj/Debug/linksrc/Xamarin.Forms.Xaml.dll.mdb
+obj/Debug/linksrc/AzXamarin.Droid.pdb
+obj/Debug/linksrc/AzXamarin.pdb
+obj/Debug/linksrc/Mono.Android.pdb

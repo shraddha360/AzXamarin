@@ -121,7 +121,7 @@ jit_code_start:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_Application_Main_string__
 AzXamarin_iOS_Application_Main_string__:
-.file 1 "/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/Main.cs"
+.file 1 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/Main.cs"
 .loc 1 14 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -212,7 +212,7 @@ Lme_1:
 	.align 4
 	.no_dead_strip AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.file 2 "/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/AppDelegate.cs"
+.file 2 "/Users/shraddha/Documents/GitHub/AzXamarin/iOS/AppDelegate.cs"
 .loc 2 14 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "7AAB0FB4-008D-4E61-9331-14599133BAA4"
+	.asciz "57B0CBD9-7288-462E-998E-E07E5CD85D56"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -561,12 +561,12 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 30,312,9,5,70,391195135,0,883
-	.long 128,8,8,10,0,24,1752,856
+	.long 128,8,8,10,0,24,1736,840
 	.long 344,184,0,288,320,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 102,10,97,22,38,254,128,146,84,6,235,41,104,17,4,77
+	.byte 18,196,238,218,78,14,228,137,3,64,17,241,128,134,112,17
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:
@@ -4355,115 +4355,119 @@ LDIFF_SYM669=LTDIE_111 - Ldebug_info_start
 	.long LDIFF_SYM669
 LTDIE_114:
 
-	.byte 5
-	.asciz "System_EventHandler`1"
+	.byte 17
+	.asciz "System_Collections_Generic_ICollection`1"
 
-	.byte 112,16
-LDIFF_SYM670=LTDIE_15 - Ldebug_info_start
+	.byte 16,7
+	.asciz "System_Collections_Generic_ICollection`1"
+
+LDIFF_SYM670=LTDIE_114 - Ldebug_info_start
 	.long LDIFF_SYM670
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM671=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM671
 LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM672=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM672
+LDIFF_SYM671=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM671
 LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM673=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM673
-LTDIE_110:
-
-	.byte 5
-	.asciz "Xamarin_Forms_ResourceDictionary"
-
-	.byte 48,16
-LDIFF_SYM674=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM674
-	.byte 2,35,0,6
-	.asciz "_innerDictionary"
-
-LDIFF_SYM675=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM675
-	.byte 2,35,16,6
-	.asciz "_mergedWith"
-
-LDIFF_SYM676=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM676
-	.byte 2,35,24,6
-	.asciz "_mergedInstance"
-
-LDIFF_SYM677=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM677
-	.byte 2,35,32,6
-	.asciz "ValuesChanged"
-
-LDIFF_SYM678=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM678
-	.byte 2,35,40,0,7
-	.asciz "Xamarin_Forms_ResourceDictionary"
-
-LDIFF_SYM679=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM679
-LTDIE_110_POINTER:
-
-	.byte 13
-LDIFF_SYM680=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM680
-LTDIE_110_REFERENCE:
-
-	.byte 14
-LDIFF_SYM681=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM681
+LDIFF_SYM672=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM672
 LTDIE_115:
 
-	.byte 5
-	.asciz "System_EventHandler`1"
+	.byte 17
+	.asciz "System_Collections_Generic_IList`1"
 
-	.byte 112,16
-LDIFF_SYM682=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM682
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
+	.byte 16,7
+	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM683=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM683
+LDIFF_SYM673=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM673
 LTDIE_115_POINTER:
 
 	.byte 13
-LDIFF_SYM684=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM674=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM674
 LTDIE_115_REFERENCE:
 
 	.byte 14
-LDIFF_SYM685=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM685
+LDIFF_SYM675=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM675
 LTDIE_116:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM686=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM686
+LDIFF_SYM676=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM676
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM687=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM677=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM677
 LTDIE_116_POINTER:
 
 	.byte 13
-LDIFF_SYM688=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM678=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM678
 LTDIE_116_REFERENCE:
 
 	.byte 14
-LDIFF_SYM689=LTDIE_116 - Ldebug_info_start
+LDIFF_SYM679=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM679
+LTDIE_110:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+	.byte 64,16
+LDIFF_SYM680=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM680
+	.byte 2,35,0,6
+	.asciz "_innerDictionary"
+
+LDIFF_SYM681=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM681
+	.byte 2,35,16,6
+	.asciz "_mergedInstance"
+
+LDIFF_SYM682=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM682
+	.byte 2,35,24,6
+	.asciz "_mergedWith"
+
+LDIFF_SYM683=LTDIE_21_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM683
+	.byte 2,35,32,6
+	.asciz "_mergedDictionaries"
+
+LDIFF_SYM684=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM684
+	.byte 2,35,40,6
+	.asciz "_collectionTrack"
+
+LDIFF_SYM685=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM685
+	.byte 2,35,48,6
+	.asciz "ValuesChanged"
+
+LDIFF_SYM686=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM686
+	.byte 2,35,56,0,7
+	.asciz "Xamarin_Forms_ResourceDictionary"
+
+LDIFF_SYM687=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM687
+LTDIE_110_POINTER:
+
+	.byte 13
+LDIFF_SYM688=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM688
+LTDIE_110_REFERENCE:
+
+	.byte 14
+LDIFF_SYM689=LTDIE_110 - Ldebug_info_start
 	.long LDIFF_SYM689
 LTDIE_117:
 
@@ -4488,196 +4492,242 @@ LTDIE_117_REFERENCE:
 	.byte 14
 LDIFF_SYM693=LTDIE_117 - Ldebug_info_start
 	.long LDIFF_SYM693
+LTDIE_118:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM694=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM694
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM695=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM695
+LTDIE_118_POINTER:
+
+	.byte 13
+LDIFF_SYM696=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM696
+LTDIE_118_REFERENCE:
+
+	.byte 14
+LDIFF_SYM697=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM697
+LTDIE_119:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM698=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM698
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM699=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM699
+LTDIE_119_POINTER:
+
+	.byte 13
+LDIFF_SYM700=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM700
+LTDIE_119_REFERENCE:
+
+	.byte 14
+LDIFF_SYM701=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM701
 LTDIE_97:
 
 	.byte 5
 	.asciz "Xamarin_Forms_VisualElement"
 
 	.byte 224,2,16
-LDIFF_SYM694=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM694
+LDIFF_SYM702=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM702
 	.byte 2,35,0,6
 	.asciz "_measureCache"
 
-LDIFF_SYM695=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM695
+LDIFF_SYM703=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 3,35,216,1,6
 	.asciz "_mergedStyle"
 
-LDIFF_SYM696=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM704=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM704
 	.byte 3,35,224,1,6
 	.asciz "_batched"
 
-LDIFF_SYM697=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM697
+LDIFF_SYM705=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM705
 	.byte 3,35,168,2,6
 	.asciz "_computedConstraint"
 
-LDIFF_SYM698=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM706=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM706
 	.byte 3,35,172,2,6
 	.asciz "_isInNativeLayout"
 
-LDIFF_SYM699=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM699
+LDIFF_SYM707=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM707
 	.byte 3,35,176,2,6
 	.asciz "_isNativeStateConsistent"
 
-LDIFF_SYM700=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM700
+LDIFF_SYM708=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM708
 	.byte 3,35,177,2,6
 	.asciz "_isPlatformEnabled"
 
-LDIFF_SYM701=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM709=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 3,35,178,2,6
 	.asciz "_mockHeight"
 
-LDIFF_SYM702=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM702
+LDIFF_SYM710=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM710
 	.byte 3,35,184,2,6
 	.asciz "_mockWidth"
 
-LDIFF_SYM703=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM703
+LDIFF_SYM711=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM711
 	.byte 3,35,192,2,6
 	.asciz "_mockX"
 
-LDIFF_SYM704=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM704
+LDIFF_SYM712=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM712
 	.byte 3,35,200,2,6
 	.asciz "_mockY"
 
-LDIFF_SYM705=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM713=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM713
 	.byte 3,35,208,2,6
 	.asciz "_resources"
 
-LDIFF_SYM706=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM714=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM714
 	.byte 3,35,232,1,6
 	.asciz "_selfConstraint"
 
-LDIFF_SYM707=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM707
+LDIFF_SYM715=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM715
 	.byte 3,35,216,2,6
 	.asciz "<DisableLayout>k__BackingField"
 
-LDIFF_SYM708=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM708
+LDIFF_SYM716=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM716
 	.byte 3,35,220,2,6
 	.asciz "ChildrenReordered"
 
-LDIFF_SYM709=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM717=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM717
 	.byte 3,35,240,1,6
 	.asciz "Focused"
 
-LDIFF_SYM710=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM710
+LDIFF_SYM718=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 3,35,248,1,6
 	.asciz "MeasureInvalidated"
 
-LDIFF_SYM711=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM711
+LDIFF_SYM719=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 3,35,128,2,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM712=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM720=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM720
 	.byte 3,35,136,2,6
 	.asciz "Unfocused"
 
-LDIFF_SYM713=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM713
+LDIFF_SYM721=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM721
 	.byte 3,35,144,2,6
 	.asciz "BatchCommitted"
 
-LDIFF_SYM714=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM722=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM722
 	.byte 3,35,152,2,6
 	.asciz "FocusChangeRequested"
 
-LDIFF_SYM715=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM715
+LDIFF_SYM723=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 3,35,160,2,0,7
 	.asciz "Xamarin_Forms_VisualElement"
 
-LDIFF_SYM716=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM716
+LDIFF_SYM724=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM724
 LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM717=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM725=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM725
 LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM718=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM718
-LTDIE_119:
+LDIFF_SYM726=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM726
+LTDIE_121:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM719=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM719
+LDIFF_SYM727=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM720=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM720
-LTDIE_119_POINTER:
+LDIFF_SYM728=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM728
+LTDIE_121_POINTER:
 
 	.byte 13
-LDIFF_SYM721=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM721
-LTDIE_119_REFERENCE:
+LDIFF_SYM729=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM729
+LTDIE_121_REFERENCE:
 
 	.byte 14
-LDIFF_SYM722=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM722
-LTDIE_118:
+LDIFF_SYM730=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM730
+LTDIE_120:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM723=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM723
+LDIFF_SYM731=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM731
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM724=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM724
+LDIFF_SYM732=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM725=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM733=LTDIE_121_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM733
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM726=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM726
+LDIFF_SYM734=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM734
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM727=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM727
-LTDIE_118_POINTER:
+LDIFF_SYM735=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM735
+LTDIE_120_POINTER:
 
 	.byte 13
-LDIFF_SYM728=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM728
-LTDIE_118_REFERENCE:
+LDIFF_SYM736=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM736
+LTDIE_120_REFERENCE:
 
 	.byte 14
-LDIFF_SYM729=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM729
-LTDIE_120:
+LDIFF_SYM737=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM737
+LTDIE_122:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -4685,196 +4735,196 @@ LTDIE_120:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM730=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM730
-LTDIE_120_POINTER:
+LDIFF_SYM738=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM738
+LTDIE_122_POINTER:
 
 	.byte 13
-LDIFF_SYM731=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM731
-LTDIE_120_REFERENCE:
+LDIFF_SYM739=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM739
+LTDIE_122_REFERENCE:
 
 	.byte 14
-LDIFF_SYM732=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM732
-LTDIE_122:
+LDIFF_SYM740=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM740
+LTDIE_124:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM733=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM733
+LDIFF_SYM741=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM741
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM734=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM734
+LDIFF_SYM742=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM742
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM735=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM743=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM736=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM736
-LTDIE_122_POINTER:
+LDIFF_SYM744=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM744
+LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM737=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM737
-LTDIE_122_REFERENCE:
+LDIFF_SYM745=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM745
+LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM738=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM738
-LTDIE_123:
+LDIFF_SYM746=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM746
+LTDIE_125:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 20,16
-LDIFF_SYM739=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM739
+LDIFF_SYM747=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM747
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM740=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM740
+LDIFF_SYM748=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM741=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM741
-LTDIE_123_POINTER:
+LDIFF_SYM749=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM749
+LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM742=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM742
-LTDIE_123_REFERENCE:
+LDIFF_SYM750=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM750
+LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM743=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM743
-LTDIE_121:
+LDIFF_SYM751=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM751
+LTDIE_123:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 56,16
-LDIFF_SYM744=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM744
+LDIFF_SYM752=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 2,35,0,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM745=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM745
+LDIFF_SYM753=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,35,32,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM746=LTDIE_14_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM746
+LDIFF_SYM754=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM754
 	.byte 2,35,40,6
 	.asciz "_monitor"
 
-LDIFF_SYM747=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM747
+LDIFF_SYM755=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM755
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM748=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM748
-LTDIE_121_POINTER:
+LDIFF_SYM756=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM756
+LTDIE_123_POINTER:
 
 	.byte 13
-LDIFF_SYM749=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM749
-LTDIE_121_REFERENCE:
+LDIFF_SYM757=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM757
+LTDIE_123_REFERENCE:
 
 	.byte 14
-LDIFF_SYM750=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM750
+LDIFF_SYM758=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM758
 LTDIE_96:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Page"
 
 	.byte 200,3,16
-LDIFF_SYM751=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM751
+LDIFF_SYM759=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM752=LTDIE_118_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM752
+LDIFF_SYM760=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 3,35,224,2,6
 	.asciz "_allocatedFlag"
 
-LDIFF_SYM753=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM753
+LDIFF_SYM761=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 3,35,152,3,6
 	.asciz "_containerArea"
 
-LDIFF_SYM754=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM754
+LDIFF_SYM762=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM762
 	.byte 3,35,160,3,6
 	.asciz "_containerAreaSet"
 
-LDIFF_SYM755=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM755
+LDIFF_SYM763=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM763
 	.byte 3,35,192,3,6
 	.asciz "_hasAppeared"
 
-LDIFF_SYM756=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM756
+LDIFF_SYM764=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 3,35,193,3,6
 	.asciz "_logicalChildren"
 
-LDIFF_SYM757=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
+LDIFF_SYM765=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM765
 	.byte 3,35,232,2,6
 	.asciz "<ToolbarItems>k__BackingField"
 
-LDIFF_SYM758=LTDIE_120_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM758
+LDIFF_SYM766=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM766
 	.byte 3,35,240,2,6
 	.asciz "<InternalChildren>k__BackingField"
 
-LDIFF_SYM759=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM759
+LDIFF_SYM767=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 3,35,248,2,6
 	.asciz "LayoutChanged"
 
-LDIFF_SYM760=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM760
+LDIFF_SYM768=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 3,35,128,3,6
 	.asciz "Appearing"
 
-LDIFF_SYM761=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM761
+LDIFF_SYM769=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM769
 	.byte 3,35,136,3,6
 	.asciz "Disappearing"
 
-LDIFF_SYM762=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM762
+LDIFF_SYM770=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 3,35,144,3,0,7
 	.asciz "Xamarin_Forms_Page"
 
-LDIFF_SYM763=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM763
+LDIFF_SYM771=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM771
 LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM764=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM764
+LDIFF_SYM772=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM772
 LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM765=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM765
-LTDIE_125:
+LDIFF_SYM773=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM773
+LTDIE_127:
 
 	.byte 17
 	.asciz "Xamarin_Forms_INavigation"
@@ -4882,170 +4932,124 @@ LTDIE_125:
 	.byte 16,7
 	.asciz "Xamarin_Forms_INavigation"
 
-LDIFF_SYM766=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM766
-LTDIE_125_POINTER:
-
-	.byte 13
-LDIFF_SYM767=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM767
-LTDIE_125_REFERENCE:
-
-	.byte 14
-LDIFF_SYM768=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM768
-LTDIE_127:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM769=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM769
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM770=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM770
+LDIFF_SYM774=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM774
 LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM771=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM771
+LDIFF_SYM775=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM775
 LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM772=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM772
-LTDIE_126:
+LDIFF_SYM776=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM776
+LTDIE_129:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM777=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM777
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM778=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM778
+LTDIE_129_POINTER:
+
+	.byte 13
+LDIFF_SYM779=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM779
+LTDIE_129_REFERENCE:
+
+	.byte 14
+LDIFF_SYM780=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM780
+LTDIE_128:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM773=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM773
+LDIFF_SYM781=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM781
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM774=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM774
+LDIFF_SYM782=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM782
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM775=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM783=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM783
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM776=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM784=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM784
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM777=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM777
-LTDIE_126_POINTER:
+LDIFF_SYM785=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM785
+LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM778=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM778
-LTDIE_126_REFERENCE:
+LDIFF_SYM786=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM786
+LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM779=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM779
-LTDIE_124:
+LDIFF_SYM787=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM787
+LTDIE_126:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Internals_NavigationProxy"
 
 	.byte 40,16
-LDIFF_SYM780=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM780
+LDIFF_SYM788=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM788
 	.byte 2,35,0,6
 	.asciz "_inner"
 
-LDIFF_SYM781=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM781
+LDIFF_SYM789=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM789
 	.byte 2,35,16,6
 	.asciz "_modalStack"
 
-LDIFF_SYM782=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM782
+LDIFF_SYM790=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM790
 	.byte 2,35,24,6
 	.asciz "_pushStack"
 
-LDIFF_SYM783=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM791=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM791
 	.byte 2,35,32,0,7
 	.asciz "Xamarin_Forms_Internals_NavigationProxy"
 
-LDIFF_SYM784=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM784
-LTDIE_124_POINTER:
+LDIFF_SYM792=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM792
+LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM785=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM785
-LTDIE_124_REFERENCE:
+LDIFF_SYM793=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM793
+LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM786=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM786
-LTDIE_128:
+LDIFF_SYM794=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM794
+LTDIE_130:
 
 	.byte 17
 	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
 
 	.byte 16,7
 	.asciz "Xamarin_Forms_Internals_IResourceDictionary"
-
-LDIFF_SYM787=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM787
-LTDIE_128_POINTER:
-
-	.byte 13
-LDIFF_SYM788=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM788
-LTDIE_128_REFERENCE:
-
-	.byte 14
-LDIFF_SYM789=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM789
-LTDIE_129:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM790=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM790
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM791=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM791
-LTDIE_129_POINTER:
-
-	.byte 13
-LDIFF_SYM792=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM792
-LTDIE_129_REFERENCE:
-
-	.byte 14
-LDIFF_SYM793=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM793
-LTDIE_130:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM794=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM794
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
 
 LDIFF_SYM795=LTDIE_130 - Ldebug_info_start
 	.long LDIFF_SYM795
@@ -5105,295 +5109,331 @@ LTDIE_132_REFERENCE:
 	.byte 14
 LDIFF_SYM805=LTDIE_132 - Ldebug_info_start
 	.long LDIFF_SYM805
+LTDIE_133:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM806=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM806
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM807=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM807
+LTDIE_133_POINTER:
+
+	.byte 13
+LDIFF_SYM808=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM808
+LTDIE_133_REFERENCE:
+
+	.byte 14
+LDIFF_SYM809=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM809
+LTDIE_134:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM810=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM810
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM811=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM811
+LTDIE_134_POINTER:
+
+	.byte 13
+LDIFF_SYM812=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM812
+LTDIE_134_REFERENCE:
+
+	.byte 14
+LDIFF_SYM813=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM813
 LTDIE_7:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Application"
 
 	.byte 208,2,16
-LDIFF_SYM806=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM806
+LDIFF_SYM814=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM814
 	.byte 2,35,0,6
 	.asciz "_propertiesTask"
 
-LDIFF_SYM807=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM807
+LDIFF_SYM815=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM815
 	.byte 3,35,216,1,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM808=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM808
+LDIFF_SYM816=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM816
 	.byte 3,35,224,1,6
 	.asciz "_appIndexProvider"
 
-LDIFF_SYM809=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM817=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM817
 	.byte 3,35,232,1,6
-	.asciz "_isSaving"
-
-LDIFF_SYM810=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM810
-	.byte 3,35,200,2,6
 	.asciz "_logicalChildren"
 
-LDIFF_SYM811=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM818=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM818
 	.byte 3,35,240,1,6
 	.asciz "_mainPage"
 
-LDIFF_SYM812=LTDIE_96_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM812
+LDIFF_SYM819=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM819
 	.byte 3,35,248,1,6
 	.asciz "_resources"
 
-LDIFF_SYM813=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM813
+LDIFF_SYM820=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM820
 	.byte 3,35,128,2,6
-	.asciz "_saveAgain"
-
-LDIFF_SYM814=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM814
-	.byte 3,35,201,2,6
 	.asciz "<NavigationProxy>k__BackingField"
 
-LDIFF_SYM815=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM821=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM821
 	.byte 3,35,136,2,6
 	.asciz "<PanGestureId>k__BackingField"
 
-LDIFF_SYM816=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM816
-	.byte 3,35,204,2,6
+LDIFF_SYM822=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM822
+	.byte 3,35,200,2,6
 	.asciz "<SystemResources>k__BackingField"
 
-LDIFF_SYM817=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM817
+LDIFF_SYM823=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM823
 	.byte 3,35,144,2,6
 	.asciz "<InternalChildren>k__BackingField"
 
-LDIFF_SYM818=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM818
+LDIFF_SYM824=LTDIE_123_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM824
 	.byte 3,35,152,2,6
 	.asciz "ModalPopped"
 
-LDIFF_SYM819=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM825=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM825
 	.byte 3,35,160,2,6
 	.asciz "ModalPopping"
 
-LDIFF_SYM820=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM820
+LDIFF_SYM826=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM826
 	.byte 3,35,168,2,6
 	.asciz "ModalPushed"
 
-LDIFF_SYM821=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM821
+LDIFF_SYM827=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 3,35,176,2,6
 	.asciz "ModalPushing"
 
-LDIFF_SYM822=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM822
+LDIFF_SYM828=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 3,35,184,2,6
 	.asciz "PopCanceled"
 
-LDIFF_SYM823=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM829=LTDIE_22_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM829
 	.byte 3,35,192,2,0,7
 	.asciz "Xamarin_Forms_Application"
 
-LDIFF_SYM824=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM830=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM830
 LTDIE_7_POINTER:
 
 	.byte 13
-LDIFF_SYM825=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM831=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM831
 LTDIE_7_REFERENCE:
 
 	.byte 14
-LDIFF_SYM826=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM826
-LTDIE_135:
+LDIFF_SYM832=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM832
+LTDIE_137:
 
 	.byte 5
 	.asciz "UIKit_UIResponder"
 
 	.byte 40,16
-LDIFF_SYM827=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM827
+LDIFF_SYM833=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIResponder"
 
-LDIFF_SYM828=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM828
-LTDIE_135_POINTER:
+LDIFF_SYM834=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM834
+LTDIE_137_POINTER:
 
 	.byte 13
-LDIFF_SYM829=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM829
-LTDIE_135_REFERENCE:
+LDIFF_SYM835=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM835
+LTDIE_137_REFERENCE:
 
 	.byte 14
-LDIFF_SYM830=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM830
-LTDIE_134:
+LDIFF_SYM836=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM836
+LTDIE_136:
 
 	.byte 5
 	.asciz "UIKit_UIView"
 
 	.byte 48,16
-LDIFF_SYM831=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM837=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 2,35,0,6
 	.asciz "__mt_PreferredFocusedView_var"
 
-LDIFF_SYM832=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM838=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM838
 	.byte 2,35,40,0,7
 	.asciz "UIKit_UIView"
 
-LDIFF_SYM833=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM833
-LTDIE_134_POINTER:
+LDIFF_SYM839=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM839
+LTDIE_136_POINTER:
 
 	.byte 13
-LDIFF_SYM834=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM834
-LTDIE_134_REFERENCE:
+LDIFF_SYM840=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM840
+LTDIE_136_REFERENCE:
 
 	.byte 14
-LDIFF_SYM835=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM835
-LTDIE_133:
+LDIFF_SYM841=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM841
+LTDIE_135:
 
 	.byte 5
 	.asciz "UIKit_UIWindow"
 
 	.byte 48,16
-LDIFF_SYM836=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM842=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM842
 	.byte 2,35,0,0,7
 	.asciz "UIKit_UIWindow"
 
-LDIFF_SYM837=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM837
-LTDIE_133_POINTER:
+LDIFF_SYM843=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM843
+LTDIE_135_POINTER:
 
 	.byte 13
-LDIFF_SYM838=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM838
-LTDIE_133_REFERENCE:
+LDIFF_SYM844=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM844
+LTDIE_135_REFERENCE:
 
 	.byte 14
-LDIFF_SYM839=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM839
+LDIFF_SYM845=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM845
 LTDIE_3:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Platform_iOS_FormsApplicationDelegate"
 
 	.byte 64,16
-LDIFF_SYM840=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM840
+LDIFF_SYM846=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM846
 	.byte 2,35,0,6
 	.asciz "_application"
 
-LDIFF_SYM841=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM847=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM847
 	.byte 2,35,40,6
 	.asciz "_isSuspended"
 
-LDIFF_SYM842=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM848=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 2,35,56,6
 	.asciz "_window"
 
-LDIFF_SYM843=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM849=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 2,35,48,0,7
 	.asciz "Xamarin_Forms_Platform_iOS_FormsApplicationDelegate"
 
-LDIFF_SYM844=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM844
+LDIFF_SYM850=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM850
 LTDIE_3_POINTER:
 
 	.byte 13
-LDIFF_SYM845=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM845
+LDIFF_SYM851=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM851
 LTDIE_3_REFERENCE:
 
 	.byte 14
-LDIFF_SYM846=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM852=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM852
 LTDIE_2:
 
 	.byte 5
 	.asciz "AzXamarin_iOS_AppDelegate"
 
 	.byte 64,16
-LDIFF_SYM847=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM853=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM853
 	.byte 2,35,0,0,7
 	.asciz "AzXamarin_iOS_AppDelegate"
 
-LDIFF_SYM848=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM854=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM854
 LTDIE_2_POINTER:
 
 	.byte 13
-LDIFF_SYM849=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM849
+LDIFF_SYM855=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM855
 LTDIE_2_REFERENCE:
 
 	.byte 14
-LDIFF_SYM850=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM850
-LTDIE_136:
-
-	.byte 5
-	.asciz "UIKit_UIApplication"
-
-	.byte 40,16
-LDIFF_SYM851=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM851
-	.byte 2,35,0,0,7
-	.asciz "UIKit_UIApplication"
-
-LDIFF_SYM852=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM852
-LTDIE_136_POINTER:
-
-	.byte 13
-LDIFF_SYM853=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM853
-LTDIE_136_REFERENCE:
-
-	.byte 14
-LDIFF_SYM854=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM854
-LTDIE_137:
-
-	.byte 5
-	.asciz "Foundation_NSDictionary"
-
-	.byte 40,16
-LDIFF_SYM855=LTDIE_5 - Ldebug_info_start
-	.long LDIFF_SYM855
-	.byte 2,35,0,0,7
-	.asciz "Foundation_NSDictionary"
-
-LDIFF_SYM856=LTDIE_137 - Ldebug_info_start
+LDIFF_SYM856=LTDIE_2 - Ldebug_info_start
 	.long LDIFF_SYM856
-LTDIE_137_POINTER:
+LTDIE_138:
 
-	.byte 13
+	.byte 5
+	.asciz "UIKit_UIApplication"
+
+	.byte 40,16
 LDIFF_SYM857=LTDIE_137 - Ldebug_info_start
 	.long LDIFF_SYM857
-LTDIE_137_REFERENCE:
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIApplication"
+
+LDIFF_SYM858=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM858
+LTDIE_138_POINTER:
+
+	.byte 13
+LDIFF_SYM859=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM859
+LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM858=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM860=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM860
+LTDIE_139:
+
+	.byte 5
+	.asciz "Foundation_NSDictionary"
+
+	.byte 40,16
+LDIFF_SYM861=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM861
+	.byte 2,35,0,0,7
+	.asciz "Foundation_NSDictionary"
+
+LDIFF_SYM862=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM862
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM863=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM863
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM864=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 2
 	.asciz "AzXamarin.iOS.AppDelegate:FinishedLaunching"
 	.asciz "AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
@@ -5405,37 +5445,37 @@ LDIFF_SYM858=LTDIE_137 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM859=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM865=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM865
 	.byte 1,104,3
 	.asciz "app"
 
-LDIFF_SYM860=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM866=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM866
 	.byte 2,141,32,3
 	.asciz "options"
 
-LDIFF_SYM861=LTDIE_137_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM861
+LDIFF_SYM867=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2,141,40,11
 	.asciz "V_0"
 
-LDIFF_SYM862=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM862
+LDIFF_SYM868=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM863=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM863
+LDIFF_SYM869=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM869
 Lfde2_start:
 
 	.long 0
 	.align 3
 	.quad AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-LDIFF_SYM864=Lme_2 - AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-	.long LDIFF_SYM864
+LDIFF_SYM870=Lme_2 - AzXamarin_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+	.long LDIFF_SYM870
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11
 	.align 3
@@ -5454,22 +5494,22 @@ Lfde2_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM865=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM871=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM866=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM866
+LDIFF_SYM872=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM872
 Lfde3_start:
 
 	.long 0
 	.align 3
 	.quad AzXamarin_iOS_AppDelegate__ctor
 
-LDIFF_SYM867=Lme_3 - AzXamarin_iOS_AppDelegate__ctor
-	.long LDIFF_SYM867
+LDIFF_SYM873=Lme_3 - AzXamarin_iOS_AppDelegate__ctor
+	.long LDIFF_SYM873
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3

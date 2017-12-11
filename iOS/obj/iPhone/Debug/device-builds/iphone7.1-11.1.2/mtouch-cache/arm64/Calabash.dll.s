@@ -213,7 +213,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "E21BF992-A346-4D72-A43B-B3F725643C2E"
+	.asciz "38BBEDE7-B7EC-45D6-A5D4-D63BCF059924"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -291,12 +291,12 @@ _mono_aot_file_info:
 	.quad unbox_trampoline_addresses
 
 	.long 25,208,1,2,70,391195135,0,318
-	.long 128,8,8,10,0,24,856,528
+	.long 128,8,8,10,0,24,840,512
 	.long 344,184,0,288,320,232,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 172,193,112,84,200,22,109,197,118,140,202,89,233,207,33,1
+	.byte 72,193,133,105,173,170,23,34,88,45,93,65,251,17,71,72
 	.globl _mono_aot_module_Calabash_info
 	.align 3
 _mono_aot_module_Calabash_info:

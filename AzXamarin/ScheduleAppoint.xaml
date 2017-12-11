@@ -5,8 +5,8 @@
 
          <RelativeLayout BackgroundColor="#0A93B9">
         <StackLayout VerticalOptions="End" HorizontalOptions="Center" HeightRequest="50"
-               Padding="8,550" >
-            <Image Source="HeartLine.png" VerticalOptions="End"/>
+               Padding="8,520" >
+            <Image Source="HeartLine.png" VerticalOptions="End" HeightRequest="200" WidthRequest="500"/>
                 </StackLayout>
 
             
@@ -23,7 +23,6 @@
                  <Button  VerticalOptions="EndAndExpand" Image="back.png"
                     WidthRequest="30"
                     HeightRequest="20" Clicked="HomePg">
-
                 </Button>
                 
            <Label Text="Schedule Appointment"  TextColor="White" 
@@ -31,11 +30,7 @@
                     VerticalOptions="EndAndExpand"  
                   /> 
             </StackLayout>
-           
-
-
-
-           <StackLayout  Orientation="Vertical" VerticalOptions="Center"
+          <StackLayout  Orientation="Vertical" VerticalOptions="Center"
            HorizontalOptions="Center" Padding= "30,-30,10,-10" Spacing="30"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
@@ -52,8 +47,8 @@
     <RowDefinition Height="8*" />
     <RowDefinition Height="8*" />
     <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
+                        <RowDefinition Height="9*" />
+                        <RowDefinition Height="9*" />
                                            
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
@@ -99,14 +94,14 @@
                         HorizontalOptions="Start"
        HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
                 
-                <DatePicker Grid.Row="4" Grid.Column="1"  WidthRequest="300" 
+                <DatePicker Grid.Row="4" Grid.Column="1"  WidthRequest="300" HeightRequest="50"
                          HorizontalOptions="Center" 
                 BackgroundColor="#E5F0F4"
                 VerticalOptions="Center"     TextColor="Gray"  />  
             <Image Grid.Row="5" Grid.Column="0" Source = "./social.png" 
                         HorizontalOptions="Start"
                    HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />    
-                <TimePicker Grid.Row="5" Grid.Column="1" WidthRequest="300" 
+                <TimePicker Grid.Row="5" Grid.Column="1" WidthRequest="300" HeightRequest="50"
                          HorizontalOptions="Center" 
                 BackgroundColor="#E5F0F4"
                 VerticalOptions="Center" TextColor="Gray"  />

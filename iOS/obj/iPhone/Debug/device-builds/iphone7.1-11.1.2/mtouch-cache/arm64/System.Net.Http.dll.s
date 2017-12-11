@@ -57624,7 +57624,7 @@ bl _p_731
 .loc 50 70 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940f830
+.word 0xf940fc30
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000a60
@@ -57642,7 +57642,7 @@ ldr x1, [x16, #1272]
 .loc 50 71 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf940a430
+.word 0xf940a830
 .word 0xd63f0200
 .word 0xb9801801
 .word 0xeb1f003f
@@ -57687,7 +57687,7 @@ bl _p_174
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0xf940ac50
+.word 0xf940b050
 .word 0xd63f0200
 .word 0xaa0003e2
 .word 0xaa0203e0
@@ -57721,7 +57721,7 @@ bl _p_731
 .loc 50 82 0
 .word 0xaa1903e0
 .word 0xf9400321
-.word 0xf9410830
+.word 0xf9410c30
 .word 0xd63f0200
 .word 0x53001c00
 .word 0x34000be0
@@ -65237,7 +65237,7 @@ _mono_aot_file_info:
 	.long 1272,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 247,189,7,103,8,108,136,114,226,123,100,190,100,198,98,229
+	.byte 187,172,31,236,47,97,0,72,62,146,79,3,251,171,238,215
 	.globl _mono_aot_module_System_Net_Http_info
 	.align 3
 _mono_aot_module_System_Net_Http_info:

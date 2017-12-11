@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AzXamarin.Signup">
 	<ContentPage.Content>
-
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand"
             BackgroundColor= "Transparent"
               HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="10">
@@ -14,8 +15,7 @@
                 
 
             <Grid  Padding="-30,50,20,-100" ColumnSpacing="10" RowSpacing="30" VerticalOptions="Center" HorizontalOptions="Center"
-                    BackgroundColor="Transparent" 
-                    >
+                    BackgroundColor="Transparent" >
  <Grid.RowDefinitions>
     <RowDefinition Height="7*" />
     <RowDefinition Height="8*" />

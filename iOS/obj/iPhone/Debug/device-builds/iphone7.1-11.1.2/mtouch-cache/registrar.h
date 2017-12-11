@@ -279,6 +279,7 @@
 
 @interface Xamarin_Forms_Platform_iOS_SearchBarRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
+	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
 @end
 
@@ -401,6 +402,7 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewSafeAreaInsetsDidChange;
 	-(void) viewDidAppear:(BOOL)p0;
 	-(void) viewDidDisappear:(BOOL)p0;
 	-(void) viewDidLoad;

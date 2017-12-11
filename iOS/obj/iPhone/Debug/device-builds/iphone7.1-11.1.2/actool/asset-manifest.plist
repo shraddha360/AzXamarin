@@ -6,22 +6,22 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@3x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon29x29@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon29x29@3x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon40x40@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon40x40@3x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon60x60@3x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20~ipad.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@2x~ipad.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-800-Portrait-736h@3x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-800-667h@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-700@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-700-568h@2x.png</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/Assets.car</string>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/partial-info.plist</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@3x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon29x29@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon29x29@3x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon40x40@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon40x40@3x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon60x60@3x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20~ipad.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/AppIcon20x20@2x~ipad.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-800-Portrait-736h@3x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-800-667h@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-700@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/LaunchImage-700-568h@2x.png</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/bundle/Assets.car</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/partial-info.plist</string>
 		</array>
 	</dict>
 	<key>com.apple.actool.document.notices</key>
@@ -32,7 +32,7 @@
 				<string>./LaunchImage.launchimage/[iphone][736h][3x][portrait][full-screen][8.0]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
 			<key>type</key>
@@ -44,7 +44,7 @@
 				<string>./LaunchImage.launchimage/[iphone][667h][2x][portrait][full-screen][8.0]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>This launch image only applies to iOS 6.x and prior but the minimum deployment is 7.0 or later.</string>
 			<key>type</key>
@@ -59,9 +59,9 @@
 				<string>./AppIcon.appiconset</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>A 76x76 app icon is required for iPad apps targeting iOS 7, 8, and 9</string>
+			<string>A 76x76@1x app icon is required for iPad apps targeting iOS 7, 8, and 9</string>
 			<key>type</key>
 			<string>Missing Content</string>
 		</dict>
@@ -71,7 +71,7 @@
 				<string>./AppIcon.appiconset</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later</string>
 			<key>type</key>
@@ -83,7 +83,7 @@
 				<string>./AppIcon.appiconset</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later</string>
 			<key>type</key>
@@ -95,7 +95,7 @@
 				<string>./AppIcon.appiconset</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>A 1024x1024 app store icon is required for iOS apps</string>
 			<key>type</key>
@@ -107,7 +107,7 @@
 				<string>./LaunchImage.launchimage/[ipad][][2x][portrait][full-screen][7.0][1d][(null)]</string>
 			</array>
 			<key>catalog</key>
-			<string>/Users/shraddha/Downloads/AzXamarin-b0cc0e216386596d216dd80a5b52a579056afa16/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<string>/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The launch image set "LaunchImage" has an unassigned child.</string>
 			<key>type</key>
