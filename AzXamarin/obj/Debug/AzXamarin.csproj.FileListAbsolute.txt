@@ -83,6 +83,10 @@
 /Users/shraddha/Downloads/AzXamarin-547933bd00e753bdd18a3cb2a8333983768fb82e/AzXamarin/obj/Debug/AzXamarin.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/AzXamarin.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/AzXamarin.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.Extension.NewtonSoft.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Newtonsoft.Json.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/System.Json.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Core.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.dll
@@ -92,6 +96,11 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Newtonsoft.Json.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.Extension.NewtonSoft.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.Extension.NewtonSoft.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs

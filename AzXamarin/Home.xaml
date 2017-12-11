@@ -22,7 +22,6 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
-                
                  <Image Source="./appoin.png" WidthRequest="100" HeightRequest="80"   >
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Visitapp"/> 

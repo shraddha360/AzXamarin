@@ -37,13 +37,13 @@
       
   </Grid.ColumnDefinitions>
                     
-                <Entry Grid.Row="0" Grid.Column="1"  BackgroundColor="#E5F0F4"
+                <Entry x:Name="emailEntry" Grid.Row="0" Grid.Column="1"  BackgroundColor="#E5F0F4"
                         Placeholder="Enter Email "  HeightRequest="-10"
                     PlaceholderColor="Gray" TextColor= "Gray" 
                     WidthRequest="400" HorizontalOptions="CenterAndExpand" Text=""  >
                 </Entry>
                  
-                <Entry  Grid.Row="1" Grid.Column="1" HeightRequest="-10"
+                <Entry x:Name="passwordEntry" Grid.Row="1" Grid.Column="1" HeightRequest="-10"
                         Placeholder="Enter Password " 
                     PlaceholderColor="Gray" IsPassword="true" 
                         TextColor= "Gray" BackgroundColor="#E5F0F4" 
@@ -73,7 +73,7 @@
           <Button  Grid.Row="0" Grid.Column="0" 
           Text = "Submit" FontSize="20" HeightRequest="50" 
           TextColor="White" WidthRequest="100"
-          Clicked= "HomePge"> </Button>
+          Clicked= "Handle_Clicked"> </Button>
                 
        <Button Grid.Row="1" Grid.Column="0"  Text = "Create an Account" 
                     TextColor="#008BAA"  FontSize="20"

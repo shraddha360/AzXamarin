@@ -331,6 +331,8 @@
 	-r \
 	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Newtonsoft.Json.dll \
+	-r \
 	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
 	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \

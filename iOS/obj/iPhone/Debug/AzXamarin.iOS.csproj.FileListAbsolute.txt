@@ -311,6 +311,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Newtonsoft.Json.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/AzXamarin.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Core.dll.mdb
@@ -319,6 +320,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Xamarin.Forms.Xaml.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/Newtonsoft.Json.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
@@ -353,6 +355,10 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csprojResolveAssemblyReference.cache
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csproj.CoreCompileInputs.cache
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.exe
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/ibtool/_BundleResourceWithLogicalName.items
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/_PartialAppManifest.items
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/_BundleResourceWithLogicalName.items
@@ -422,8 +428,4 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/user-image-rounded.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/Splash.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/
-/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csprojResolveAssemblyReference.cache
-/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csproj.CoreCompileInputs.cache
-/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.exe
-/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/device-builds/iphone7.1-11.1.2/mtouch.stamp

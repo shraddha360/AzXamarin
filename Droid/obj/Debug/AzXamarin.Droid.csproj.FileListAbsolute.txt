@@ -75,6 +75,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Newtonsoft.Json.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/AzXamarin.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/FormsViewGroup.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/FormsViewGroup.dll.mdb
@@ -86,6 +87,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/bin/Debug/Newtonsoft.Json.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/AzXamarin.Droid.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/AzXamarin.Droid.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/AzXamarin.Droid.dll
