@@ -31,15 +31,15 @@ namespace AzXamarin
 
         public LoginPage()
         {
-           
+
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
 
         }
 
-            
-       
+
+
         public void Signup(object sender, System.EventArgs e)
         {
 
@@ -47,72 +47,83 @@ namespace AzXamarin
         }
         public void HomePge(object sender, System.EventArgs e)
         {
-            
+
 
             Navigation.PushAsync(new Home());
         }
 
-       
+
         private async Task<string> Login()
         {
             HttpClient client = new HttpClient();
+
             client.BaseAddress = new Uri("http://ris.dev.aztechradiology.helensys.com/Account/Authenticate");
 
-            string jsonData = "{\"request\":{\"Username\":\""+eid+"\",\"Password\":\""+pass+"\"}}";
 
-                    client.DefaultRequestHeaders.Add("contentType","application/json");
-                    client.DefaultRequestHeaders.Add("Accept", "application/json");
+            string jsonData = "{\"request\":{\"Username\":\"" + eid + "\",\"Password\":\"" + pass + "\"}}";
 
-                    
-                        var content = new StringContent(jsonData, System.Text.Encoding.UTF8, "application/json");
-                        HttpResponseMessage response = await client.PostAsync("", content);
+            client.DefaultRequestHeaders.Add("contentType", "application/json");
+            client.DefaultRequestHeaders.Add("Accept", "application/json");
 
-                        var result = await response.Content.ReadAsStringAsync();
-                        ro = JsonConvert.DeserializeObject<RootObject>(result);
-            if (ro.aaData.Success== true){
 
-                await DisplayAlert("Login", "Successful", "OK");
-                await Navigation.PushAsync(new Home());
+            var content = new StringContent(jsonData, System.Text.Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PostAsync("", content);
 
-            }
-            else
-            {
-                await DisplayAlert("Warning", "Email or password not found, please try again", "OK");
-            }
-                     //   ro = JsonConvert.DeserializeObject<RootObject>(response.Content.ReadAsStringAsync().Result);
-                       // ro = JsonUtility.FromJson<RootObject>(result);
-            return (result);
+            var result = await response.Content.ReadAsStringAsync();
 
            
-                    
-                   
-    }
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
 
 
+                    ro = JsonConvert.DeserializeObject<RootObject>(result);
+
+                    if (ro.aaData.Success == true)
+                    {
+
+                        await DisplayAlert("Login", "Successful", "OK");
+                        await Navigation.PushAsync(new Home());
+
+                    }
+
+                    else
+                    {
+                        await DisplayAlert("Warning", "Email or password not found, please try again", "OK");
+                    }
+
+                }
+            
+
+
+
+
+            //   ro = JsonConvert.DeserializeObject<RootObject>(response.Content.ReadAsStringAsync().Result);
+            // ro = JsonUtility.FromJson<RootObject>(result);
+            return (result);
+
+        }
+
+
+       
         public async void Handle_Clicked(object sender, System.EventArgs e)
         {
 
+            try
+            {
+                eid = emailEntry.Text.ToString();
+                pass = passwordEntry.Text.ToString();
 
-            eid = emailEntry.Text.ToString();
-            pass = passwordEntry.Text.ToString();
-            await Login();
+                await Login();
 
+            }
+            catch(Exception ){
 
-            //if(authen != null){
-
-            //    await Navigation.PushAsync(new Home());
-            //}
-            //else
-            //{
-            //    await DisplayAlert("Warning", "Email or password not found, please try again", "OK");
-            //}
-
-
-
-            //Debug.WriteLine(eid);
-
+                await DisplayAlert("Warning", "Please! check Internet Connection", "OK");
+            }
 
         }
+    
+
 
 
 

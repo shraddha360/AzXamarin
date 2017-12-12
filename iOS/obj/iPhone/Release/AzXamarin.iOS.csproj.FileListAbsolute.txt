@@ -122,3 +122,4 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Release/optimized/user-icon.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Release/optimized/user-image-rounded.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Release/optimized/Splash.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Release/mtouch.stamp

@@ -33,6 +33,7 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.RegularExpressions.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Diagnostics.Tools.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Text.Encoding.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Net.Primitives.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Resources.ResourceManager.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mono/Xamarin.iOS/Facades/System.Xml.XDocument.dll

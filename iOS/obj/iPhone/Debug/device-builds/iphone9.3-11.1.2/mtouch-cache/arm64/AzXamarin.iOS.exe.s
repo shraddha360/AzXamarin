@@ -145,7 +145,7 @@ ldr x16, [x16, #192]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 1 17 0
+.loc 1 20 0
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -162,7 +162,7 @@ bl _p_1
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 1 18 0
+.loc 1 21 0
 .word 0xf9400fb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "D9F1F67B-3CBF-4B34-AFC3-4E1E7BC6BE39"
+	.asciz "1D0C9837-DE28-4483-AF36-15DD61D2618C"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -566,7 +566,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 163,235,158,49,245,16,7,15,194,7,16,225,188,168,163,53
+	.byte 74,150,197,8,65,134,121,134,248,112,14,245,151,86,53,124
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:
