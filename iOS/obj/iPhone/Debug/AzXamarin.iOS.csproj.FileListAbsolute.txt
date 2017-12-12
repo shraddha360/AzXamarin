@@ -359,6 +359,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.exe
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/device-builds/iphone7.1-11.1.2/mtouch.stamp
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/ibtool/_BundleResourceWithLogicalName.items
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/_PartialAppManifest.items
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/actool/_BundleResourceWithLogicalName.items
@@ -428,4 +429,3 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/user-image-rounded.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/Splash.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/device-builds/iphone7.1-11.1.2/optimized/
-/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Debug/device-builds/iphone7.1-11.1.2/mtouch.stamp

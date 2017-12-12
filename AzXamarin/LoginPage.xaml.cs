@@ -23,8 +23,9 @@ namespace AzXamarin
     public partial class LoginPage : ContentPage
     {
 
-       
         string eid;
+        string pass;
+
         RootObject ro;
 
 
@@ -57,7 +58,7 @@ namespace AzXamarin
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("http://ris.dev.aztechradiology.helensys.com/Account/Authenticate");
 
-                    string jsonData = "{\"request\":{\"Username\":\""+eid+"\",\"Password\":\"Power@1234\"}}";
+            string jsonData = "{\"request\":{\"Username\":\""+eid+"\",\"Password\":\""+pass+"\"}}";
 
                     client.DefaultRequestHeaders.Add("contentType","application/json");
                     client.DefaultRequestHeaders.Add("Accept", "application/json");
@@ -90,10 +91,25 @@ namespace AzXamarin
 
         public async void Handle_Clicked(object sender, System.EventArgs e)
         {
+
+
             eid = emailEntry.Text.ToString();
+            pass = passwordEntry.Text.ToString();
             await Login();
 
-            Debug.WriteLine(eid);
+
+            //if(authen != null){
+
+            //    await Navigation.PushAsync(new Home());
+            //}
+            //else
+            //{
+            //    await DisplayAlert("Warning", "Email or password not found, please try again", "OK");
+            //}
+
+
+
+            //Debug.WriteLine(eid);
 
 
         }

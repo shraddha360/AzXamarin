@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Mon Dec  4 20:59:09 EST 2017)"
 	.asciz "AzXamarin.iOS.exe"
 	.asciz ""
 
@@ -483,7 +483,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "1748353E-D0D5-4643-ACD8-1CB14779455A"
+	.asciz "CBC949DE-3C18-42EA-A2C5-283CD864AE29"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -566,7 +566,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 47,193,212,227,85,205,157,148,144,111,52,158,197,177,208,113
+	.byte 177,135,60,194,205,113,164,202,241,153,152,69,64,13,145,36
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:

@@ -8,8 +8,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <CoreSpotlight/CoreSpotlight.h>
-#import <QuartzCore/QuartzCore.h>
 #import <CloudKit/CloudKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import <Intents/Intents.h>
 #import <GLKit/GLKit.h>
 #import <CoreGraphics/CoreGraphics.h>
@@ -31,14 +31,14 @@
 @class UIKit_UIView_UIViewAppearance;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class __UIPanGestureRecognizer;
+@class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIControl_UIControlAppearance;
+@class UIKit_UIButton_UIButtonAppearance;
 @class __UIRotationGestureRecognizer;
 @class __UITapGestureRecognizer;
 @class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
-@class UIKit_UIBarButtonItem_Callback;
-@class UIKit_UIButton_UIButtonAppearance;
 @class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
@@ -278,6 +278,7 @@
 
 @interface Xamarin_Forms_Platform_iOS_SearchBarRenderer : Xamarin_Forms_Platform_iOS_ViewRenderer_2 {
 }
+	-(CGSize) sizeThatFits:(CGSize)p0;
 	-(id) init;
 @end
 
@@ -400,6 +401,7 @@
 	-(id) retain;
 	-(int) xamarinGetGCHandle;
 	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(void) viewSafeAreaInsetsDidChange;
 	-(void) viewDidAppear:(BOOL)p0;
 	-(void) viewDidDisappear:(BOOL)p0;
 	-(void) viewDidLoad;

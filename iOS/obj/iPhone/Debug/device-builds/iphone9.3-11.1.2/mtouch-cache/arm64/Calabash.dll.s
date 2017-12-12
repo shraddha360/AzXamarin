@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Mon Dec  4 20:59:09 EST 2017)"
 	.asciz "Calabash.dll"
 	.asciz ""
 
@@ -296,7 +296,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 174,89,46,126,155,222,118,151,118,44,173,146,224,4,98,249
+	.byte 152,58,51,12,230,208,131,104,209,16,140,48,43,100,84,209
 	.globl _mono_aot_module_Calabash_info
 	.align 3
 _mono_aot_module_Calabash_info:

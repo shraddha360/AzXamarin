@@ -1,6 +1,6 @@
-# Version: 11.3.0.47 (xcode9.1: 51128b8c)
+# Version: 11.6.1.2 (xcode9.2: 6857dfcc)
 # [first argument, ignore] # --cache
-/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mtouch/mtouch.exe \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/lib/mtouch/mtouch.exe \
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Release/mtouch-cache \
 	--dev \
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Release/AzXamarin.iOS.app \
@@ -10,7 +10,7 @@
 	--sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--sdk \
-	11.1 \
+	11.2 \
 	--targetver \
 	8.0 \
 	--aot-options=-O=float32 \
@@ -22,7 +22,7 @@
 	-r \
 	/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/AzXamarin.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.TestCloud.Agent.0.20.3/lib/Xamarin.iOS10/Calabash.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.TestCloud.Agent.0.21.4/lib/Xamarin.iOS/Calabash.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -32,13 +32,13 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
@@ -318,83 +318,85 @@
 	-r \
 	/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/AzXamarin.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.TestCloud.Agent.0.20.3/lib/Xamarin.iOS10/Calabash.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.TestCloud.Agent.0.21.4/lib/Xamarin.iOS/Calabash.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
 	-r \
-	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.4.0.280/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/shraddha/Documents/GitHub/AzXamarin/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/bin/iPhone/Release/AzXamarin.iOS.exe \

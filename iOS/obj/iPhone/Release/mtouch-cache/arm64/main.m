@@ -15,6 +15,9 @@ extern void *mono_aot_module_System_Runtime_Serialization_info;
 extern void *mono_aot_module_System_ServiceModel_Internals_info;
 extern void *mono_aot_module_AzXamarin_info;
 extern void *mono_aot_module_Xamarin_Forms_Xaml_info;
+extern void *mono_aot_module_Newtonsoft_Json_info;
+extern void *mono_aot_module_System_Xml_Linq_info;
+extern void *mono_aot_module_Microsoft_CSharp_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -33,6 +36,9 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_System_ServiceModel_Internals_info);
 	mono_aot_register_module (mono_aot_module_AzXamarin_info);
 	mono_aot_register_module (mono_aot_module_Xamarin_Forms_Xaml_info);
+	mono_aot_register_module (mono_aot_module_Newtonsoft_Json_info);
+	mono_aot_register_module (mono_aot_module_System_Xml_Linq_info);
+	mono_aot_register_module (mono_aot_module_Microsoft_CSharp_info);
 
 }
 
@@ -51,7 +57,7 @@ void xamarin_setup_impl ()
 	xamarin_init_mono_debug = FALSE;
 	xamarin_executable_name = "AzXamarin.iOS.exe";
 	mono_use_llvm = FALSE;
-	xamarin_log_level = 2;
+	xamarin_log_level = 0;
 	xamarin_arch_name = "arm64";
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeDisable;
 	setenv ("MONO_GC_PARAMS", "nursery-size=512k,major=marksweep", 1);
