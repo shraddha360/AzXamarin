@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup2">
-	<ContentPage.Content>
+    <ContentPage.Content>
 
           <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
               HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="10"
             BackgroundColor="Transparent" >
-              <Image Source="helenzys-small.png" BackgroundColor="Transparent" 
+              <Image Source="helenzyssmall.png" BackgroundColor="Transparent" 
             VerticalOptions="Start"  />
             
                  <Label Text="Create New Account"  TextColor="#36454f" 
@@ -96,5 +96,5 @@
                   </Button>
                 </StackLayout>
             </StackLayout>
-	</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

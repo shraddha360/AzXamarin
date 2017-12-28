@@ -144,7 +144,6 @@
     <BundleResource Include="Resources\address.png" />
     <BundleResource Include="Resources\appoin.png" />
     <BundleResource Include="Resources\Aprikas_light_Demo.otf" />
-    <BundleResource Include="Resources\back.png" />
     <BundleResource Include="Resources\box.png" />
     <BundleResource Include="Resources\circle.png" />
     <BundleResource Include="Resources\city.png" />
@@ -168,7 +167,7 @@
     <BundleResource Include="Resources\social.png" />
     <BundleResource Include="Resources\state.png" />
     <BundleResource Include="Resources\telephone.png" />
-    <BundleResource Include="Resources\welcome-05.png" />
+    <BundleResource Include="Resources\welcomeImg.png" />
     <BundleResource Include="Resources\attach-icon.png" />
     <BundleResource Include="Resources\attach-icon.png.meta" />
     <BundleResource Include="Resources\az-tech-logo.png" />
@@ -193,10 +192,10 @@
     <BundleResource Include="Resources\helensys-logo-vertical.png.meta" />
     <BundleResource Include="Resources\helensys-logo.png" />
     <BundleResource Include="Resources\helensys-logo.png.meta" />
-    <BundleResource Include="Resources\Helenzys-big.png" />
+    <BundleResource Include="Resources\Helenzysbig.png" />
     <BundleResource Include="Resources\Helenzys-big.png.meta" />
-    <BundleResource Include="Resources\helenzys-small.png" />
-    <BundleResource Include="Resources\helenzys-small.png.meta" />
+    <BundleResource Include="Resources\helenzyssmall.png" />
+    <BundleResource Include="Resources\helenzyssmall.png.meta" />
     <BundleResource Include="Resources\image-uploaded.png" />
     <BundleResource Include="Resources\image-uploaded.png.meta" />
     <BundleResource Include="Resources\location-icon.png" />
@@ -231,7 +230,7 @@
     <BundleResource Include="Resources\radio-selected.png.meta" />
     <BundleResource Include="Resources\radio-unselected.png" />
     <BundleResource Include="Resources\radio-unselected.png.meta" />
-    <BundleResource Include="Resources\sign-in-button.png" />
+    <BundleResource Include="Resources\signinbutton.png" />
     <BundleResource Include="Resources\sign-in-button.png.meta" />
     <BundleResource Include="Resources\sign-in-txt-field-bg.png" />
     <BundleResource Include="Resources\sign-in-txt-field-bg.png.meta" />
@@ -244,6 +243,7 @@
     <BundleResource Include="Resources\user-image-rounded.png" />
     <BundleResource Include="Resources\user-image-rounded.png.meta" />
     <BundleResource Include="Resources\Splash.png" />
+    <BundleResource Include="Resources\backicon.png" />
   </ItemGroup>
   <ItemGroup>
     <AtlasTexture Include="Resources\Lato-Light.ttf" />

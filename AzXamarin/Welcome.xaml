@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="AzXamarin.Welcome">
+    x:Class="AzXamarin.Welcome" BackgroundColor="#008BAA" >
 	<ContentPage.Content>
-   <RelativeLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-           <Image Source="./welcome-05.png" Aspect="Fill"  />
-
-             <StackLayout Orientation="Vertical" 
-                VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
-                Padding="0,125" Spacing="10"
-     RelativeLayout.WidthConstraint=
-         "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-     RelativeLayout.HeightConstraint=
-         "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
+  <StackLayout>
+        <StackLayout Orientation="Vertical" 
+                VerticalOptions="Start" HorizontalOptions="Center" 
+                Padding="0,80" Spacing="10">
 
                  <Label Text="Welcome"  TextColor="White" 
                     FontSize="50" HorizontalOptions="Center" FontFamily="Lato-Light.ttf"
@@ -26,27 +16,20 @@
                 FontSize="20" HorizontalTextAlignment="Center"/>
 </StackLayout>
             
- <StackLayout Orientation="Vertical" VerticalOptions="End"
-                HorizontalOptions="Center" Padding="0,50" Spacing="20"
-     RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}" >
+ <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                HorizontalOptions="Center" Padding="-10,150" Spacing="-30">
                 
-         <Grid  Padding="60,10,20,-100" ColumnSpacing="-50" RowSpacing="10" 
+         <Grid   ColumnSpacing="0" RowSpacing="10" 
                     VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="150">
  <Grid.RowDefinitions>
-    <RowDefinition Height="80" />
-    <RowDefinition Height="40" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
     <RowDefinition Height="4*" />
-    <RowDefinition Height="40" />
-      <RowDefinition Height="40" />
+    <RowDefinition Height="4*" />
+      <RowDefinition Height="4*" />
                         
-                                          
   </Grid.RowDefinitions>
-  <Grid.ColumnDefinitions  >
+  <Grid.ColumnDefinitions>
     <ColumnDefinition Width="100"  />
     <ColumnDefinition Width="200" />
       <ColumnDefinition Width="100"  />
@@ -54,21 +37,21 @@
   </Grid.ColumnDefinitions>
 
                     
-          <Image Source = "sign-in-button.png" Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="200"/>           
+          <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="200"/>           
           <Button Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20"
           TextColor="White" WidthRequest="150" HeightRequest="50"  VerticalOptions="Center"
-                        HorizontalOptions="Center"
+                        HorizontalOptions="Center" BackgroundColor="Transparent"
           Clicked= "Loginpge">
           </Button>
     </Grid>
 
   <Grid  HeightRequest="150" 
-                    Padding="60,0,20,-80" ColumnSpacing="-50" RowSpacing="10" 
-                    VerticalOptions="Center" HorizontalOptions="Center">
+                     ColumnSpacing="0" RowSpacing="10" 
+                    VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
                    
  <Grid.RowDefinitions>
-    <RowDefinition Height="80" />
-    <RowDefinition Height="40" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
     <RowDefinition Height="4*" />
     <RowDefinition Height="4*" />
       <RowDefinition Height="4*" />
@@ -81,17 +64,17 @@
       <ColumnDefinition Width="100"  />
     <ColumnDefinition Width="200" />
   </Grid.ColumnDefinitions>
-       <Image  Source = "sign-in-button.png" Grid.Row="0"
+       <Image  Source = "signinbutton.png" Grid.Row="0" 
                     Grid.Column="1" HeightRequest="80" WidthRequest="200"/>    
         <Button  Grid.Row="0" Grid.Column="1" FontSize="20" 
-                        Text = "SIGN UP" TextColor="White" 
+                        Text = "SIGN UP" TextColor="White"  BackgroundColor="Transparent"
                         VerticalOptions="Center" HorizontalOptions="Center"
                         WidthRequest="150" HeightRequest="50"
         Clicked= "Sign" ></Button>  
                   
                 </Grid>
                 </StackLayout>
-        </RelativeLayout>
+        </StackLayout>
 	</ContentPage.Content>
 
     

@@ -23512,7 +23512,7 @@ _mono_aot_file_info:
 	.long 440,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 190,57,49,219,6,148,150,179,58,88,129,91,223,233,208,223
+	.byte 202,208,207,125,78,117,208,84,223,183,27,109,248,154,130,3
 	.globl _mono_aot_module_System_Xml_Linq_info
 	.align 3
 _mono_aot_module_System_Xml_Linq_info:

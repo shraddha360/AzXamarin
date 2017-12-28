@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,7 +27,6 @@
     <resources>
         <image name="address.png" width="66" height="69"/>
         <image name="appoin.png" width="100" height="104"/>
-        <image name="back.png" width="50" height="35"/>
         <image name="box.png" width="527" height="595"/>
         <image name="circle.png" width="102" height="101"/>
         <image name="city.png" width="56" height="69"/>
@@ -50,7 +49,7 @@
         <image name="social.png" width="52" height="51"/>
         <image name="state.png" width="50" height="69"/>
         <image name="telephone.png" width="62" height="63"/>
-        <image name="welcome-05.png" width="3126" height="5560"/>
+        <image name="welcomeImg.png" width="3126" height="5560"/>
         <image name="attach-icon.png" width="65" height="65"/>
         <image name="az-tech-logo.png" width="610" height="82"/>
         <image name="checkbox-checked.png" width="51" height="51"/>
@@ -63,8 +62,6 @@
         <image name="header-bg.png" width="1080" height="188"/>
         <image name="helensys-logo-vertical.png" width="600" height="164"/>
         <image name="helensys-logo.png" width="600" height="400"/>
-        <image name="Helenzys-big.png" width="1081" height="710"/>
-        <image name="helenzys-small.png" width="1081" height="450"/>
         <image name="image-uploaded.png" width="120" height="100"/>
         <image name="location-icon.png" width="30" height="30"/>
         <image name="pdf-uploaded.png" width="120" height="100"/>
@@ -82,12 +79,15 @@
         <image name="previous-icon.png" width="50" height="50"/>
         <image name="radio-selected.png" width="60" height="60"/>
         <image name="radio-unselected.png" width="60" height="60"/>
-        <image name="sign-in-button.png" width="560" height="140"/>
+        <image name="signinbutton.png" width="560" height="140"/>
         <image name="sign-in-txt-field-bg.png" width="890" height="110"/>
         <image name="sign-up-bg.png" width="1080" height="450"/>
         <image name="signin-bg.png" width="1080" height="710"/>
         <image name="user-icon.png" width="70" height="70"/>
         <image name="user-image-rounded.png" width="500" height="500"/>
         <image name="Splash.png" width="1081" height="1920"/>
+        <image name="Helenzysbig.png" width="1081" height="710"/>
+        <image name="helenzyssmall.png" width="1081" height="450"/>
+        <image name="backicon.png" width="60" height="60"/>
     </resources>
 </document>

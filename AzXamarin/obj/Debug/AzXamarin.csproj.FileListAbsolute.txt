@@ -101,7 +101,6 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.Extension.NewtonSoft.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/DocaLabs.Http.Client.Extension.NewtonSoft.xml
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.AzXamarinPage.xaml.g.cs
@@ -117,3 +116,4 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.ScheduleAppoint.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csprojResolveAssemblyReference.cache

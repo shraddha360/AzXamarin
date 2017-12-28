@@ -66,32 +66,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\address.png" />
-    <EmbeddedResource Include="Resources\appoin.png" />
-    <EmbeddedResource Include="Resources\back.png" />
-    <EmbeddedResource Include="Resources\box.png" />
-    <EmbeddedResource Include="Resources\circle.png" />
-    <EmbeddedResource Include="Resources\city.png" />
-    <EmbeddedResource Include="Resources\dob.png" />
-    <EmbeddedResource Include="Resources\email.png" />
-    <EmbeddedResource Include="Resources\gender.png" />
-    <EmbeddedResource Include="Resources\hamburger.png" />
-    <EmbeddedResource Include="Resources\HeartLine.png" />
-    <EmbeddedResource Include="Resources\History.png" />
-    <EmbeddedResource Include="Resources\Login_Name.png" />
-    <EmbeddedResource Include="Resources\Login_passw.png" />
-    <EmbeddedResource Include="Resources\login.png" />
-    <EmbeddedResource Include="Resources\loginscreen.png" />
-    <EmbeddedResource Include="Resources\mobile.png" />
-    <EmbeddedResource Include="Resources\Next.png" />
-    <EmbeddedResource Include="Resources\past visits block.png" />
-    <EmbeddedResource Include="Resources\pc.png" />
-    <EmbeddedResource Include="Resources\Prev.png" />
-    <EmbeddedResource Include="Resources\Schd.png" />
-    <EmbeddedResource Include="Resources\social.png" />
-    <EmbeddedResource Include="Resources\state.png" />
-    <EmbeddedResource Include="Resources\telephone.png" />
-    <EmbeddedResource Include="Resources\welcome-05.png" />
     <EmbeddedResource Include="ScheduleAppoint.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -135,9 +109,6 @@
     <Compile Include="ScheduleAppoint.xaml.cs">
       <DependentUpon>ScheduleAppoint.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

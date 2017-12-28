@@ -7,7 +7,7 @@
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
               HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="20" 
             BackgroundColor="Transparent" >
-               <Image Source="helenzys-small.png" BackgroundColor="Transparent" 
+               <Image Source="helenzyssmall.png" BackgroundColor="Transparent" 
             VerticalOptions="Start"  />
 
             <Label Text="Create New Account"  TextColor="#36454f" 
@@ -19,13 +19,13 @@
            
 
 
-            <Grid  Padding="20,10,20,0" ColumnSpacing="20" RowSpacing="40" HeightRequest="300" 
+            <Grid  Padding="20,10,20,0" ColumnSpacing="20" RowSpacing="10" HeightRequest="300" 
                 VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
-    <RowDefinition Height="2*" />
-                    <RowDefinition Height="6*" />
+    <RowDefinition Height="1*" />
                     <RowDefinition Height="3*" />
+                    <RowDefinition Height="1*" />
                      <RowDefinition Height="1*" />
  </Grid.RowDefinitions>
                 
@@ -43,7 +43,7 @@
                   FontSize="20" HorizontalTextAlignment="Start"/>
 
                <!-- <Image Source = "./login.png" Grid.Row="2" Grid.Column="0" BackgroundColor="Black" /> -->
-                <Image Source = "sign-in-button.png" Grid.Row="2" 
+                <Image Source = "signinbutton.png" Grid.Row="2" 
                     Grid.Column="0"  /> 
                 
                 <Button  Grid.Row="2" Grid.Column="0" Text = "I Accept" 

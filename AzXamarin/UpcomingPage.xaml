@@ -130,7 +130,7 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
-                 <Button  VerticalOptions="EndAndExpand" Image="back.png"
+                 <Button  VerticalOptions="EndAndExpand" Image="backicon.png"
                     WidthRequest="30"
                     HeightRequest="20" Clicked="Goback">
 

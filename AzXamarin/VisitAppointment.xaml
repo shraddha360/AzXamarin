@@ -46,7 +46,7 @@
 
                 <Frame BackgroundColor="#E8F2F4" Padding="10,10,20,0">
            
-                <Grid   ColumnSpacing="-50" RowSpacing="-10" >
+                <Grid   ColumnSpacing="-50" RowSpacing="10" >
 
 
                     
@@ -54,11 +54,11 @@
                 <TapGestureRecognizer Tapped ="OnTapGesture"/>      
              </Grid.GestureRecognizers>
       <Grid.RowDefinitions>
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-      <RowDefinition Height="40" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
                         
                                           
   </Grid.RowDefinitions>
@@ -92,15 +92,15 @@
                     </Frame>
 
                 <Frame Padding="10,10,20,0" BackgroundColor="#E8F2F4">
-                <Grid   ColumnSpacing="-50" RowSpacing="-10"
+                <Grid   ColumnSpacing="-50" RowSpacing="10"
                     >
                     
       <Grid.RowDefinitions>
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-    <RowDefinition Height="40" />
-      <RowDefinition Height="40" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
                         
                                           
   </Grid.RowDefinitions>
@@ -146,7 +146,7 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
-                <Button  VerticalOptions="EndAndExpand" Image="back.png"
+                <Button  VerticalOptions="EndAndExpand" Image="backicon.png"
                     WidthRequest="30"
                     HeightRequest="20" Clicked="Home">
 
