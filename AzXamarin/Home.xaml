@@ -3,35 +3,39 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Home">
 	<ContentPage.Content>
         
-    <RelativeLayout VerticalOptions="FillAndExpand" BackgroundColor="#0A93B9"
-            HorizontalOptions="FillAndExpand">
-             <StackLayout VerticalOptions="End" HorizontalOptions="Center" 
-               Padding="8,525" >
-            <Image Source="HeartLine.png" VerticalOptions="End"/>
-                </StackLayout>
-       
+    <StackLayout BackgroundColor="#098FAA"  >
             
-     <StackLayout  Orientation="Horizontal"  BackgroundColor="Transparent"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand" 
-                Spacing="40" Padding= "60,160,10,400"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
-                 <Image Source="appoin.png" WidthRequest="80" HeightRequest="60"   >
+       <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" 
+                Padding="10,0,55,10"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand">
+                 
+                <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
+                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped ="Logout"/> 
+                    </Image.GestureRecognizers>
+                </Image>
+                
+           <Label Text="Home"  TextColor="White" BackgroundColor="Transparent"
+                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
+                    VerticalOptions="EndAndExpand"/> 
+            </StackLayout>
+            
+     <StackLayout  Orientation="Horizontal" BackgroundColor="Transparent"
+                VerticalOptions="Center" HeightRequest="70"
+                HorizontalOptions="Center" WidthRequest="300" 
+                Spacing="40" Padding= "0,80,0,10">
+                 <Image Source="appoin.png" WidthRequest="80" HeightRequest="70" HorizontalOptions="CenterAndExpand">
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Visitapp"/> 
                     </Image.GestureRecognizers>
                 </Image>
 
-                <BoxView Color="White" WidthRequest="2" HeightRequest="20" >
+                <BoxView Color="White" WidthRequest="2" HeightRequest="20" HorizontalOptions="CenterAndExpand" >
                 </BoxView>
 
-                <Image Source="Schd.png" WidthRequest="80" HeightRequest="60"   >
+                <Image Source="Schd.png" WidthRequest="80" HeightRequest="70"  HorizontalOptions="CenterAndExpand">
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Sched"/> 
                     </Image.GestureRecognizers>
@@ -40,46 +44,27 @@
             </StackLayout>
             
             <StackLayout Orientation="Horizontal" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" Padding="55,20,20,150"
-                Spacing="30" RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}" >
-                <Label Text="  Upcoming Appointments"
-                    VerticalOptions="Center" 
-                    VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="White">
+                VerticalOptions="Start" HeightRequest="70" WidthRequest="300" 
+                HorizontalOptions="Center" BackgroundColor="Transparent" Padding= "0,0"
+                Spacing="30">
+                <Label Text="Upcoming Appointments" WidthRequest="300"
+                    VerticalOptions="CenterAndExpand" FontSize="18"  
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalTextAlignment="Center" HorizontalTextAlignment="Center" 
+                    BackgroundColor="Transparent"  TextColor="White">
                 </Label>
-                <Label Text="    Schedule Appointments" 
+                <Label Text="Schedule Appointments" FontSize="18" BackgroundColor="Transparent" 
+                    WidthRequest="300"
                     VerticalOptions="Center"
-                    VerticalTextAlignment="Center" HorizontalOptions="Center" TextColor="White">
+                    VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" TextColor="White">
                 </Label>
 
             </StackLayout>
-            <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
-                 <Button  VerticalOptions="EndAndExpand" Image="backicon.png" 
-                    WidthRequest="30"
-                    HeightRequest="20" Clicked="Logout">
-                </Button>
-                
-           <Label Text="Home"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"/> 
+
+             <StackLayout VerticalOptions="EndAndExpand" HorizontalOptions="Center" Padding= "0,60" BackgroundColor="Transparent" >
+            <Image Source="HeartLine.png"/>
             </StackLayout>
             
-            </RelativeLayout>
+           </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

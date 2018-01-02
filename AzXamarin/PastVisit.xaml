@@ -2,29 +2,38 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.PastVisit">
 	<ContentPage.Content>
         
-         <RelativeLayout BackgroundColor="#0A93B9">
-            <StackLayout VerticalOptions="End" HorizontalOptions="Center" 
-               Padding="8,525" >
-            <Image Source="HeartLine.png" VerticalOptions="End"/>
-                </StackLayout>
-           <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
-                VerticalOptions="StartAndExpand" 
-                HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}"
-                  RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}">
+         <StackLayout BackgroundColor="#0A93B9">
+
+         <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="0,0,0,20"
+                VerticalOptions="Start" 
+                HorizontalOptions="FillAndExpand">
                 
            <Label Text="  Past Visits"  TextColor="White" 
                     FontSize="25" HorizontalOptions="CenterAndExpand"
                     FontFamily="Lato-Light.ttf"
                     VerticalOptions="EndAndExpand"/> 
             </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" 
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" Padding="0,10"
+                Spacing="-4">
+                <Button VerticalOptions="StartAndExpand" 
+                    HorizontalOptions="StartAndExpand" 
+                    Text="  Appointments  "  TextColor="White" BackgroundColor="#36454f" 
+                    BorderRadius="0" WidthRequest="150" Clicked="Appoint"
 
-        <StackLayout VerticalOptions="CenterAndExpand" Padding="10,10,10,40"
+                    BorderColor="White" BorderWidth="2"/>
+                    <Button WidthRequest="150" 
+                    Text=" Past Visits " TextColor="White"
+                    BackgroundColor="#17DBF3" BorderRadius="0"
+                    BorderColor="White"  BorderWidth="2" />
+               
+            </StackLayout>
+            
+           
+
+        <StackLayout VerticalOptions="Start" Padding="0,10" Margin="10"
             HorizontalOptions="CenterAndExpand" Orientation="Vertical" 
           
                 Spacing="10" 
@@ -36,13 +45,13 @@
                                 Property=Width,
                                 Factor=1}">
            <Frame Padding="10,10,20,0" BackgroundColor="#E8F2F4">
-                <Grid  Padding="10,10,20,0" ColumnSpacing="-50" >
+                <Grid  Padding="10,20,20,0" ColumnSpacing="10" >
 
             <ContentView.GestureRecognizers>
             <TapGestureRecognizer NumberOfTapsRequired="1" Command="{Binding Upcoming}" CommandParameter="1"/>
         </ContentView.GestureRecognizers>
       <Grid.RowDefinitions>
-    <RowDefinition Height="40" />
+    <RowDefinition Height="Auto" />
     <RowDefinition Height="40" />
     <RowDefinition Height="40" />
     <RowDefinition Height="40" />
@@ -51,10 +60,9 @@
                                           
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
-    <ColumnDefinition Width="200"  />
-    <ColumnDefinition Width="200" />
-      <ColumnDefinition Width="200"  />
-    <ColumnDefinition Width="200" />
+     <ColumnDefinition Width="Auto"  />
+    <ColumnDefinition Width="Auto" />
+     
   </Grid.ColumnDefinitions>
                     
                    
@@ -73,36 +81,14 @@
 
                    <Label Grid.Row="3" Grid.Column="1" Text="CONFIRMED" TextColor="#5DBCD2"> </Label>
 
-                  <Button Grid.Row="4" Text="RESCHEDULE" Grid.Column="1" TextColor="#008BAA" BorderColor="#5089A7"></Button>
+                  <Button Grid.Row="4"  BackgroundColor="Transparent" Text="RESCHEDULE" Grid.Column="1" TextColor="#008BAA" BorderColor="#5089A7"></Button>
                     
                 </Grid>
                 </Frame>
             </StackLayout>
-            <StackLayout Orientation="Horizontal" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" Padding="55,0,60,400"
-                Spacing="0" RelativeLayout.HeightConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Height,
-                                Factor=1}" RelativeLayout.WidthConstraint=
-                 "{ConstraintExpression Type=RelativeToParent,
-                                Property=Width,
-                                Factor=1}" >
-
-                <Button VerticalOptions="StartAndExpand" 
-                    HorizontalOptions="StartAndExpand" 
-                    Text="  Appointments  "  TextColor="White" BackgroundColor="#36454f" 
-                    BorderRadius="0" WidthRequest="150" Clicked="Appoint"
-
-                    BorderColor="White" BorderWidth="2"/>
-                    <Button WidthRequest="150" 
-                    Text=" Past Visits " TextColor="White"
-                    BackgroundColor="#17DBF3" BorderRadius="0"
-                    BorderColor="White"  BorderWidth="2" />
-               
-            </StackLayout>
+             
 
             
-        </RelativeLayout>
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

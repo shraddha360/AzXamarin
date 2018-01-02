@@ -7,38 +7,41 @@
         <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
               HorizontalOptions="FillAndExpand" Padding="0,0" Spacing="20" 
             BackgroundColor="Transparent" >
+            <StackLayout VerticalOptions="Center">
                <Image Source="helenzyssmall.png" BackgroundColor="Transparent" 
             VerticalOptions="Start"  />
+            </StackLayout>
 
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Create New Account"  TextColor="#36454f" 
                     FontSize="22" HorizontalOptions="Center" 
                     VerticalOptions="Center"/> 
                <Label Text="Consent" TextColor="#36454f"
                   FontSize="20" HorizontalTextAlignment="Center"/>
 
-           
+           </StackLayout>
 
-
-            <Grid  Padding="20,10,20,0" ColumnSpacing="20" RowSpacing="10" HeightRequest="300" 
-                VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"
+             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Grid   ColumnSpacing="20" RowSpacing="0" HeightRequest="300" 
+                VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
-    <RowDefinition Height="1*" />
+    <RowDefinition Height="Auto" />
                     <RowDefinition Height="3*" />
                     <RowDefinition Height="1*" />
                      <RowDefinition Height="1*" />
  </Grid.RowDefinitions>
                 
   <Grid.ColumnDefinitions  >
-    <ColumnDefinition Width="350"  />
-    <ColumnDefinition Width="300" />
+    <ColumnDefinition Width="Auto"  />
+   
                     
    </Grid.ColumnDefinitions>
                 
-                <Label Grid.Row="0" Grid.Column="0" Text="Patient Consent"
+                <Label Grid.Row="0" Grid.Column="0" Text="Patient Consent" HorizontalOptions="Start" Margin="10"
                     TextColor="Black"
                   FontSize="24" HorizontalTextAlignment="Start" />
-                 <Label Grid.Row="1" Grid.Column="0"
+                 <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand"  Margin="10"
                     Text="By Clicking Accept, I agree that any access I have is authorized and will be followed by HIPPA Compilance" TextColor="Gray"
                   FontSize="20" HorizontalTextAlignment="Start"/>
 
@@ -46,13 +49,14 @@
                 <Image Source = "signinbutton.png" Grid.Row="2" 
                     Grid.Column="0"  /> 
                 
-                <Button  Grid.Row="2" Grid.Column="0" Text = "I Accept" 
+                <Button  Grid.Row="2" Grid.Column="0" Text = "I Accept" HorizontalOptions="CenterAndExpand"
                     TextColor="White" WidthRequest="100" HeightRequest="50" 
-                VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                        BackgroundColor="Transparent"
                          Clicked= "HomeGo" >  
                   </Button>
                 </Grid>
-
+                 </StackLayout>
             
             </StackLayout>
 	</ContentPage.Content>

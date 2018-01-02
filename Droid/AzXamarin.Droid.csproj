@@ -28,7 +28,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
-<JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+<JavaMaximumHeapSize></JavaMaximumHeapSize>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -130,18 +130,26 @@
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
-    <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable\signinbutton.png" />
-    <AndroidResource Include="Resources\drawable\Helenzysbig.png" />
-    <AndroidResource Include="Resources\drawable\helenzyssmall.png" />
-    <AndroidResource Include="Resources\drawable\Next.png" />
-    <AndroidResource Include="Resources\drawable\HeartLine.png" />
-    <AndroidResource Include="Resources\drawable\appoin.png" />
-    <AndroidResource Include="Resources\drawable\Schd.png" />
-    <AndroidResource Include="Resources\drawable\backicon.png" />
+    <AndroidResource Include="Resources\drawable\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\appoin.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\backicon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\dob.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\HeartLine.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Helenzysbig.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\helenzyssmall.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\History.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Next.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Schd.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\signinbutton.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\social.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\state.png" />
+    <AndroidResource Include="Resources\drawable\helicon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\helicon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\helicon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\helicon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Compat.25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Compat.targets')" />

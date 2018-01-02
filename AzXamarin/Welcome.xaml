@@ -5,7 +5,7 @@
 	<ContentPage.Content>
   <StackLayout>
         <StackLayout Orientation="Vertical" 
-                VerticalOptions="Start" HorizontalOptions="Center" 
+                VerticalOptions="Start" HorizontalOptions="CenterAndExpand" 
                 Padding="0,80" Spacing="10">
 
                  <Label Text="Welcome"  TextColor="White" 
@@ -16,11 +16,11 @@
                 FontSize="20" HorizontalTextAlignment="Center"/>
 </StackLayout>
             
- <StackLayout Orientation="Vertical" VerticalOptions="Center"
-                HorizontalOptions="Center" Padding="-10,150" Spacing="-30">
+ <StackLayout Orientation="Vertical" VerticalOptions="EndAndExpand" 
+                HorizontalOptions="Center" Spacing="-80">
                 
          <Grid   ColumnSpacing="0" RowSpacing="10" 
-                    VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="150">
+                    VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="150">
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
     <RowDefinition Height="Auto" />
@@ -30,15 +30,13 @@
                         
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions>
-    <ColumnDefinition Width="100"  />
-    <ColumnDefinition Width="200" />
-      <ColumnDefinition Width="100"  />
-    <ColumnDefinition Width="200" />
+    <ColumnDefinition Width="Auto"  />
+   
   </Grid.ColumnDefinitions>
 
                     
           <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="200"/>           
-          <Button Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20"
+          <Button Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" 
           TextColor="White" WidthRequest="150" HeightRequest="50"  VerticalOptions="Center"
                         HorizontalOptions="Center" BackgroundColor="Transparent"
           Clicked= "Loginpge">
@@ -47,7 +45,7 @@
 
   <Grid  HeightRequest="150" 
                      ColumnSpacing="0" RowSpacing="10" 
-                    VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+                    VerticalOptions="EndAndExpand" HorizontalOptions="Center">
                    
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
@@ -55,20 +53,22 @@
     <RowDefinition Height="4*" />
     <RowDefinition Height="4*" />
       <RowDefinition Height="4*" />
+
+
+
                         
                                           
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
-    <ColumnDefinition Width="100"  />
-    <ColumnDefinition Width="200" />
-      <ColumnDefinition Width="100"  />
-    <ColumnDefinition Width="200" />
-  </Grid.ColumnDefinitions>
-       <Image  Source = "signinbutton.png" Grid.Row="0" 
+                        
+    <ColumnDefinition Width="Auto"  />
+
+  </Grid.ColumnDefinitions> 
+       <Image  Source = "signinbutton.png" Grid.Row="0" HorizontalOptions="Center"
                     Grid.Column="1" HeightRequest="80" WidthRequest="200"/>    
-        <Button  Grid.Row="0" Grid.Column="1" FontSize="20" 
+        <Button  Grid.Row="0" Grid.Column="1" FontSize="20" HorizontalOptions="Center"
                         Text = "SIGN UP" TextColor="White"  BackgroundColor="Transparent"
-                        VerticalOptions="Center" HorizontalOptions="Center"
+                        VerticalOptions="Center" 
                         WidthRequest="150" HeightRequest="50"
         Clicked= "Sign" ></Button>  
                   

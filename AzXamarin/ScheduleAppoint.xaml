@@ -6,37 +6,44 @@
          <StackLayout BackgroundColor="#0A93B9"  >
 
          <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" 
-                Orientation="Horizontal" Padding="15,0,55,20"
-                VerticalOptions="StartAndExpand" 
+                Orientation="Horizontal" 
+                VerticalOptions="Start" 
                 HorizontalOptions="FillAndExpand">
-                 <Button  VerticalOptions="EndAndExpand" Image="backicon.png"
-                    WidthRequest="30"
-                    HeightRequest="20" Clicked="HomePg">
-                </Button>
-                
-           <Label Text="Schedule Appointment"  TextColor="White" 
-                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"  
-                  /> 
+                  <StackLayout>
+                <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
+                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped ="HomePg"/> 
+                    </Image.GestureRecognizers>
+                </Image>
+                 </StackLayout>
+
+                 <StackLayout  Padding="-30,0,0,0" HorizontalOptions="CenterAndExpand">
+           <Label Text="Schedule Appointment"  TextColor="White" BackgroundColor="Transparent" MinimumWidthRequest="300"
+                    FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf" HorizontalTextAlignment="Center"
+                    VerticalOptions="EndAndExpand"  /> 
+                    </StackLayout>
+
             </StackLayout>
 
             <StackLayout  Orientation="Vertical" VerticalOptions="Center"
-           HorizontalOptions="Center" Padding= "10,50,10,0" Spacing="10">
-                <Grid   ColumnSpacing="10" RowSpacing="15" VerticalOptions="Center" HorizontalOptions="Center"
-                    BackgroundColor="Transparent" >
+           HorizontalOptions="Center" Padding= "0,30,10,0" Spacing="10">
+                <Grid   ColumnSpacing="10" RowSpacing="15"  VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    BackgroundColor="Transparent">
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-                        <RowDefinition Height="9*" />
-                        <RowDefinition Height="9*" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+
                                            
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
-    <ColumnDefinition Width="300" />
+    <ColumnDefinition Width="Auto" />
       
   </Grid.ColumnDefinitions>
                     
@@ -94,14 +101,13 @@
             <StackLayout Orientation="Vertical" 
                 VerticalOptions="End"
                 HorizontalOptions="Center" BackgroundColor="Transparent"
-                Padding="0,0,0,0" Spacing="15">
+                Padding="0,20,0,0" Spacing="15">
 
-                 <Grid  ColumnSpacing="-50" HeightRequest="100" 
+                 <Grid  ColumnSpacing="0" HeightRequest="100" 
                     RowSpacing="0"
                     BackgroundColor="Transparent">
       <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
-     <RowDefinition Height="2*" />
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions>
            

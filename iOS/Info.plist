@@ -7,11 +7,9 @@
 	<key>CFBundleName</key>
 	<string>AzXamarin</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.vmoksha.AzXamarin</string>
+	<string>com.vmoksha.Test</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -26,6 +24,7 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>arm64</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
@@ -42,5 +41,7 @@
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>XSLaunchImageAssets</key>
 	<string>Assets.xcassets/LaunchImage.launchimage</string>
+	<key>CFBundleVersion</key>
+	<string>6</string>
 </dict>
 </plist>
