@@ -103,5 +103,6 @@
         <image name="Helenzysbig.png" width="1081" height="710"/>
         <image name="helenzyssmall.png" width="1081" height="450"/>
         <image name="backicon.png" width="60" height="60"/>
+        <image name="signintxtfieldbg.png" width="890" height="110"/>
     </resources>
 </document>

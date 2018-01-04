@@ -10,6 +10,12 @@ namespace AzXamarin
         public Signup()
         {
             InitializeComponent();
+            PickerDemo.ItemsSource = new List<string>
+        {
+            "Male",
+            "Female",
+            
+        };
             NavigationPage.SetHasNavigationBar(this, false);
         }
         public void SignNext(object sender, System.EventArgs e)

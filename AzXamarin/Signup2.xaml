@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Signup2">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:custom="clr-namespace:AzXamarin"
+    x:Class="AzXamarin.Signup2">
     <ContentPage.Content>
 
      <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand" 
@@ -25,78 +28,125 @@
                     
             
                     
-            <Grid   ColumnSpacing="10" RowSpacing="30" VerticalOptions="Center" HorizontalOptions="Center"
+            <Grid   ColumnSpacing="10" RowSpacing="-10" VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent" >
  <Grid.RowDefinitions>
     <RowDefinition Height="7*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-    <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
-                        <RowDefinition Height="8*" />
-                          <RowDefinition Height="8*" />
-                          <RowDefinition Height="8*" />
+    <RowDefinition Height="7*" />
+    <RowDefinition Height="7*" />
+    <RowDefinition Height="7*" />
+    <RowDefinition Height="7*" />
+                        <RowDefinition Height="7*" />
+                        <RowDefinition Height="7*" />
+                          <RowDefinition Height="7*" />
+                          <RowDefinition Height="7*" />
                                            
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
    </Grid.ColumnDefinitions>
                  
-                  
-                <Entry Grid.Row="0" Grid.Column="1" Placeholder="Enter your address" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
-                    
-                 
-                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="Enter your City " PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
-               <Picker Grid.Row="2" Grid.Column="1" x:Name="State"
-                        Title="Enter your state" TextColor="White" 
-                    SelectedIndex="{Binding Industry}" 
-                    BackgroundColor="#E5F0F4" 
-                    HorizontalOptions="FillAndExpand"
-                    WidthRequest="300"  HeightRequest="50">
-                    <Picker.Items>
-                       <x:String>Andra Pradesh </x:String> 
-                       <x:String>Assam</x:String>
-                       <x:String>Karnataka </x:String> 
-                       <x:String>Kerala</x:String>
-                       <x:String>Uttar Pradesh </x:String> 
-                       <x:String>Goa</x:String>
-                       <x:String>Maharashtra</x:String> 
-                       <x:String>Gujrat</x:String>
-                    </Picker.Items>
-                 </Picker> 
-                  <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Enter your email-id" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry> 
-                <Entry Grid.Row="4" Grid.Column="1"  Placeholder="Enter your mobile number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry> 
-                <Entry Grid.Row="5" Grid.Column="1"  Placeholder="Enter your phone number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry> 
+                  <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="0" Grid.Column="1" 
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter your address"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/> 
+                
+                    <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="1" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter your City"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>  
+                 <custom:CustomePicker x:Name="PickerState" CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="2" Grid.Column="1"
+                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4" TextColor="Black"  
+                            WidthRequest="300" HeightRequest= "40"  Title="Enter your state">
+                    </custom:CustomePicker>
+
+                     <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="3" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter your email-id"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/> 
+                        <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="4" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter your mobile number"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                  <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="5" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter your phone number"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+
+                        <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="7" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Alternate email-id"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                
 
 
                     <Label Grid.Row="6" Grid.Column="1"  Text="Emergency Contact Details" TextColor="Gray"
                   FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
-                  <Entry Grid.Row="7" Grid.Column="1"  Placeholder="Alternate email-id" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry> 
-                <Entry Grid.Row="8" Grid.Column="1"  Placeholder="Alternate cell Number" PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry> 
 
+                        <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                       Grid.Row="8" Grid.Column="1"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Alternate cell Number"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                
                 </Grid>
                 </ScrollView>
                 </StackLayout>
             
               <StackLayout VerticalOptions="End" HorizontalOptions="End">
 
-                <Image Source="Next.png" WidthRequest="100"
-                    HeightRequest="70"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" >
+                <Image Source="Next.png" WidthRequest="125"
+                    HeightRequest="100"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" >
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Sign3"/> 
                     </Image.GestureRecognizers>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="AzXamarin.LoginPage">
-	<ContentPage.Content>
+    x:Class="AzXamarin.LoginPage" xmlns:custom="clr-namespace:AzXamarin">
+    <ContentPage.Content>
        
    <StackLayout BackgroundColor="Transparent">
 
@@ -16,9 +16,10 @@
                 BackgroundColor="Transparent" 
                 VerticalOptions="Center" 
                 HorizontalOptions="CenterAndExpand"
-                Spacing="40" Padding="0,0">
+                Spacing="40" Padding="10,30">
             
-            <Grid VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" 
+            <Grid VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent" 
                 RowSpacing="0">
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
@@ -29,20 +30,37 @@
     <ColumnDefinition Width="Auto"  />
    
   </Grid.ColumnDefinitions>
+
+                      
                     
-                <Entry  x:Name="emailEntry" Grid.Row="0" Grid.Column="1"  BackgroundColor="#E5F0F4" Margin="20"
-                        Placeholder="Enter Email " 
-                    PlaceholderColor="Gray" TextColor= "Gray" HeightRequest="40"
-                    WidthRequest="400" HorizontalOptions="CenterAndExpand" Text=""  >
-                </Entry>
-                 
-                <Entry x:Name="passwordEntry" Grid.Row="1" Grid.Column="1"  HeightRequest="40" Margin="20"
-                        Placeholder="Enter Password " 
-                    PlaceholderColor="Gray" IsPassword="true" 
-                        TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="400" HorizontalOptions="CenterAndExpand"
-                        Text="">
-                 </Entry>
+          <custom:CustomEntry  x:Name="emailEntry" CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True"
+                        Grid.Row="0" Grid.Column="1" 
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                             HeightRequest="40" 
+                             BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter Email "   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                              
+                             WidthRequest="200"/>
+
+                    <custom:CustomEntry x:Name="passwordEntry" CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="1" Grid.Column="1"  IsPassword="true"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                             HeightRequest="40" 
+                             BackgroundColor="#E5F0F4" 
+                             Placeholder="Enter Password "   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"  
+                            
+                             WidthRequest="200"/>
+                    
                 </Grid>
 
             <Grid  ColumnSpacing="10"  
@@ -61,7 +79,7 @@
                     
          <Image Source = "signinbutton.png" Grid.Row="0" HorizontalOptions="Center"
                     Grid.Column="0" WidthRequest="150"/>  
-          <Button  Grid.Row="0" Grid.Column="0"  HorizontalOptions="Center"
+          <Button  Grid.Row="0" Grid.Column="0"  HorizontalOptions="Center" 
           Text = "Submit" FontSize="20" BackgroundColor="Transparent"
           TextColor="White" WidthRequest="100"
           Clicked= "Handle_Clicked"> </Button>
@@ -75,5 +93,5 @@
 
         </StackLayout>
             </StackLayout>
-	</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

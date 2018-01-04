@@ -158,6 +158,10 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="CustomEntryRenderer.cs" />
+    <Compile Include="CustomDateRender.cs" />
+    <Compile Include="CustomPickerRender.cs" />
+    <Compile Include="CustomTimeRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\address.png" />
@@ -263,6 +267,7 @@
     <BundleResource Include="Resources\user-image-rounded.png.meta" />
     <BundleResource Include="Resources\Splash.png" />
     <BundleResource Include="Resources\backicon.png" />
+    <BundleResource Include="Resources\signintxtfieldbg.png" />
   </ItemGroup>
   <ItemGroup>
     <AtlasTexture Include="Resources\Lato-Light.ttf" />

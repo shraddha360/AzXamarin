@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="AzXamarin.Signup">
+    x:Class="AzXamarin.Signup" xmlns:custom="clr-namespace:AzXamarin">
 	<ContentPage.Content>
 
         
@@ -20,7 +20,7 @@
                 </StackLayout>
 
             <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
-            <Grid   ColumnSpacing="10" RowSpacing="30" 
+            <Grid   ColumnSpacing="10" RowSpacing="0" 
                     VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
                     BackgroundColor="Transparent" >
  <Grid.RowDefinitions>
@@ -32,48 +32,52 @@
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
  </Grid.ColumnDefinitions>
-                 
-                  
-                <Entry Grid.Row="0" Grid.Column="1"
-                    Placeholder="enter your social number"
-                    PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
-                    
-                 
-                <Entry Grid.Row="1" Grid.Column="1"  Placeholder="enter your full name"
-                        PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
-                    
-                     
-                
-                <DatePicker Grid.Row="2" Grid.Column="1"  WidthRequest="300"
-                    HeightRequest="50" 
-                         HorizontalOptions="Center" 
-                BackgroundColor="#E5F0F4"
-                VerticalOptions="Center"  TextColor="Gray"  />  
-              
-                <Picker Grid.Row="3" Grid.Column="1" WidthRequest="300" 
-                    HeightRequest="50"
-                         HorizontalOptions="Center"
-                BackgroundColor="#E5F0F4" Title="Enter your gender"
-                VerticalOptions="Center" TextColor="Gray" >
-                <Picker.Items>
-                            
-                       <x:String>Female</x:String> 
-                       <x:String>Male</x:String>
-               </Picker.Items>
 
-                    </Picker>
-               
+
+                 <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="0" Grid.Column="1" 
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="enter your social number "   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>   
+                    
+                  <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="1" Grid.Column="1" 
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="enter your full name"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black"
+                            WidthRequest="300" Text="" HeightRequest= "40"/> 
+
+                    <custom:CustomDate CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="2" Grid.Column="1"
+                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                            WidthRequest="300" HeightRequest= "40"/>
+                    
+                    <custom:CustomePicker x:Name="PickerDemo" CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="3" Grid.Column="1"
+                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4" TextColor="Black"  
+                            WidthRequest="300" HeightRequest= "40"  Title="Select your gender">
+                    </custom:CustomePicker>
+              
                 </Grid>
                  </StackLayout>
             
             <StackLayout VerticalOptions="End" HorizontalOptions="End">
 
-           <Image Source="Next.png" WidthRequest="100"
-                    HeightRequest="70"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" >
+           <Image Source="Next.png" WidthRequest="125" BackgroundColor="Transparent"
+                    HeightRequest="100"  VerticalOptions="End" HorizontalOptions="End"  >
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="SignNext"/> 
                     </Image.GestureRecognizers>

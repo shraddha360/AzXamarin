@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.ScheduleAppoint">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AzXamarin.ScheduleAppoint"
+    xmlns:custom="clr-namespace:AzXamarin">
 	<ContentPage.Content>
 
          <StackLayout BackgroundColor="#0A93B9"  >
@@ -27,8 +29,8 @@
             </StackLayout>
 
             <StackLayout  Orientation="Vertical" VerticalOptions="Center"
-           HorizontalOptions="Center" Padding= "0,30,10,0" Spacing="10">
-                <Grid   ColumnSpacing="10" RowSpacing="15"  VerticalOptions="Center" 
+           HorizontalOptions="Center" Padding= "10,20,20,0" Spacing="10">
+                <Grid   ColumnSpacing="0" RowSpacing="0"  VerticalOptions="Center" 
                     HorizontalOptions="Center"
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
@@ -48,60 +50,97 @@
   </Grid.ColumnDefinitions>
                     
                 <Image  Grid.Row="0" Grid.Column="0" 
-                    Source = "social.png" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="50" WidthRequest="50"/>  
-                <Entry Grid.Row="0" Grid.Column="1"  Placeholder="Select Exam" 
-                        PlaceholderColor="Gray" TextColor= "Gray" 
- BackgroundColor="#E5F0F4" Text=""
-                        WidthRequest="300" HeightRequest= "40" HorizontalOptions="CenterAndExpand">
-                </Entry>
+                    Source = "social.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="40" WidthRequest="40"/>  
+
+                    <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="0" Grid.Column="1" 
+                             BorderColor="#E5F0F4"  HorizontalOptions="CenterAndExpand"    
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Select Exam"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                    
+              
                     
                  <Image Grid.Row="1" Grid.Column="0" Source = "state.png" 
                         HorizontalOptions="Start"
-                   HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="1" Grid.Column="1" Placeholder="Select provider "
-                        PlaceholderColor="Gray" TextColor= "Gray"
-                        BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
+                   HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
+
+                    <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="1" Grid.Column="1" HorizontalOptions="CenterAndExpand"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Select provider"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                
                     
                     <Image Grid.Row="2" Grid.Column="0" Source = "History.png" 
                         HorizontalOptions="Start"
-                   HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="2" Grid.Column="1" Placeholder="Attach Documents" 
-                        PlaceholderColor="Gray" TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
+                   HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
+
+                    <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Attach Documents"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+                
                     
                     <Image Grid.Row="3" Grid.Column="0" Source = "appoin.png" 
                         HorizontalOptions="Start"
-                   HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                <Entry Grid.Row="3" Grid.Column="1"  Placeholder="Region Code" PlaceholderColor="Gray"
-                        TextColor= "Gray" BackgroundColor="#E5F0F4" 
-                        WidthRequest="300" Text="" HeightRequest= "40" HorizontalOptions="CenterAndExpand"  >
-                </Entry>
-                    
+                   HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
+                    <custom:CustomEntry CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="3" Grid.Column="1" HorizontalOptions="CenterAndExpand"
+                             BorderColor="#E5F0F4"      
+                             HorizontalTextAlignment="Start"  
+                             FontSize="17"  
+                              BackgroundColor="#E5F0F4" 
+                             Placeholder="Region Code"   
+                             PlaceholderColor="Gray"  
+                             TextColor="Black" 
+                            WidthRequest="300" Text="" HeightRequest= "40"/>
+               
               <Image Grid.Row="4" Grid.Column="0" Source = "dob.png" 
                         HorizontalOptions="Start"
-       HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />  
-                
-                <DatePicker Grid.Row="4" Grid.Column="1"  WidthRequest="300" HeightRequest="50"
-                         HorizontalOptions="Center" 
-                BackgroundColor="#E5F0F4"
-                VerticalOptions="Center"     TextColor="Gray"  />  
+       HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
+
+                    <custom:CustomDate CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="4" Grid.Column="1" 
+                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                            WidthRequest="300" HeightRequest= "40"/>
+                 
             <Image Grid.Row="5" Grid.Column="0" Source = "social.png" 
                         HorizontalOptions="Start"
-                   HeightRequest="50" WidthRequest="50" VerticalOptions="Start" />    
-                <TimePicker Grid.Row="5" Grid.Column="1" WidthRequest="300" HeightRequest="50"
-                         HorizontalOptions="Center" 
-                BackgroundColor="#E5F0F4"
-                VerticalOptions="Center" TextColor="Gray"  />
+                   HeightRequest="40" WidthRequest="40" VerticalOptions="Center" /> 
+                    
+                   <custom:CustomTimePicker CornerRadius="20" Margin="20"
+                        IsCurvedCornersEnabled="True" 
+                        Grid.Row="5" Grid.Column="1" 
+                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                            WidthRequest="300" HeightRequest= "40"/>
                 </Grid>
           </StackLayout>
 
             <StackLayout Orientation="Vertical" 
                 VerticalOptions="End"
                 HorizontalOptions="Center" BackgroundColor="Transparent"
-                Padding="0,20,0,0" Spacing="15">
+                Padding="0,0,0,0" Spacing="15">
 
                  <Grid  ColumnSpacing="0" HeightRequest="100" 
                     RowSpacing="0"

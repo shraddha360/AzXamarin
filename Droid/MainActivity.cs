@@ -10,7 +10,7 @@ using Android.OS;
 
 namespace AzXamarin.Droid
 {
-    [Activity(Label = "AzXamarin.Droid", Icon = "@drawable/helicon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "AzXamarin.Droid", Icon = "@drawable/helicon", Theme = "@style/MyTheme.Splash", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
@@ -19,6 +19,8 @@ namespace AzXamarin.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+
+           
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 

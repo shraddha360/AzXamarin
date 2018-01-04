@@ -10,6 +10,17 @@ namespace AzXamarin
         public Signup2()
         {
             InitializeComponent();
+            PickerState.ItemsSource = new List<string>
+        {
+            "Assam",
+                "Andra Pradesh",
+                "Karnataka",
+                "Haryana",
+            "Maharashtra",
+                "Goa",
+                "Punjab",
+
+        };
             NavigationPage.SetHasNavigationBar(this, false);
         }
         public void Sign3(object sender, System.EventArgs e){

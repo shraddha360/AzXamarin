@@ -118,6 +118,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/optimized/user-image-rounded.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/optimized/Splash.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/optimized/backicon.png
+/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/optimized/signintxtfieldbg.png
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/optimized/
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/AzXamarin.iOS.csproj.CoreCompileInputs.cache

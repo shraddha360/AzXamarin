@@ -33,9 +33,9 @@ namespace AzXamarin
         {
 
             InitializeComponent();
+           
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
-
         }
 
 

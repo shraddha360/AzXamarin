@@ -109,6 +109,10 @@
     <Compile Include="ScheduleAppoint.xaml.cs">
       <DependentUpon>ScheduleAppoint.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomEntry.cs" />
+    <Compile Include="CustomDate.cs" />
+    <Compile Include="CustomePicker.cs" />
+    <Compile Include="CustomTimePicker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

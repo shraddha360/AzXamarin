@@ -4,14 +4,6 @@ Function=xamarin_GetFolderPath
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
 Function=xamarin_log
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
-Function=UIApplicationMain
-	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_get_block_descriptor
-	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_IntPtr_objc_msgSend_IntPtr
-	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
-Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
-	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
 Function=CreateZStream
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
 Function=CloseZStream
@@ -24,4 +16,12 @@ Function=WriteZStream
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
 Function=xamarin_start_wwan
 	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/System.dll
+Function=UIApplicationMain
+	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/shraddha/Documents/GitHub/AzXamarin/iOS/obj/iPhone/Debug/mtouch-cache/Link/Xamarin.iOS.dll
 Function=mono_pmip

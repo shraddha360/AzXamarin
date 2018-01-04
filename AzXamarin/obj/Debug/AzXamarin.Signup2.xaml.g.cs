@@ -15,12 +15,12 @@ namespace AzXamarin {
     public partial class Signup2 : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker State;
+        private global::AzXamarin.CustomePicker PickerState;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Signup2));
-            State = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Picker>(this, "State");
+            PickerState = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::AzXamarin.CustomePicker>(this, "PickerState");
         }
     }
 }
