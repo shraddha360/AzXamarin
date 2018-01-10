@@ -1,28 +1,17 @@
-﻿<Properties StartupConfiguration="{577194CE-2421-49BD-9263-D5077633443E}|Default">
+﻿<Properties StartupConfiguration="{F169C166-02B7-4275-9E29-70CC4779B789}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AzXamarin/LoginPage.xaml" Line="53" Column="50" />
-      <File FileName="AzXamarin/LoginPage.xaml.cs" Line="23" Column="49" />
-      <File FileName="AzXamarin/Signup.xaml" Line="79" Column="54" />
-      <File FileName="AzXamarin/Signup.xaml.cs" Line="13" Column="12" />
-      <File FileName="AzXamarin/Signup2.xaml" Line="148" Column="59" />
-      <File FileName="AzXamarin/Signup2.xaml.cs" Line="22" Column="1" />
-      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="135" Column="50" />
-      <File FileName="iOS/CustomPickerRender.cs" Line="9" Column="78" />
-      <File FileName="AzXamarin/CustomTimePicker.cs" Line="17" Column="70" />
-      <File FileName="iOS/CustomTimeRenderer.cs" Line="22" Column="57" />
-      <File FileName="Droid/CustomTimeRenderer.cs" Line="20" Column="40" />
-      <File FileName="AzXamarin/SignUp3.xaml" Line="64" Column="1" />
-      <File FileName="iOS/Info.plist" />
+      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="10" Column="4" />
+      <File FileName="Droid/SplashActivity.cs" Line="13" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.4d00964fd4a31237" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.UITests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" automaticSigning="False" />
 </Properties>

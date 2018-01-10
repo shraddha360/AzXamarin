@@ -5,7 +5,7 @@
     xmlns:custom="clr-namespace:AzXamarin">
 	<ContentPage.Content>
 
-         <StackLayout BackgroundColor="#0A93B9"  >
+         <StackLayout BackgroundColor="#0A93B9">
 
          <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" 
                 Orientation="Horizontal" 
@@ -30,7 +30,7 @@
 
             <StackLayout  Orientation="Vertical" VerticalOptions="Center"
            HorizontalOptions="Center" Padding= "10,20,20,0" Spacing="10">
-                <Grid   ColumnSpacing="0" RowSpacing="0"  VerticalOptions="Center" 
+                <Grid   ColumnSpacing="-10" RowSpacing="-10"  VerticalOptions="Center" 
                     HorizontalOptions="Center"
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
@@ -52,13 +52,15 @@
                 <Image  Grid.Row="0" Grid.Column="0" 
                     Source = "social.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="40" WidthRequest="40"/>  
 
+
+                <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" WidthRequest="200" Margin="20"/>    
                     <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="0" Grid.Column="1" 
-                             BorderColor="#E5F0F4"  HorizontalOptions="CenterAndExpand"    
+                             BorderColor="Transparent"  HorizontalOptions="CenterAndExpand"    
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Select Exam"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
@@ -70,13 +72,14 @@
                         HorizontalOptions="Start"
                    HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
 
+                    <Image Source="signintxtfieldbg" Grid.Row="1" Grid.Column="1" WidthRequest="200" Margin="20"/>
                     <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="1" Grid.Column="1" HorizontalOptions="CenterAndExpand"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"      
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Select provider"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
@@ -87,13 +90,14 @@
                         HorizontalOptions="Start"
                    HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
 
+                    <Image Source="signintxtfieldbg" Grid.Row="2" Grid.Column="1" WidthRequest="200" Margin="20"/>
                     <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="2" Grid.Column="1" HorizontalOptions="CenterAndExpand"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"      
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Attach Documents"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
@@ -103,13 +107,15 @@
                     <Image Grid.Row="3" Grid.Column="0" Source = "appoin.png" 
                         HorizontalOptions="Start"
                    HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
+
+                    <Image Source="signintxtfieldbg" Grid.Row="3" Grid.Column="1" WidthRequest="200" Margin="20"/>
                     <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="3" Grid.Column="1" HorizontalOptions="CenterAndExpand"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"      
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Region Code"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
@@ -119,20 +125,24 @@
                         HorizontalOptions="Start"
        HeightRequest="40" WidthRequest="40" VerticalOptions="Center" />  
 
+
+                    <Image Source="signintxtfieldbg" Grid.Row="4" Grid.Column="1" WidthRequest="200" Margin="20"/>
                     <custom:CustomDate CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="4" Grid.Column="1" 
-                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                             BorderColor="Transparent"  BackgroundColor="Transparent"  TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"/>
                  
             <Image Grid.Row="5" Grid.Column="0" Source = "social.png" 
                         HorizontalOptions="Start"
                    HeightRequest="40" WidthRequest="40" VerticalOptions="Center" /> 
-                    
+
+
+                    <Image Source="signintxtfieldbg" Grid.Row="5" Grid.Column="1" WidthRequest="200" Margin="20"/>
                    <custom:CustomTimePicker CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="5" Grid.Column="1" 
-                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                             BorderColor="Transparent"  BackgroundColor="Transparent"  TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"/>
                 </Grid>
           </StackLayout>

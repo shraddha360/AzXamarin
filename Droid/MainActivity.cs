@@ -10,19 +10,17 @@ using Android.OS;
 
 namespace AzXamarin.Droid
 {
-    [Activity(Label = "AzXamarin.Droid", Icon = "@drawable/helicon", Theme = "@style/MyTheme.Splash", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "AzXamarin.Droid", Icon = "@drawable/helicon", Theme = "@style/MyTheme" ,ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+       
+
         protected override void OnCreate(Bundle bundle)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
-
             base.OnCreate(bundle);
 
-           
+            Xamarin.Forms.Forms.Init(this, bundle);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
 
             LoadApplication(new App());
         }

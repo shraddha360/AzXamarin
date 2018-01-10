@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="AzXamarin.Signup" xmlns:custom="clr-namespace:AzXamarin">
+    x:Class="AzXamarin.Signup" xmlns:custom="clr-namespace:AzXamarin" BackgroundColor="White">
 	<ContentPage.Content>
 
         
@@ -19,6 +19,8 @@
                     VerticalOptions="Center"/> 
                 </StackLayout>
 
+
+            
             <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
             <Grid   ColumnSpacing="10" RowSpacing="0" 
                     VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
@@ -33,41 +35,49 @@
     <ColumnDefinition Width="Auto"  />
  </Grid.ColumnDefinitions>
 
+         <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" WidthRequest="200" Margin="20"/>         
 
                  <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="0" Grid.Column="1" 
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="enter your social number "   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/>   
-                    
+
+
+                    <Image Source="signintxtfieldbg" Grid.Row="1" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+      
                   <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="1" Grid.Column="1" 
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="enter your full name"   
                              PlaceholderColor="Gray"  
                              TextColor="Black"
                             WidthRequest="300" Text="" HeightRequest= "40"/> 
 
+             <Image Source="signintxtfieldbg" Grid.Row="2" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                     <custom:CustomDate CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="2" Grid.Column="1"
-                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4"  TextColor="Black"  
+                             BorderColor="Transparent" 
+                           BackgroundColor="Transparent"  TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"/>
-                    
+       <Image Source="signintxtfieldbg" Grid.Row="3" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                     <custom:CustomePicker x:Name="PickerDemo" CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="3" Grid.Column="1"
-                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4" TextColor="Black"  
+                             BorderColor="Transparent"   BackgroundColor="Transparent" TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"  Title="Select your gender">
                     </custom:CustomePicker>
               

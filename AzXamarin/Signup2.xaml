@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    xmlns:custom="clr-namespace:AzXamarin"
+    xmlns:custom="clr-namespace:AzXamarin" BackgroundColor="White"
     x:Class="AzXamarin.Signup2">
     <ContentPage.Content>
 
@@ -26,8 +26,6 @@
          <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" >
                     
-            
-                    
             <Grid   ColumnSpacing="10" RowSpacing="-10" VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent" >
  <Grid.RowDefinitions>
@@ -45,78 +43,96 @@
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
    </Grid.ColumnDefinitions>
-                 
+
+         <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                   <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="0" Grid.Column="1" 
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"      
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Enter your address"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/> 
-                
+                        
+    <Image Source="signintxtfieldbg" Grid.Row="1" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                     <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="1" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Enter your City"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/>  
+
+     <Image Source="signintxtfieldbg" Grid.Row="2" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+              
                  <custom:CustomePicker x:Name="PickerState" CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="2" Grid.Column="1"
-                             BorderColor="#E5F0F4"  BackgroundColor="#E5F0F4" TextColor="Black"  
+                             BorderColor="Transparent"   BackgroundColor="Transparent" TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"  Title="Enter your state">
                     </custom:CustomePicker>
 
+  <Image Source="signintxtfieldbg" Grid.Row="3" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+                       
                      <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="3" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Enter your email-id"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/> 
+
+     <Image Source="signintxtfieldbg" Grid.Row="4" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+             
                         <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="4" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Enter your mobile number"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/>
+
+           <Image Source="signintxtfieldbg" Grid.Row="5" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                   <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="5" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Enter your phone number"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/>
 
+
+           <Image Source="signintxtfieldbg" Grid.Row="7" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+
                         <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="7" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Alternate email-id"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
@@ -127,13 +143,17 @@
                     <Label Grid.Row="6" Grid.Column="1"  Text="Emergency Contact Details" TextColor="Gray"
                   FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
 
+
+     <Image Source="signintxtfieldbg" Grid.Row="8" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+            
+                        
                         <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                        Grid.Row="8" Grid.Column="1"
-                             BorderColor="#E5F0F4"      
+                             BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
-                              BackgroundColor="#E5F0F4" 
+                              BackgroundColor="Transparent" 
                              Placeholder="Alternate cell Number"   
                              PlaceholderColor="Gray"  
                              TextColor="Black" 

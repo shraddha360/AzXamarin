@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.vmoksha.AzXamarin">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="AzXamarin" android:icon="@drawable/helicon" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/helicon" android:label="AzXamarin.Droid" android:theme="@style/MyTheme" android:name="md56134a83c2fb2fdceb7fa1390048436ca.MainActivity" />
+    <activity android:label="AzXamarin" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md56134a83c2fb2fdceb7fa1390048436ca.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.vmoksha.AzXamarin.mono.MonoRuntimeProvider.__mono_init__" />
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+  </application>
+</manifest>
