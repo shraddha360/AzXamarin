@@ -1,4 +1,8 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/AzXamarin.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/System.Json.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Core.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Platform.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Xaml.dll
@@ -8,6 +12,11 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Xaml.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Xaml.dll.mdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Xamarin.Forms.Xaml.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.pdb
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.App.xaml.g.cs
@@ -23,12 +32,3 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.Home.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.ScheduleAppoint.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/System.Json.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/Newtonsoft.Json.xml
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.pdb
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.xml
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.pdb
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.xml

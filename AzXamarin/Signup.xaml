@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    NavigationPage.HasNavigationBar="false"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="AzXamarin.Signup" xmlns:custom="clr-namespace:AzXamarin" BackgroundColor="White">
-	<ContentPage.Content>
+    x:Class="AzXamarin.Signup" xmlns:custom="clr-namespace:AzXamarin" BackgroundColor="White" >
+    <ContentPage.Content>
 
-        
         <StackLayout Orientation="Vertical" 
             BackgroundColor= "Transparent"
                Spacing="10">
             
             <StackLayout VerticalOptions="Center">
          <Image Source="helenzyssmall.png" BackgroundColor="Transparent" Aspect="AspectFit"
-            VerticalOptions="Start"  />
+            VerticalOptions="Start"/>
             </StackLayout>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                  <Label Text="Create New Account"  TextColor="#36454f" 
@@ -19,17 +19,17 @@
                     VerticalOptions="Center"/> 
                 </StackLayout>
 
-
             
-            <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
-            <Grid   ColumnSpacing="10" RowSpacing="0" 
-                    VerticalOptions="Center" HorizontalOptions="CenterAndExpand"
+            <StackLayout  VerticalOptions="Center" HorizontalOptions="Center" >
+         <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" >
+
+            <Grid   ColumnSpacing="10" RowSpacing="0"  VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent" >
  <Grid.RowDefinitions>
-    <RowDefinition Height="1*" />
-    <RowDefinition Height="1*" />
-    <RowDefinition Height="1*" />
-    <RowDefinition Height="1*" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
+    <RowDefinition Height="Auto" />
    </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
@@ -72,6 +72,7 @@
                              BorderColor="Transparent" 
                            BackgroundColor="Transparent"  TextColor="Black"  
                             WidthRequest="300" HeightRequest= "40"/>
+                        
        <Image Source="signintxtfieldbg" Grid.Row="3" Grid.Column="1" WidthRequest="200" Margin="20"/>         
 
                     <custom:CustomePicker x:Name="PickerDemo" CornerRadius="20" Margin="20"
@@ -82,22 +83,29 @@
                     </custom:CustomePicker>
               
                 </Grid>
-                 </StackLayout>
-            
-            <StackLayout VerticalOptions="End" HorizontalOptions="End">
 
-           <Image Source="Next.png" WidthRequest="125" BackgroundColor="Transparent"
-                    HeightRequest="100"  VerticalOptions="End" HorizontalOptions="End"  >
+                </ScrollView>
+
+                <Grid   ColumnSpacing="10"
+                    RowSpacing="0" 
+                    HeightRequest="50" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="EndAndExpand" 
+                     >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="1*" />
+   </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions  >
+    <ColumnDefinition Width="Auto"  />
+ </Grid.ColumnDefinitions>
+ <Image Source="Next.png" WidthRequest="125" BackgroundColor="Transparent" Grid.Row="0" Grid.Column="0"
+                    HeightRequest="100"  VerticalOptions="CenterAndExpand" HorizontalOptions="End"  >
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="SignNext"/> 
                     </Image.GestureRecognizers>
                 </Image>
-
-                   </StackLayout>
-           
+                    
+                    </Grid>
+                   
+                 </StackLayout>
  </StackLayout>
-         
-        
-        
 </ContentPage.Content>
 </ContentPage>

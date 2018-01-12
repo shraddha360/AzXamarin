@@ -47,13 +47,12 @@
 
             <StackLayout VerticalOptions="Start" Padding="0,0" Margin="10"
             HorizontalOptions="CenterAndExpand" Orientation="Vertical" Spacing="10" >
-
+                
+            <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" >
+            
                 <Frame BackgroundColor="#E8F2F4" Padding="10,10,20,0">
            
-                <Grid   ColumnSpacing="10" RowSpacing="10" >
-
-
-                    
+                <Grid VerticalOptions="Center" HorizontalOptions="Center"  ColumnSpacing="10" RowSpacing="10" >
             <Grid.GestureRecognizers>
                 <TapGestureRecognizer Tapped ="OnTapGesture"/>      
              </Grid.GestureRecognizers>
@@ -133,6 +132,7 @@
                     
                 </Grid>
                     </Frame>
+                    </ScrollView>
             </StackLayout> 
  </StackLayout>
         

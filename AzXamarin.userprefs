@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{F169C166-02B7-4275-9E29-70CC4779B789}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="10" Column="4" />
-      <File FileName="Droid/SplashActivity.cs" Line="13" Column="18" />
+      <File FileName="AzXamarin/LoginPage.xaml" Line="124" Column="1" />
+      <File FileName="AzXamarin/VisitAppointment.xaml" Line="142" Column="2" />
+      <File FileName="AzXamarin/Signup2.xaml" Line="187" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />

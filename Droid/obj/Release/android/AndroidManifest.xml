@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.vmoksha.AzXamarin">
   <!--suppress UsesMinSdkAttributes-->
-  <uses-sdk android:minSdkVersion="15" />
+  <uses-sdk android:minSdkVersion="17" />
   <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="AzXamarin" android:icon="@drawable/helicon" android:name="android.app.Application" android:allowBackup="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/helicon" android:label="AzXamarin.Droid" android:theme="@style/MyTheme" android:name="md56134a83c2fb2fdceb7fa1390048436ca.MainActivity" />

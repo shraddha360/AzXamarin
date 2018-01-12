@@ -24,7 +24,7 @@
                  </StackLayout>
 
          <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" >
+            <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" HeightRequest="300" >
                     
             <Grid   ColumnSpacing="10" RowSpacing="-10" VerticalOptions="Center" HorizontalOptions="Center"
                     BackgroundColor="Transparent" >
@@ -161,16 +161,25 @@
                 
                 </Grid>
                 </ScrollView>
-                </StackLayout>
-            
-              <StackLayout VerticalOptions="End" HorizontalOptions="End">
 
-                <Image Source="Next.png" WidthRequest="125"
-                    HeightRequest="100"  VerticalOptions="End" HorizontalOptions="End" BackgroundColor="Transparent" >
+                <Grid   ColumnSpacing="10"
+                    RowSpacing="0" 
+                    HeightRequest="50" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="EndAndExpand" 
+                     >
+ <Grid.RowDefinitions>
+    <RowDefinition Height="1*" />
+   </Grid.RowDefinitions>
+  <Grid.ColumnDefinitions >
+    <ColumnDefinition Width="Auto"  />
+ </Grid.ColumnDefinitions>
+ <Image Source="Next.png" WidthRequest="125" BackgroundColor="Transparent" Grid.Row="0" Grid.Column="0"
+                    HeightRequest="100"  VerticalOptions="CenterAndExpand" HorizontalOptions="End"  >
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Sign3"/> 
                     </Image.GestureRecognizers>
                 </Image>
+                    
+                    </Grid>
                 </StackLayout>
             
             </StackLayout>
