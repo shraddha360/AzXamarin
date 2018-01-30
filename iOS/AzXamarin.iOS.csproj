@@ -268,6 +268,7 @@
     <BundleResource Include="Resources\Splash.png" />
     <BundleResource Include="Resources\backicon.png" />
     <BundleResource Include="Resources\signintxtfieldbg.png" />
+    <BundleResource Include="Resources\menuicon.png" />
   </ItemGroup>
   <ItemGroup>
     <AtlasTexture Include="Resources\Lato-Light.ttf" />

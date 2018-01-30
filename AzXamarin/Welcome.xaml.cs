@@ -10,6 +10,7 @@ namespace AzXamarin
         public Welcome()
         {
             InitializeComponent();
+
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -27,5 +28,10 @@ namespace AzXamarin
             Navigation.PushAsync(new Signup());
         }
 
+       
+
     }
 }
+
+
+

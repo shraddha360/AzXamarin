@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
+
 
 namespace AzXamarin
 {
@@ -8,14 +10,17 @@ namespace AzXamarin
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Welcome());
-        }
 
+
+            //MainPage.BarTextColor = Color.FromRgb(9, 86, 95);
+
+              MainPage = new MainPage();
+
+  
+        }
         protected override void OnStart()
         {
-            
-            
-            // Handle when your app starts
+// Handle when your app starts
         }
 
         protected override void OnSleep()

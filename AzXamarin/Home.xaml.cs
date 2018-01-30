@@ -8,22 +8,24 @@ namespace AzXamarin
     public partial class Home : ContentPage
     {
         public bool menu = true;
+       
 
         public Home()
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetHasNavigationBar(this, false);
+            //NavigationPage.SetHasNavigationBar(this, false);
+            //NavigationPage.SetTitleIcon("HOME"); 
         }
 
        
-        public void Sched(object sender, System.EventArgs e)
+        public async void Sched(object sender, System.EventArgs e)
         {
+           
+            await Navigation.PushAsync(new PatientDetails());
+          
 
-            Navigation.PushAsync(new ScheduleAppoint());
         }
-
-
         public void Visitapp(object sender, System.EventArgs e)
         {
 
@@ -32,6 +34,7 @@ namespace AzXamarin
 
         public void Logout(object sender, System.EventArgs e)
         {
+            //App.Current.MainPage = new MainPage();
            
             Navigation.PushAsync(new Welcome());
         }

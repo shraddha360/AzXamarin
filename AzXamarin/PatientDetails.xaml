@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="AzXamarin.PatientDetails" >
+    <ContentPage.Content>
+ 
+        <StackLayout BackgroundColor="#e4f0f4" Orientation="Vertical" Spacing="0">
+     
+        <StackLayout x:Name="StackMain" HeightRequest="75"  BackgroundColor="#17DBF3" Orientation="Horizontal" 
+                VerticalOptions="StartAndExpand">
+        <Image Source="backicon.png" Margin="10" WidthRequest="40"  BackgroundColor="Transparent"
+                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped ="HomePg"/> 
+                    </Image.GestureRecognizers>
+                </Image>
+                <StackLayout HorizontalOptions="CenterAndExpand" Padding="0,0,70,10">
+                    <Label Text="Patients" 
+                    VerticalOptions="EndAndExpand" 
+                    FontSize="25"
+         TextColor="White" BackgroundColor="Transparent"
+                    MinimumWidthRequest="300"/>
+                </StackLayout>
+            </StackLayout>
+
+ 
+               <StackLayout BackgroundColor="White" VerticalOptions="CenterAndExpand" MinimumHeightRequest="200" Margin="10">
+                <ScrollView Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <StackLayout x:Name="List1" Spacing="2" 
+                Orientation="Vertical" BackgroundColor="White" >
+                </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+      
+          <!-- <StackLayout  HeightRequest="50" BackgroundColor="#17DBF3" VerticalOptions="EndAndExpand">
+                <Button x:Name="but" Clicked="Handle" Text="Load Patients" TextColor="White" FontSize="Medium">
+
+                    </Button>
+                </StackLayout>-->
+            
+        </StackLayout>
+       
+    </ContentPage.Content>
+</ContentPage>

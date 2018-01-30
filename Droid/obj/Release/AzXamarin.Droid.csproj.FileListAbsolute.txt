@@ -70,6 +70,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/res/drawable-xxhdpi/splash.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/res/drawable/splash.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/res/drawable-xxhdpi/signintxtfieldbg.png
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/res/drawable-xxhdpi/menuicon.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/R.cs.flag
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/uploadflags.txt
 bin/Release/Mono.Android.pdb

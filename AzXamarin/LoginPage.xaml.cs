@@ -25,24 +25,23 @@ namespace AzXamarin
 
         string eid;
         string pass;
+        public static string logn;
+       
 
         RootObject ro;
 
 
         public LoginPage()
         {
-
             InitializeComponent();
-           
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-
-
         public void Signup(object sender, System.EventArgs e)
         {
 
+           // Navigation.PushAsync(new Signup());
             Navigation.PushAsync(new Signup());
         }
         public void HomePge(object sender, System.EventArgs e)
@@ -71,19 +70,22 @@ namespace AzXamarin
 
             var result = await response.Content.ReadAsStringAsync();
 
-           
+            Debug.WriteLine(result);
+
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
+             ro = JsonConvert.DeserializeObject<RootObject>(result);
+              
+                Debug.WriteLine(ro.aaData.AuthToken);
 
+                logn = ro.aaData.AuthToken;
+                     
+                Debug.WriteLine(logn);
 
-                    ro = JsonConvert.DeserializeObject<RootObject>(result);
-
-                    if (ro.aaData.Success == true)
+                if (ro.aaData.Success == true && ro.aaData.AuthToken!= null)
                     {
-
-                        await DisplayAlert("Login", "Successful", "OK");
+                       await DisplayAlert("Login", "Successful", "OK");
                         await Navigation.PushAsync(new Home());
-
                     }
 
                     else
@@ -94,9 +96,6 @@ namespace AzXamarin
                 }
             
 
-
-
-
             //   ro = JsonConvert.DeserializeObject<RootObject>(response.Content.ReadAsStringAsync().Result);
             // ro = JsonUtility.FromJson<RootObject>(result);
             return (result);
@@ -104,7 +103,6 @@ namespace AzXamarin
         }
 
 
-       
         public async void Handle_Clicked(object sender, System.EventArgs e)
         {
 
@@ -124,9 +122,6 @@ namespace AzXamarin
         }
     
 
-
-
-
         public class Company
         {
             public int Id { get; set; }
@@ -142,6 +137,7 @@ namespace AzXamarin
             public int UpdateCount { get; set; }
             public object IsDeleted { get; set; }
             public object DuplicateValue { get; set; }
+           
         }
 
         public class User
@@ -196,20 +192,24 @@ namespace AzXamarin
             public List<object> SignerRole { get; set; }
         }
 
-        public class AaData
+     public class AaData
         {
             public List<object> AddressList { get; set; }
             public string Message { get; set; }
             public bool Success { get; set; }
             public User User { get; set; }
             public string AuthToken { get; set; }
+
         }
 
         public class RootObject
         {
+            
             public AaData aaData { get; set; }
         }
 
+
   
     }
+   
 }

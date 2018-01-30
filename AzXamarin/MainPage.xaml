@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:local="clr-namespace:AzXamarin;assembly=AzXamarin"
+    x:Class="AzXamarin.MainPage" MasterBehavior="Popover">
+	<MasterDetailPage.Master>   
+        <ContentPage Padding="10" BackgroundColor="#17DBF3" Title="Master" Icon="hamburger.png">  
+
+
+           <ContentPage.Content>  
+                <StackLayout Margin="5,30,5,5">  
+                    <Label Text="Profile"></Label>  
+                    <Button Text="Home" TextColor="White" FontSize="25" FontAttributes="Bold" BackgroundColor="Transparent" Clicked="HomeButton"></Button> 
+                    <BoxView WidthRequest="200" HeightRequest="1" BackgroundColor="White"></BoxView>
+                    <Button Text="Patient" TextColor="White" FontSize="25" FontAttributes="Bold" BackgroundColor="Transparent" Clicked="PatienButton"></Button> 
+                    <BoxView WidthRequest="200" HeightRequest="1" BackgroundColor="White"></BoxView>
+                    <Button Text="Appointment" TextColor="White" FontSize="25" FontAttributes="Bold" BackgroundColor="Transparent" Clicked="AppoinButton"></Button> 
+                    <BoxView WidthRequest="200" HeightRequest="1" BackgroundColor="White"></BoxView>
+                    <Button Text="Notification" TextColor="White" FontSize="25" FontAttributes="Bold" BackgroundColor="Transparent"></Button> 
+                    <BoxView WidthRequest="200" HeightRequest="1" BackgroundColor="White"></BoxView>
+                    <Button Text="Logout" TextColor="White" FontSize="25" FontAttributes="Bold" BackgroundColor="Transparent" Clicked="LogoutButton"></Button> 
+                    <BoxView WidthRequest="200" HeightRequest="1" BackgroundColor="White"></BoxView>
+                </StackLayout>  
+            </ContentPage.Content> 
+
+          
+            
+        </ContentPage>  
+    </MasterDetailPage.Master>  
+    <MasterDetailPage.Detail>  
+        <ContentPage Padding="10">  
+            <ContentPage.Content>  
+                <StackLayout Margin="5,30,5,5">  
+                    <Label Text="Detail Page"></Label>  
+                </StackLayout>  
+            </ContentPage.Content>  
+        </ContentPage>  
+    </MasterDetailPage.Detail>  
+</MasterDetailPage>  
