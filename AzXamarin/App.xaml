@@ -5,10 +5,11 @@
 	<Application.Resources>
 <ResourceDictionary>        
 
-            <Style TargetType="NavigationPage">
+            <Style  x:Name="Navig" TargetType="NavigationPage">
         <Setter Property="BarBackgroundColor" Value="#17DBF3"/>
         <Setter Property="BarTextColor" Value="White"/>
-<!--        <Setter Property="FontSize" Value="Macro"/>-->
+      
+<!--   <Setter Property="FontSize" Value="Macro"/>-->
       </Style>
             </ResourceDictionary>
 		<!-- Application resource dictionary -->

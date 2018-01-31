@@ -270,8 +270,8 @@ bl _p_3
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
 ldr x0, [x16, #224]
-.word 0xd2802a01
-.word 0xd2802a01
+.word 0xd2802b01
+.word 0xd2802b01
 bl _p_4
 .word 0xf90033a0
 bl _p_5
@@ -5614,7 +5614,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "75B91FAA-A70B-46CD-B595-9B74DDA428E8"
+	.asciz "66C3F182-CF3E-4362-8D4D-83E9B5ECE11A"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -5697,7 +5697,7 @@ _mono_aot_file_info:
 	.long 80,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 122,93,178,183,68,196,123,53,104,108,225,92,64,208,91,213
+	.byte 61,203,69,66,250,124,140,135,28,44,81,175,26,129,169,87
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:

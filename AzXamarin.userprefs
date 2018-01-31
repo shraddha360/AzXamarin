@@ -1,24 +1,27 @@
 ﻿<Properties StartupConfiguration="{577194CE-2421-49BD-9263-D5077633443E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AzXamarin/App.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/LaunchScreen.storyboard">
     <Files>
-      <File FileName="AzXamarin/App.xaml.cs" Line="18" Column="13" />
+      <File FileName="AzXamarin/App.xaml.cs" Line="14" Column="12" />
       <File FileName="AzXamarin/PatientDetails.xaml" Line="45" Column="1" />
       <File FileName="AzXamarin/PatientDetails.xaml.cs" Line="28" Column="61" />
-      <File FileName="AzXamarin/MainPage.xaml" Line="40" Column="1" />
-      <File FileName="AzXamarin/MainPage.xaml.cs" Line="30" Column="53" />
+      <File FileName="AzXamarin/MainPage.xaml" Line="130" Column="106" />
+      <File FileName="AzXamarin/MainPage.xaml.cs" Line="42" Column="1" />
       <File FileName="AzXamarin/LoginPage.xaml" Line="124" Column="1" />
-      <File FileName="AzXamarin/Home.xaml" Line="9" Column="46" />
-      <File FileName="AzXamarin/Home.xaml.cs" Line="27" Column="13" />
-      <File FileName="AzXamarin/Welcome.xaml.cs" Line="32" Column="9" />
+      <File FileName="AzXamarin/Home.xaml" Line="73" Column="1" />
+      <File FileName="AzXamarin/Home.xaml.cs" Line="17" Column="63" />
+      <File FileName="AzXamarin/Welcome.xaml.cs" Line="19" Column="10" />
       <File FileName="../../../Downloads/XFMenu-master/XFMenu/Pages/MainMenu.xaml" Line="35" Column="25" />
       <File FileName="../../../Downloads/XFMenu-master/XFMenu/Pages/MainMenu.xaml.cs" Line="35" Column="24" />
       <File FileName="AzXamarin/LoginPage.xaml.cs" Line="94" Column="22" />
       <File FileName="iOS/Main.cs" Line="14" Column="10" />
-      <File FileName="AzXamarin/App.xaml" Line="8" Column="61" />
-      <File FileName="AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs" Line="19" Column="1" />
+      <File FileName="AzXamarin/App.xaml" Line="18" Column="1" />
+      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="184" Column="1" />
+      <File FileName="AzXamarin/Welcome.xaml" Line="68" Column="1" />
+      <File FileName="Droid/Assets/AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/LoginPage.xaml.cs" relfile="AzXamarin/LoginPage.xaml.cs" line="101" column="1" />
@@ -28,5 +31,5 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6DA61E3A-FC7D-4DE0-8625-94DCEB0B395F" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.84bbe51d7a6fe002bfafe238f74cd3cb44304430" automaticSigning="False" />
 </Properties>

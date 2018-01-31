@@ -15,14 +15,14 @@ namespace AzXamarin
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
             //NavigationPage.SetHasNavigationBar(this, false);
-            //NavigationPage.SetTitleIcon("HOME"); 
+            //NavigationPage.SetTitleIcon("HOME");
         }
 
        
         public async void Sched(object sender, System.EventArgs e)
         {
            
-            await Navigation.PushAsync(new PatientDetails());
+            await Navigation.PushAsync(new ScheduleAppoint());
           
 
         }

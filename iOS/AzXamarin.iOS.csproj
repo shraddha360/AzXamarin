@@ -269,6 +269,11 @@
     <BundleResource Include="Resources\backicon.png" />
     <BundleResource Include="Resources\signintxtfieldbg.png" />
     <BundleResource Include="Resources\menuicon.png" />
+    <BundleResource Include="Resources\homeicon.png" />
+    <BundleResource Include="Resources\logouticon.png" />
+    <BundleResource Include="Resources\notificationicon.png" />
+    <BundleResource Include="Resources\visitsicon.png" />
+    <BundleResource Include="Resources\radiounselected.png" />
   </ItemGroup>
   <ItemGroup>
     <AtlasTexture Include="Resources\Lato-Light.ttf" />

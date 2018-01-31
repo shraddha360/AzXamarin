@@ -13,11 +13,8 @@ namespace AzXamarin
         public MainPage()
         {
             InitializeComponent();
-
-         
            Detail = new NavigationPage(new Welcome());  
             IsPresented = false; 
-
         }
 
   private void PatienButton(object sender, EventArgs e)  

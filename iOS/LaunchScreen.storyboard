@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,19 +17,23 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.4" green="0.8" blue="0.996078431372549" alpha="1"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="402" translatesAutoresizingMaskIntoConstraints="NO" image="helensys-logo.png">
-                                <rect key="frame" x="72" y="270" width="881" height="827"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1016" translatesAutoresizingMaskIntoConstraints="NO" image="helensys-logo.png">
+                                <rect key="frame" x="72" y="270" width="691" height="573"/>
                             </imageView>
                         </subviews>
                         <constraints>
-                            <constraint id="403" firstItem="402" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="250"/>
-                            <constraint id="404" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="402" secondAttribute="trailing" constant="51"/>
-                            <constraint id="405" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="402" secondAttribute="bottom" constant="269"/>
-                            <constraint id="406" firstItem="402" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52"/>
+                            <constraint id="1017" firstItem="1016" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="250"/>
+                            <constraint id="1018" firstItem="1016" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52"/>
+                            <constraint id="1019" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1016" secondAttribute="bottom" constant="269"/>
+                            <constraint id="1020" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="1016" secondAttribute="trailing" constant="51"/>
+                            <constraint id="1021" firstItem="1016" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="250"/>
+                            <constraint id="1022" firstItem="1016" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52"/>
+                            <constraint id="1023" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1016" secondAttribute="bottom" constant="269"/>
+                            <constraint id="1024" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="1016" secondAttribute="trailing" constant="51"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,14 +44,14 @@
     </scenes>
     <resources>
         <image name="address.png" width="66" height="69"/>
-        <image name="appoin.png" width="100" height="104"/>
+        <image name="appoin.png" width="30" height="31"/>
         <image name="box.png" width="527" height="595"/>
         <image name="circle.png" width="102" height="101"/>
         <image name="city.png" width="56" height="69"/>
         <image name="dob.png" width="54" height="54"/>
         <image name="email.png" width="50" height="41"/>
         <image name="gender.png" width="64" height="60"/>
-        <image name="hamburger.png" width="97" height="64"/>
+        <image name="hamburger.png" width="30" height="30"/>
         <image name="HeartLine.png" width="757" height="246"/>
         <image name="History.png" width="118" height="101"/>
         <image name="Login_Name.png" width="50" height="50"/>
@@ -104,5 +108,11 @@
         <image name="helenzyssmall.png" width="1081" height="450"/>
         <image name="backicon.png" width="60" height="60"/>
         <image name="signintxtfieldbg.png" width="890" height="110"/>
+        <image name="menuicon.png" width="60" height="60"/>
+        <image name="homeicon.png" width="30" height="30"/>
+        <image name="logouticon.png" width="30" height="30"/>
+        <image name="notificationicon.png" width="30" height="30"/>
+        <image name="visitsicon.png" width="30" height="30"/>
+        <image name="radiounselected.png" width="60" height="60"/>
     </resources>
 </document>
