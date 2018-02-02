@@ -16,6 +16,7 @@
     <ManifestDocument>obj/Release/lp/17/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/17/jl/manifest/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/18/jl/AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj/Release/lp/28/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/3/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/5/jl/AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj/Release/lp/6/jl/AndroidManifest.xml</ManifestDocument>
@@ -36,6 +37,9 @@
     <Jar>obj/Release/lp/16/jl/bin/classes.jar</Jar>
     <Jar>obj/Release/lp/17/jl/bin/classes.jar</Jar>
     <Jar>obj/Release/lp/18/jl/bin/classes.jar</Jar>
+    <Jar>obj/Release/lp/26/jl/arch-core-common.jar</Jar>
+    <Jar>obj/Release/lp/27/jl/arch-lifecycle-common.jar</Jar>
+    <Jar>obj/Release/lp/28/jl/bin/classes.jar</Jar>
     <Jar>obj/Release/lp/3/jl/bin/classes.jar</Jar>
     <Jar>obj/Release/lp/4/jl/support-annotations.jar</Jar>
     <Jar>obj/Release/lp/5/jl/bin/classes.jar</Jar>

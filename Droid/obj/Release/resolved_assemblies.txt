@@ -7,6 +7,9 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/System.Core.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/System.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/System.Xml.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Arch.Core.Common.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Arch.Lifecycle.Common.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Arch.Lifecycle.Runtime.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Support.Annotations.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Release/android/assets/Xamarin.Android.Support.Compat.dll

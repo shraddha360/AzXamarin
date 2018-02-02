@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 using Xamarin.Forms;
 
 namespace AzXamarin
@@ -13,7 +14,7 @@ namespace AzXamarin
         public MainPage()
         {
             InitializeComponent();
-           Detail = new NavigationPage(new Welcome());  
+              Detail = new NavigationPage(new Welcome());  
             IsPresented = false; 
         }
 

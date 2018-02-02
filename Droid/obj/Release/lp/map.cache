@@ -24,3 +24,6 @@ Xamarin.Forms.Xaml
 System.Diagnostics.Tools
 Newtonsoft.Json
 System.Resources.ResourceManager
+Xamarin.Android.Arch.Core.Common
+Xamarin.Android.Arch.Lifecycle.Common
+Xamarin.Android.Arch.Lifecycle.Runtime

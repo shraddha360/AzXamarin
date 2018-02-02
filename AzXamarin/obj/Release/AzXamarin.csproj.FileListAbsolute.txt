@@ -11,7 +11,6 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.VisitAppointment.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.Home.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.ScheduleAppoint.xaml.g.cs
-/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.MasterPage.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.MainPage.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/AzXamarin.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.dll
@@ -33,3 +32,5 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Release/DocaLabs.Http.Client.Extension.NewtonSoft.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.csprojResolveAssemblyReference.cache
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Release/AzXamarin.PatientDetails.xaml.g.cs

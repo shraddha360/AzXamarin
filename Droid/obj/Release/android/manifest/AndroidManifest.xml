@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.vmoksha.AzXamarin">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" package="com.vmoksha.AzXamarin" android:versionCode="2">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="17" />
   <uses-permission android:name="android.permission.INTERNET" />
@@ -13,5 +13,6 @@
     </activity>
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.vmoksha.AzXamarin.mono.MonoRuntimeProvider.__mono_init__" />
     <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+    <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT" />
   </application>
 </manifest>
