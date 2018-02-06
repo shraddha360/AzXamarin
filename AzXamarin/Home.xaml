@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Home" 
-   Title= "Home" Icon="hamburger.png">
-	<ContentPage.Content>
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AzXamarin.Home" >
+   <ContentPage.Content>
        
     <StackLayout BackgroundColor="#098FAA">
-            
-      <!-- <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" 
+     <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" 
                 Padding="10,0,55,10"
                 VerticalOptions="Start" 
                 HorizontalOptions="FillAndExpand">
                  
-                <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
+                <Image Source="hamburger.png" WidthRequest="40"  BackgroundColor="Transparent" 
                     HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped ="Logout"/> 
+                    <TapGestureRecognizer Tapped ="MenuBar"/> 
                     </Image.GestureRecognizers>
                 </Image>
-                
+       
            <Label Text="Home"  TextColor="White" BackgroundColor="Transparent"
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
                     VerticalOptions="EndAndExpand"/> 
-            </StackLayout>-->
+            </StackLayout>
             
      <StackLayout  Orientation="Horizontal" BackgroundColor="Transparent"
                 VerticalOptions="Center" HeightRequest="70"
@@ -68,5 +66,8 @@
             
            </StackLayout>
 	</ContentPage.Content>
+        <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Home"  Order="Primary" Icon="hamburger.png" Text="Home" Priority="0" />
+           </ContentPage.ToolbarItems>
 </ContentPage>
 

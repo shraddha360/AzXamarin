@@ -10,12 +10,13 @@ namespace AzXamarin
     {
 
         public List<MenuItem> MainMenuItems { get; set; }
-
+       
         public MainPage()
         {
             InitializeComponent();
-              Detail = new NavigationPage(new Welcome());  
-            IsPresented = false; 
+              Detail = new NavigationPage(new Welcome());
+            IsPresented = false;
+       
         }
 
   private void PatienButton(object sender, EventArgs e)  
@@ -26,7 +27,8 @@ namespace AzXamarin
         private void HomeButton(object sender, EventArgs e)  
         {
             Detail = new NavigationPage(new Home());
-            IsPresented = false;  
+            IsPresented = false;
+            this.IsGestureEnabled = true;
         }  
         private void AppoinButton(object sender, EventArgs e)  
         {  
@@ -38,5 +40,8 @@ namespace AzXamarin
             Detail = new NavigationPage(new Welcome());  
             IsPresented = false;  
         }  
+      
+
+
     }
 }

@@ -101,6 +101,7 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.pdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/bin/Debug/Xamarin.Forms.Xaml.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csprojResolveAssemblyReference.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.csproj.CoreCompileInputs.cache
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs
 /Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/obj/Debug/AzXamarin.AzXamarinPage.xaml.g.cs

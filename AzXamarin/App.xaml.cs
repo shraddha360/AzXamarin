@@ -14,7 +14,7 @@ namespace AzXamarin
            
             //MainPage.BarTextColor = Color.FromRgb(9, 86, 95);
 
-                MainPage = new MainPage();
+            MainPage = new MainPage();
 
         }
         protected override void OnStart()

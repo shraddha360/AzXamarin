@@ -2,14 +2,15 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
      xmlns:local="clr-namespace:AzXamarin;assembly=AzXamarin"
-    x:Class="AzXamarin.MainPage" MasterBehavior="Popover">
+    x:Class="AzXamarin.MainPage" MasterBehavior="Popover" Icon="hamburger.png">
 	<MasterDetailPage.Master>   
         <ContentPage Padding="10" 
             BackgroundColor="#17DBF3" 
-            Title="Master" Icon="hamburger.png" >  
+            Title="Master" >  
 
            <ContentPage.Content>  
-                <StackLayout Margin="5,30,5,5">  
+           <ScrollView>
+                <StackLayout x:Name="ListName" Margin="5,30,5,5">  
 
                      <Grid   ColumnSpacing="20" RowSpacing="0"  VerticalOptions="Center" 
                     HorizontalOptions="Center"
@@ -39,7 +40,7 @@
     <ColumnDefinition Width="Auto"  />
     <ColumnDefinition Width="7*" />
   </Grid.ColumnDefinitions>
-                    <Button Grid.Row="0" Grid.Column="1" Text="Home" TextColor="White" FontSize="22"  BackgroundColor="Transparent" Clicked="HomeButton"></Button> 
+                    <Button x:Name="HomeB" Grid.Row="0" Grid.Column="1" Text="Home" TextColor="White" FontSize="22"  BackgroundColor="Transparent" Clicked="HomeButton"></Button> 
                     <Image Grid.Row="0" Grid.Column="0" Source="homeicon.png"></Image>
                     </Grid>
                <BoxView Grid.Row="1" Grid.Column="1" WidthRequest="200" HeightRequest="1" BackgroundColor="#02AFCF"></BoxView>
@@ -109,7 +110,8 @@
                <BoxView Grid.Row="1" Grid.Column="1" WidthRequest="200" HeightRequest="1" BackgroundColor="#02AFCF"></BoxView>
 
                     
-                </StackLayout>  
+                </StackLayout> 
+                    </ScrollView>
             </ContentPage.Content> 
 
           

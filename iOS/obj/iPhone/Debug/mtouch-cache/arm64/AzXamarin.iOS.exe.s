@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.4.0 (tarball Mon Dec  4 20:59:09 EST 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Jan 10 16:17:32 EST 2018)"
 	.asciz "AzXamarin.iOS.exe"
 	.asciz ""
 
@@ -270,8 +270,8 @@ bl _p_3
 adrp x16, mono_aot_AzXamarin_iOS_got@PAGE+0
 add x16, x16, mono_aot_AzXamarin_iOS_got@PAGEOFF
 ldr x0, [x16, #224]
-.word 0xd2802a01
-.word 0xd2802a01
+.word 0xd2802b01
+.word 0xd2802b01
 bl _p_4
 .word 0xf90033a0
 bl _p_5
@@ -2660,7 +2660,7 @@ LDIFF_SYM3=ut_end - ut_15
 	.align 4
 	.no_dead_strip System_Nullable_1_bool__ctor_bool
 System_Nullable_1_bool__ctor_bool:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/src/mono/mcs/class/corlib/System/Nullable.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/src/mono/mcs/class/corlib/System/Nullable.cs"
 .loc 7 94 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -3488,7 +3488,7 @@ Lme_19:
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.2/src/mono/mcs/class/corlib/System/Array.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.6.1.4/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 8 71 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -5614,7 +5614,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "4B20B8E5-377F-4616-B913-924D5791B5F2"
+	.asciz "1277D8FC-B7CD-4B24-9A49-E03E36A5F0DE"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -5697,7 +5697,7 @@ _mono_aot_file_info:
 	.long 80,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 144,194,14,122,198,77,149,229,194,65,9,42,141,8,187,209
+	.byte 50,53,153,65,36,83,251,206,108,114,147,61,230,252,167,142
 	.globl _mono_aot_module_AzXamarin_iOS_info
 	.align 3
 _mono_aot_module_AzXamarin_iOS_info:
@@ -12865,19 +12865,19 @@ LTDIE_198:
 LDIFF_SYM1260=LTDIE_136 - Ldebug_info_start
 	.long LDIFF_SYM1260
 	.byte 2,35,0,6
-	.asciz "__mt_DataSource_var"
+	.asciz "model"
 
-LDIFF_SYM1261=LDIE_OBJECT - Ldebug_info_start
+LDIFF_SYM1261=LTDIE_199_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1261
 	.byte 2,35,48,6
-	.asciz "__mt_WeakDelegate_var"
+	.asciz "__mt_DataSource_var"
 
 LDIFF_SYM1262=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1262
 	.byte 2,35,56,6
-	.asciz "model"
+	.asciz "__mt_WeakDelegate_var"
 
-LDIFF_SYM1263=LTDIE_199_REFERENCE - Ldebug_info_start
+LDIFF_SYM1263=LDIE_OBJECT - Ldebug_info_start
 	.long LDIFF_SYM1263
 	.byte 2,35,64,0,7
 	.asciz "UIKit_UIPickerView"

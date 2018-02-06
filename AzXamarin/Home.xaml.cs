@@ -7,18 +7,22 @@ namespace AzXamarin
 {
     public partial class Home : ContentPage
     {
-        public bool menu = true;
-       
+        public bool menu;
+        public MainPage masterPage = new MainPage();
 
         public Home()
         {
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
-            //NavigationPage.SetHasNavigationBar(this, false);
+          
+            NavigationPage.SetHasNavigationBar(this, false);
             //NavigationPage.SetTitleIcon("HOME");
+            //NavigationPage.SetTitleIcon(this,"hamburger.png");
+            //Icon = "hamburger.png";
+            //Title = "Home";
+           
         }
 
-       
         public async void Sched(object sender, System.EventArgs e)
         {
            
@@ -32,13 +36,22 @@ namespace AzXamarin
             Navigation.PushAsync(new VisitAppointment());
         }
 
-        public void Logout(object sender, System.EventArgs e)
+        public void MenuBar(object sender, System.EventArgs e)
         {
+            MainPage master = new MainPage();
+
+
+
+
+
+            }
+       
             //App.Current.MainPage = new MainPage();
            
-            Navigation.PushAsync(new Welcome());
+           
+            //Navigation.PushAsync(new Welcome());
         }
 
        
     }
-}
+

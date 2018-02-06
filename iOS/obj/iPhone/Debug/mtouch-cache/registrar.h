@@ -8,19 +8,19 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <CloudKit/CloudKit.h>
-#import <QuartzCore/QuartzCore.h>
 #import <Intents/Intents.h>
 #import <GLKit/GLKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
 @protocol UIPickerViewModel;
 @class Foundation_InternalNSNotificationHandler;
+@class UIKit_UIControlEventProxy;
 @class __MonoMac_NSActionDispatcher;
 @class __Xamarin_NSTimerActionDispatcher;
 @class __MonoMac_NSAsyncActionDispatcher;
-@class UIKit_UIControlEventProxy;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
 @class Xamarin_Forms_Platform_iOS_VisualElementRenderer_1;
@@ -95,30 +95,30 @@
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
-@class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
+@class UIKit_UIView_UIViewAppearance;
+@class UIKit_UIControl_UIControlAppearance;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;
 @class __UIGestureRecognizerParametrizedToken;
-@class __NSObject_Disposer;
-@class __UILongPressGestureRecognizer;
-@class UIKit_UIView_UIViewAppearance;
-@class UIKit_UINavigationBar_UINavigationBarAppearance;
-@class __UIPanGestureRecognizer;
-@class UIKit_UIBarButtonItem_Callback;
-@class UIKit_UIControl_UIControlAppearance;
-@class UIKit_UIButton_UIButtonAppearance;
+@class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
 @class __UIRotationGestureRecognizer;
+@class __UILongPressGestureRecognizer;
 @class __UITapGestureRecognizer;
+@class __UIPanGestureRecognizer;
 @class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
+@class UIKit_UIBarButtonItem_Callback;
+@class UIKit_UINavigationBar_UINavigationBarAppearance;
+@class UIKit_UIButton_UIButtonAppearance;
 @class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
+@class __NSObject_Disposer;
+@class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
-@class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
 
 @protocol UIPickerViewModel<UIPickerViewDataSource, UIPickerViewDelegate>
@@ -462,6 +462,20 @@
 	-(id) init;
 @end
 
+@interface UIKit_UIView_UIViewAppearance : NSObject {
+}
+	-(void) release;
+	-(id) retain;
+	-(int) xamarinGetGCHandle;
+	-(void) xamarinSetGCHandle: (int) gchandle;
+	-(UIColor *) tintColor;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+
+@interface UIKit_UIControl_UIControlAppearance : UIKit_UIView_UIViewAppearance {
+}
+@end
+
 @interface __UIGestureRecognizerToken : NSObject {
 }
 	-(void) release;
@@ -482,24 +496,10 @@
 	-(void) target:(UIGestureRecognizer *)p0;
 @end
 
-@interface UIKit_UIView_UIViewAppearance : NSObject {
-}
-	-(void) release;
-	-(id) retain;
-	-(int) xamarinGetGCHandle;
-	-(void) xamarinSetGCHandle: (int) gchandle;
-	-(UIColor *) tintColor;
-	-(BOOL) conformsToProtocol:(void *)p0;
-@end
-
 @interface UIKit_UINavigationBar_UINavigationBarAppearance : UIKit_UIView_UIViewAppearance {
 }
 	-(UIColor *) barTintColor;
 	-(NSDictionary *) titleTextAttributes;
-@end
-
-@interface UIKit_UIControl_UIControlAppearance : UIKit_UIView_UIViewAppearance {
-}
 @end
 
 @interface UIKit_UIButton_UIButtonAppearance : UIKit_UIControl_UIControlAppearance {

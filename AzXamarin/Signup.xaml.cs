@@ -9,8 +9,9 @@ namespace AzXamarin
     {
         public Signup()
         {
+            MainPage mainmaster = new MainPage();
             InitializeComponent();
-
+            mainmaster.IsGestureEnabled = false;
             PickerDemo.ItemsSource = new List<string>
         {
             "Male",

@@ -9,8 +9,10 @@ namespace AzXamarin
     {
         public Welcome()
         {
+            MainPage mainmaster = new MainPage();
+            
             InitializeComponent();
-
+            mainmaster.IsGestureEnabled = false;
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
         }

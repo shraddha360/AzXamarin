@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="ipad10_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,24 +17,15 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.4" green="0.8" blue="0.996078431372549" alpha="1"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1016" translatesAutoresizingMaskIntoConstraints="NO" image="helensys-logo.png">
-                                <rect key="frame" x="72" y="270" width="691" height="573"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="1238" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" image="Splash.png">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" heightSizable="YES" widthSizable="YES"/>
                             </imageView>
                         </subviews>
-                        <constraints>
-                            <constraint id="1017" firstItem="1016" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="250"/>
-                            <constraint id="1018" firstItem="1016" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52"/>
-                            <constraint id="1019" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1016" secondAttribute="bottom" constant="269"/>
-                            <constraint id="1020" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="1016" secondAttribute="trailing" constant="51"/>
-                            <constraint id="1021" firstItem="1016" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="250"/>
-                            <constraint id="1022" firstItem="1016" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="52"/>
-                            <constraint id="1023" firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1016" secondAttribute="bottom" constant="269"/>
-                            <constraint id="1024" firstItem="Ze5-6b-2t3" firstAttribute="trailingMargin" secondItem="1016" secondAttribute="trailing" constant="51"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
