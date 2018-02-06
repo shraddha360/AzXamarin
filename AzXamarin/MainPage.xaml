@@ -2,11 +2,11 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
      xmlns:local="clr-namespace:AzXamarin;assembly=AzXamarin"
-    x:Class="AzXamarin.MainPage" MasterBehavior="Popover" Icon="hamburger.png">
+    x:Class="AzXamarin.MainPage" MasterBehavior="Popover" >
 	<MasterDetailPage.Master>   
         <ContentPage Padding="10" 
             BackgroundColor="#17DBF3" 
-            Title="Master" >  
+            Title="Master" Icon="hamburger.png">  
 
            <ContentPage.Content>  
            <ScrollView>

@@ -13,9 +13,12 @@ namespace AzXamarin
        
         public MainPage()
         {
+            
             InitializeComponent();
               Detail = new NavigationPage(new Welcome());
-            IsPresented = false;
+              IsPresented = false;
+            IsGestureEnabled = false;
+
        
         }
 
@@ -26,9 +29,11 @@ namespace AzXamarin
         }  
         private void HomeButton(object sender, EventArgs e)  
         {
+            MainPage MasterMain = new MainPage();
+
             Detail = new NavigationPage(new Home());
             IsPresented = false;
-            this.IsGestureEnabled = true;
+           
         }  
         private void AppoinButton(object sender, EventArgs e)  
         {  
@@ -41,7 +46,5 @@ namespace AzXamarin
             IsPresented = false;  
         }  
       
-
-
     }
 }

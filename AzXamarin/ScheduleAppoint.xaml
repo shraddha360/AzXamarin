@@ -44,7 +44,6 @@
     <RowDefinition Height="Auto" />
     <RowDefinition Height="Auto" />
 
-                                           
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
     <ColumnDefinition Width="Auto"  />
@@ -54,7 +53,6 @@
                     
                 <Image  Grid.Row="0" Grid.Column="0" 
                     Source = "social.png" HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="40" WidthRequest="40"/>  
-
 
                 <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" HeightRequest= "40" WidthRequest="200" Margin="20"/>    
                     <custom:CustomEntry CornerRadius="20" Margin="20"
@@ -68,7 +66,8 @@
                              PlaceholderColor="Gray"  
                              TextColor="Black" 
                             WidthRequest="300" Text="" HeightRequest= "40"/>
-                    
+
+                        
               
                     
                  <Image Grid.Row="1" Grid.Column="0" Source = "state.png" 

@@ -15,11 +15,11 @@ namespace AzXamarin
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
           
-            NavigationPage.SetHasNavigationBar(this, false);
+            //NavigationPage.SetHasNavigationBar(this, false);
             //NavigationPage.SetTitleIcon("HOME");
             //NavigationPage.SetTitleIcon(this,"hamburger.png");
             //Icon = "hamburger.png";
-            //Title = "Home";
+            Title = "Home";
            
         }
 
@@ -36,15 +36,7 @@ namespace AzXamarin
             Navigation.PushAsync(new VisitAppointment());
         }
 
-        public void MenuBar(object sender, System.EventArgs e)
-        {
-            MainPage master = new MainPage();
-
-
-
-
-
-            }
+       
        
             //App.Current.MainPage = new MainPage();
            

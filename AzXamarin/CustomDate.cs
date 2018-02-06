@@ -13,9 +13,7 @@ namespace AzXamarin
       {   get => (Color)GetValue(BorderColorProperty);   
           set => SetValue(BorderColorProperty, value);   
       } 
-
-
-        
+    
       public static readonly BindableProperty BorderWidthProperty =  
       BindableProperty.Create(nameof(BorderWidth),typeof(int),  
                               typeof(CustomDate),Device.OnPlatform<int>(1, 2, 2));  
