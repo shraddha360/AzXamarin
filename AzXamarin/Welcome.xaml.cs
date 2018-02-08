@@ -16,6 +16,9 @@ namespace AzXamarin
            
             NavigationPage.SetHasBackButton(this, false);
             NavigationPage.SetHasNavigationBar(this, false);
+           
+
+
         }
 
         public void Loginpge(object sender, System.EventArgs e)

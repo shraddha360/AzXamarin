@@ -26,27 +26,33 @@
                     
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions>
-    <ColumnDefinition Width="Auto"  />
+    <ColumnDefinition Width="Auto"/>
    
   </Grid.ColumnDefinitions>
 
                     
-          <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="1" WidthRequest="200"/>           
+          <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="1" WidthRequest="200"> 
+      </Image>
           <Button Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" 
-          TextColor="White" WidthRequest="150"   VerticalOptions="Center"
-                        HorizontalOptions="Center" BackgroundColor="Transparent"
+          TextColor="White" WidthRequest="200"   VerticalOptions="Center" 
+                        HorizontalOptions="Center" BackgroundColor="Transparent" BorderColor="#17DBF3"
           Clicked= "Loginpge">
           </Button>
+                    <Label x:Name="LoginLab" Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" 
+          TextColor="White" WidthRequest="200"   VerticalOptions="Center" 
+                        HorizontalOptions="Center" BackgroundColor="Transparent" >
+                  
+                    </Label>
     </Grid>
 
   <Grid  HeightRequest="50"  WidthRequest="250"  Margin="10"
                      ColumnSpacing="0" RowSpacing="10" 
                     VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
                    
- <Grid.RowDefinitions >
+ <Grid.RowDefinitions>
     <RowDefinition Height="1*"/>
   </Grid.RowDefinitions>
-  <Grid.ColumnDefinitions  >
+  <Grid.ColumnDefinitions>
                         
     <ColumnDefinition Width="Auto"/>
 

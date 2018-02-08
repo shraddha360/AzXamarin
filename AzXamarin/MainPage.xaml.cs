@@ -9,42 +9,29 @@ namespace AzXamarin
     public partial class MainPage : MasterDetailPage
     {
 
-        public List<MenuItem> MainMenuItems { get; set; }
-       
         public MainPage()
         {
-            
             InitializeComponent();
-              Detail = new NavigationPage(new Welcome());
-              IsPresented = false;
-            IsGestureEnabled = false;
 
-       
+
+            masterPage.ListView.ItemSelected += OnItemSelected;
+
+            if (Device.RuntimePlatform == Device.UWP)
+            {
+                MasterBehavior = MasterBehavior.Popover;
+            }
+          
         }
 
-  private void PatienButton(object sender, EventArgs e)  
-        {  
-            Detail = new NavigationPage(new PatientDetails());  
-            IsPresented = false;  
-        }  
-        private void HomeButton(object sender, EventArgs e)  
+        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            MainPage MasterMain = new MainPage();
-
-            Detail = new NavigationPage(new Home());
-            IsPresented = false;
-           
-        }  
-        private void AppoinButton(object sender, EventArgs e)  
-        {  
-            Detail = new NavigationPage(new VisitAppointment());  
-            IsPresented = false;  
-        }  
-        private void LogoutButton(object sender, EventArgs e)  
-        {  
-            Detail = new NavigationPage(new Welcome());  
-            IsPresented = false;  
-        }  
-      
+            var item = e.SelectedItem as MasterPageItem;
+            if (item != null)
+            {
+                Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
+                masterPage.ListView.SelectedItem = null;
+                IsPresented = false;
+            }
+        }
     }
 }

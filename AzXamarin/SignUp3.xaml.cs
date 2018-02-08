@@ -17,10 +17,7 @@ namespace AzXamarin
             Navigation.PushAsync(new Home());
 
 
-        
         }
-
-
 
 
     }

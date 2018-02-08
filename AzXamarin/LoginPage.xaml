@@ -25,6 +25,7 @@
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
     <RowDefinition Height="Auto" />
+
                         
   </Grid.RowDefinitions>
 
@@ -93,7 +94,8 @@
          <Image Source = "signinbutton.png" Grid.Row="0" HorizontalOptions="Center"
                     Grid.Column="0" WidthRequest="150"/>  
           <Button  Grid.Row="0" Grid.Column="0"  HorizontalOptions="Center" 
-          Text = "Submit" FontSize="20" BackgroundColor="Transparent"
+          Text = "Submit" FontSize="20" BackgroundColor="Transparent"   BorderColor="Transparent"
+               
           TextColor="White" WidthRequest="100"
           Clicked= "Handle_Clicked"> </Button>
                </Grid>
@@ -111,7 +113,7 @@
   </Grid.ColumnDefinitions>
 
                     <Button Grid.Row="0" Grid.Column="0"  Text = "Create an Account" 
-                    TextColor="#008BAA"  FontSize="17" BackgroundColor="Transparent"
+                    TextColor="#008BAA"  FontSize="17" BackgroundColor="Transparent" BorderColor="Transparent"
                         WidthRequest="200"
         Clicked= "Signup">
                     </Button> 

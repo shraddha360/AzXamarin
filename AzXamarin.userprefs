@@ -1,29 +1,44 @@
-﻿<Properties StartupConfiguration="{577194CE-2421-49BD-9263-D5077633443E}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{F169C166-02B7-4275-9E29-70CC4779B789}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AzXamarin/Welcome.xaml.cs">
     <Files>
-      <File FileName="AzXamarin/PatientDetails.xaml" Line="45" Column="1" />
-      <File FileName="AzXamarin/PatientDetails.xaml.cs" Line="28" Column="61" />
-      <File FileName="AzXamarin/MainPage.xaml" Line="9" Column="48" />
-      <File FileName="AzXamarin/MainPage.xaml.cs" Line="21" Column="13" />
-      <File FileName="AzXamarin/Home.xaml" Line="7" Column="9" />
-      <File FileName="AzXamarin/Home.xaml.cs" Line="20" Column="65" />
-      <File FileName="AzXamarin/LoginPage.xaml.cs" Line="28" Column="35" />
-      <File FileName="AzXamarin/App.xaml" Line="18" Column="1" />
-      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="89" Column="17" />
-      <File FileName="Droid/MainActivity.cs" Line="26" Column="10" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="9" Column="55" />
-      <File FileName="AzXamarin/Signup.xaml.cs" Line="21" Column="63" />
+      <File FileName="AzXamarin/AzXamarinPage.xaml" Line="5" Column="1" />
+      <File FileName="AzXamarin/CustomDate.cs" Line="24" Column="58" />
+      <File FileName="AzXamarin/App.xaml" Line="20" Column="15" />
+      <File FileName="AzXamarin/App.xaml.cs" Line="14" Column="12" />
+      <File FileName="AzXamarin/MainPage.xaml" Line="19" Column="1" />
+      <File FileName="AzXamarin/MainPage.xaml.cs" Line="23" Column="11" />
+      <File FileName="AzXamarin/Home.xaml" Line="74" Column="1" />
+      <File FileName="AzXamarin/Home.xaml.cs" Line="26" Column="13" />
+      <File FileName="AzXamarin/MasterPage.xaml" Line="40" Column="1" />
+      <File FileName="AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs" Line="22" Column="1" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="20" Column="3" />
+      <File FileName="Droid/Resources/AboutResources.txt" Line="1" Column="1" />
+      <File FileName="Droid/Assets/AboutAssets.txt" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="17" Column="94" />
+      <File FileName="AzXamarin/Welcome.xaml" Line="44" Column="23" />
+      <File FileName="AzXamarin/Welcome.xaml.cs" Line="12" Column="13" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AzXamarin" expanded="True">
+            <Node name="AzXamarin" expanded="True">
+              <Node name="Welcome.xaml" expanded="True">
+                <Node name="Welcome.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="AzXamarin.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/shraddha/Documents/GitHub/AzXamarin/AzXamarin/LoginPage.xaml.cs" relfile="AzXamarin/LoginPage.xaml.cs" line="102" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZH8000L2W9" />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.UITests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.84bbe51d7a6fe002bfafe238f74cd3cb44304430" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY2233GNNB" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.f3dbbafa128d5dd2e13428c776dd9bc5b6c3de79" />
 </Properties>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 
 namespace AzXamarin
 {
@@ -9,18 +10,24 @@ namespace AzXamarin
     {
         public bool menu;
         public MainPage masterPage = new MainPage();
+       
 
         public Home()
         {
+           
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
+          //  SetBinding(NavigationPage.BarBackgroundColorProperty, new Binding("BarBgColor"));
           
-            //NavigationPage.SetHasNavigationBar(this, false);
+           // NavigationPage.SetHasNavigationBar(this, false);
+           // NavigationPage.BarBackgroundColorProperty(this, Color.Brown);
             //NavigationPage.SetTitleIcon("HOME");
-            //NavigationPage.SetTitleIcon(this,"hamburger.png");
-            //Icon = "hamburger.png";
+            NavigationPage.SetTitleIcon(this,"hamburger.png");
+
+            Icon = "hamburger.png";
             Title = "Home";
            
+
         }
 
         public async void Sched(object sender, System.EventArgs e)
