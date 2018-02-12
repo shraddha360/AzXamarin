@@ -2,38 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="AzXamarin.MasterPage" 
-    Padding="0,40,0,0"
+    Padding="0,30,0,0"
+   
     xmlns:local="using:AzXamarin"
              Icon="hamburger.png"
              Title="Personal Organiser" BackgroundColor="#17DBF3" >
-    <StackLayout>
-        <ListView x:Name="listView" BackgroundColor="#17DBF3" SeparatorColor="#02AFCF"  >
-           <ListView.ItemsSource >
+      <StackLayout BackgroundColor="#17DBF3">
+        <ListView x:Name="listView" BackgroundColor="#17DBF3" SeparatorColor="White" >
+           <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
+      <local:MasterPageItem Title="Jhone Deo" IconSource="radiounselected.png" TargetType="{x:Type local:Home}" />
 
-                    <local:MasterPageItem Title="Jhon Deao"   IconSource="radiounselected.png" TargetType="{x:Type local:Home}" />
-                    <local:MasterPageItem Title="Home"   IconSource="homeicon.png" TargetType="{x:Type local:Home}" />
+                    <local:MasterPageItem Title="Home" IconSource="homeicon.png" TargetType="{x:Type local:Home}" />
                     <local:MasterPageItem Title="Patient" IconSource="visitsicon.png" TargetType="{x:Type local:PatientDetails}" />
-                    <local:MasterPageItem Title="Logout"  IconSource="logouticon.png" TargetType="{x:Type local:LoginPage}" />
+                    <local:MasterPageItem Title="Notification" IconSource="notificationicon.png" />
+       <local:MasterPageItem Title="Logout" IconSource="logouticon.png" TargetType="{x:Type local:Welcome}" />
                 </x:Array>
-
+                
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
+                    
                     <ViewCell>
-                        <Grid Padding="5,10" >
+                        
+                         
+                        <Grid Padding="5,10">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="30"/>
                                 <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                                
                             </Grid.ColumnDefinitions>
+
                             <Image Source="{Binding IconSource}" />
-                            <Label Grid.Column="1" Text="{Binding Title}" TextColor="White"   FontSize="20" FontAttributes="Bold" HeightRequest="150" />
+
+                            <Label Grid.Column="1" Text="{Binding Title}" FontSize="18" TextColor="White" />
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
-</ContentPage>
+
+        </ContentPage>  
+
+

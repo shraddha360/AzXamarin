@@ -23,9 +23,10 @@ namespace AzXamarin.Droid
 
             Xamarin.Forms.Forms.Init(this, bundle);
 
-            LoadApplication(new App());
+       LoadApplication(new App());
             //ActionBar.SetIcon(Resource.Drawable.hamburger);
            
         }
     }
+
 }

@@ -2,21 +2,25 @@
 using Xamarin.Forms;
 using System.Diagnostics;
 using Xamarin.Forms.PlatformConfiguration;
+using System.Threading.Tasks;
 
 namespace AzXamarin
 {
     public partial class App : Application
     {
+        public static MasterDetailPage MasterDetail { get; set; }
         public App()
         {
             InitializeComponent();
 
-           
+
             //MainPage.BarTextColor = Color.FromRgb(9, 86, 95);
 
-            MainPage = new MainPage();
+            App.Current.MainPage = new MainPage();
 
         }
+
+
         protected override void OnStart()
         {
 // Handle when your app starts

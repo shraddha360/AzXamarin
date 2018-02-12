@@ -13,7 +13,7 @@
                 HorizontalOptions="FillAndExpand">
                   <StackLayout>
                 <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
-                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                    HeightRequest="30"  VerticalOptions="CenterAndExpand" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="HomePg"/> 
                     </Image.GestureRecognizers>
@@ -23,17 +23,18 @@
                  <StackLayout  Padding="-30,0,0,0" HorizontalOptions="CenterAndExpand">
            <Label Text="Schedule Appointment"  TextColor="White" BackgroundColor="Transparent" MinimumWidthRequest="300"
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf" HorizontalTextAlignment="Center"
-                    VerticalOptions="EndAndExpand"  /> 
+                    VerticalOptions="CenterAndExpand" 
+                    /> 
                     </StackLayout>
 
             </StackLayout>
 
             <StackLayout  Orientation="Vertical" VerticalOptions="CenterAndExpand"
            HorizontalOptions="Center" Padding="0,0,0,0"  Spacing="10">
-      <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" HeightRequest="470" Padding="0,0,0,0" >
+      <ScrollView  Orientation="Vertical" VerticalOptions="FillAndExpand" HeightRequest="490" Padding="5,0,0,0" >
 
 
-                <Grid   ColumnSpacing="0" RowSpacing="0"  VerticalOptions="Center" 
+                <Grid   ColumnSpacing="0" RowSpacing="0"  VerticalOptions="Center" Margin="7"
                     HorizontalOptions="Center"
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
@@ -46,8 +47,8 @@
 
   </Grid.RowDefinitions>
   <Grid.ColumnDefinitions  >
-    <ColumnDefinition Width="Auto"  />
-    <ColumnDefinition Width="7*" />
+    <ColumnDefinition Width="1*"  />
+    <ColumnDefinition Width="8*" />
       
   </Grid.ColumnDefinitions>
                     
@@ -151,11 +152,11 @@
           </StackLayout>
 
             <StackLayout Orientation="Vertical" 
-                VerticalOptions="EndAndExpand" HeightRequest="100"
+                VerticalOptions="EndAndExpand" HeightRequest="80"
                 HorizontalOptions="CenterAndExpand" BackgroundColor="Transparent"
                 Padding="0,0,0,0">
 
-                 <Grid  ColumnSpacing="0" HeightRequest="50" 
+                 <Grid  ColumnSpacing="0" HeightRequest="30" 
                     RowSpacing="0" VerticalOptions="StartAndExpand"
                     BackgroundColor="Transparent">
       <Grid.RowDefinitions>
@@ -166,10 +167,10 @@
     <ColumnDefinition Width="Auto"/>
 
   </Grid.ColumnDefinitions>
-     <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="0" WidthRequest="200" HeightRequest="60" />           
+     <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="0" WidthRequest="150" HeightRequest="50" />           
        
         <Button Grid.Row="0" Grid.Column="0" Text= "Submit" TextColor="White"
-                  WidthRequest="200"   BackgroundColor="Transparent"
+                  WidthRequest="200" FontSize="17"   BackgroundColor="Transparent"
         Clicked= "HomePg" HorizontalOptions="Center" >
         </Button>
 

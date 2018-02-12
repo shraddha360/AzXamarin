@@ -14,16 +14,17 @@
 
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Create New Account"  TextColor="#36454f" 
-                    FontSize="22" HorizontalOptions="Center" 
+                    FontSize="20" HorizontalOptions="Center" 
                     VerticalOptions="Center"/> 
                <Label Text="Consent" TextColor="#36454f"
-                  FontSize="20" HorizontalTextAlignment="Center"/>
+                  FontSize="18" HorizontalTextAlignment="Center"/>
 
            </StackLayout>
 
              <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Grid   ColumnSpacing="20" RowSpacing="0" HeightRequest="300" 
                 VerticalOptions="Center" HorizontalOptions="Center"
+                    
                     BackgroundColor="Transparent">
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
@@ -38,19 +39,20 @@
                     
    </Grid.ColumnDefinitions>
                 
-                <Label Grid.Row="0" Grid.Column="0" Text="Patient Consent" HorizontalOptions="Start" Margin="10"
+                <Label Grid.Row="0" Grid.Column="0" Text="Patient Consent" HorizontalOptions="StartAndExpand"
+                        Margin="20"
                     TextColor="Black"
-                  FontSize="24" HorizontalTextAlignment="Start" />
-                 <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand"  Margin="10"
+                  FontSize="20" HorizontalTextAlignment="Start" />
+                 <Label Grid.Row="1" Grid.Column="0" HorizontalOptions="CenterAndExpand"  Margin="20"
                     Text="By Clicking Accept, I agree that any access I have is authorized and will be followed by HIPPA Compilance" TextColor="Gray"
-                  FontSize="20" HorizontalTextAlignment="Start"/>
+                  FontSize="17" HorizontalTextAlignment="Start"/>
 
                <!-- <Image Source = "./login.png" Grid.Row="2" Grid.Column="0" BackgroundColor="Black" /> -->
                 <Image Source = "signinbutton.png" Grid.Row="2" 
                     Grid.Column="0"  /> 
                 
                 <Button  Grid.Row="2" Grid.Column="0" Text = "I Accept" HorizontalOptions="CenterAndExpand"
-                    TextColor="White" WidthRequest="100" HeightRequest="50" 
+                    TextColor="White" WidthRequest="100" HeightRequest="50" FontSize="17" 
                 VerticalOptions="CenterAndExpand" 
                         BackgroundColor="Transparent"
                          Clicked= "HomeGo" >  

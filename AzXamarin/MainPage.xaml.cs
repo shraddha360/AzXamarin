@@ -13,23 +13,23 @@ namespace AzXamarin
         {
             InitializeComponent();
 
-
-            masterPage.ListView.ItemSelected += OnItemSelected;
-
-            if (Device.RuntimePlatform == Device.UWP)
-            {
-                MasterBehavior = MasterBehavior.Popover;
-            }
+            MasterBehavior = MasterBehavior.Popover;
+           masterPage.ListView.ItemSelected += OnItemSelected;
+           // Detail = new NavigationPage(new Welcome());
+            WidthRequest = Width * 1 / 4;
+            //if (Device.RuntimePlatform == Device.UWP)
+            //{
+            //    MasterBehavior = MasterBehavior.Popover;
+            //}
           
         }
-
         void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageItem;
             if (item != null)
             {
                 Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
-                masterPage.ListView.SelectedItem = null;
+               masterPage.ListView.SelectedItem = null;
                 IsPresented = false;
             }
         }

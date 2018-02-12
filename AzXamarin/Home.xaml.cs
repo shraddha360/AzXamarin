@@ -14,20 +14,19 @@ namespace AzXamarin
 
         public Home()
         {
+            //
+            //App.Current.MainPage = new MainPage();
            
             InitializeComponent();
             NavigationPage.SetHasBackButton(this, false);
-          //  SetBinding(NavigationPage.BarBackgroundColorProperty, new Binding("BarBgColor"));
-          
-           // NavigationPage.SetHasNavigationBar(this, false);
+
+            //SetBinding(NavigationPage.BarBackgroundColorProperty, new Binding("BarBgColor"));
+           //NavigationPage.SetHasNavigationBar(this, false);
            // NavigationPage.BarBackgroundColorProperty(this, Color.Brown);
             //NavigationPage.SetTitleIcon("HOME");
             NavigationPage.SetTitleIcon(this,"hamburger.png");
-
             Icon = "hamburger.png";
             Title = "Home";
-           
-
         }
 
         public async void Sched(object sender, System.EventArgs e)
@@ -42,9 +41,6 @@ namespace AzXamarin
 
             Navigation.PushAsync(new VisitAppointment());
         }
-
-       
-       
             //App.Current.MainPage = new MainPage();
            
            

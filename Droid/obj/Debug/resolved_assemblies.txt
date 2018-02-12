@@ -37,8 +37,8 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Base.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Basement.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/Xamarin.GooglePlayServices.Tasks.dll
-/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Threading.Tasks.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Collections.dll
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/android/assets/System.Net.Http.dll

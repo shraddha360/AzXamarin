@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-     xmlns:local="clr-namespace:AzXamarin;assembly=AzXamarin"
+     xmlns:local="clr-namespace:AzXamarin;assembly=AzXamarin"  Padding="100,30,0,0"
     x:Class="AzXamarin.MainPage" >
 	<MasterDetailPage.Master>
     <local:MasterPage x:Name="masterPage" />
   </MasterDetailPage.Master>
-    <MasterDetailPage.Detail>
+    <MasterDetailPage.Detail >
         <NavigationPage>
             <x:Arguments>
-                <local:Welcome />
+                <local:Welcome/>
             </x:Arguments>
         </NavigationPage>
+    
     </MasterDetailPage.Detail>
 </MasterDetailPage>
 

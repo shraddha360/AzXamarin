@@ -19,7 +19,8 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Width,
                                 Factor=1}">
-           <Frame Padding="10,10,10,0" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" BackgroundColor="#E8F2F4" Margin="1" >
+           <Frame Padding="10,10,10,0" VerticalOptions="Center" 
+                    HorizontalOptions="CenterAndExpand" WidthRequest="500" BackgroundColor="#E8F2F4" Margin="1" >
                 <Grid   ColumnSpacing="5">
  <Grid.RowDefinitions>
     <RowDefinition Height="Auto" />
@@ -106,7 +107,7 @@
 
 
             
-  <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="10,0,55,20"
+  <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" Padding="0,0,0,0"
                 VerticalOptions="StartAndExpand" 
                 HorizontalOptions="FillAndExpand"  RelativeLayout.WidthConstraint=
                  "{ConstraintExpression Type=RelativeToParent,
@@ -116,18 +117,18 @@
                  "{ConstraintExpression Type=RelativeToParent,
                                 Property=Height,
                                 Factor=1}">
-                  <StackLayout>
-                <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
-                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                  <StackLayout Padding="5,0,0,0">
+                <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent" 
+                    HeightRequest="30"  VerticalOptions="CenterAndExpand" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Goback"/> 
                     </Image.GestureRecognizers>
                 </Image>
                      </StackLayout>
-                <StackLayout  Padding="0,0,0,0" HorizontalOptions="CenterAndExpand">
+                <StackLayout   Padding="0,0,20,0" HorizontalOptions="CenterAndExpand">
            <Label Text="Upcoming Appointment"  TextColor="White" MinimumWidthRequest="300" 
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"/> 
+                    VerticalOptions="CenterAndExpand"/> 
                       </StackLayout>
             </StackLayout>
 

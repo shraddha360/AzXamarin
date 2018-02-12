@@ -53,6 +53,8 @@ namespace AzXamarin
         }
 
 
+
+
         private async Task<string> Login()
         {
             HttpClient client = new HttpClient();

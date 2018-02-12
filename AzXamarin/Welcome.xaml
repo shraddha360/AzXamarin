@@ -18,9 +18,10 @@
             
  <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="Center" Spacing="0" >
-                
+                 
          <Grid   ColumnSpacing="0" RowSpacing="10"  Margin="10"
                     VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" HeightRequest="50">
+                   
  <Grid.RowDefinitions>
     <RowDefinition Height="1*" />
                     
@@ -29,20 +30,19 @@
     <ColumnDefinition Width="Auto"/>
    
   </Grid.ColumnDefinitions>
-
+ 
                     
           <Image Source = "signinbutton.png" Grid.Row="0" Grid.Column="1" WidthRequest="200"> 
       </Image>
-          <Button Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" 
-          TextColor="White" WidthRequest="200"   VerticalOptions="Center" 
-                        HorizontalOptions="Center" BackgroundColor="Transparent" BorderColor="#17DBF3"
+                    
+          <Button x:Name="loginB" Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" BorderRadius="10"
+          TextColor="White" WidthRequest="200"  VerticalOptions="Center" BorderColor="Transparent"
+                        HorizontalOptions="Center" BackgroundColor="Transparent"  BorderWidth="0" 
           Clicked= "Loginpge">
+                        
           </Button>
-                    <Label x:Name="LoginLab" Grid.Row="0" Grid.Column="1" Text = "LOGIN" FontSize="20" 
-          TextColor="White" WidthRequest="200"   VerticalOptions="Center" 
-                        HorizontalOptions="Center" BackgroundColor="Transparent" >
-                  
-                    </Label>
+                    
+                    
     </Grid>
 
   <Grid  HeightRequest="50"  WidthRequest="250"  Margin="10"

@@ -17,7 +17,9 @@ namespace AzXamarin.iOS
   
             if (e.NewElement != null)  
             {  
-                var view = (CustomEntry)Element;  
+                var view = (CustomEntry)Element;
+                this.Control.TextAlignment = UITextAlignment.Center;
+                  
   
                 Control.LeftView = new UIView(new CGRect(0f, 0f, 9f, 20f));  
                 Control.LeftViewMode = UITextFieldViewMode.Always;  

@@ -147,6 +147,8 @@
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/drawable-hdpi/hamburger.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/drawable-xhdpi/hamburger.png
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/drawable-xxhdpi/hamburger.png
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/values-v21/style.xml
+/Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/res/values/colors.xml
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/R.cs.flag
 /Users/shraddha/Documents/GitHub/AzXamarin/Droid/obj/Debug/uploadflags.txt
 bin/Debug/Mono.Android.pdb

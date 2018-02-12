@@ -12,12 +12,12 @@ namespace AzXamarin
             
             InitializeComponent();
            // MainPage masterPag = new MainPage();
-           // masterPag.IsGestureEnabled = false;
+           //masterPag.IsGestureEnabled = false;
            
             NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetHasNavigationBar(this, false);
+           NavigationPage.SetHasNavigationBar(this, false);
            
-
+          
 
         }
 

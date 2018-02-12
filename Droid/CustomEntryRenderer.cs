@@ -17,7 +17,9 @@ namespace AzXamarin.Droid
         {  
             base.OnElementChanged(e);  
             if (e.NewElement != null)  
-            {  
+            {
+                this.TextAlignment = Android.Views.TextAlignment.Center;
+
                 var view = (CustomEntry)Element;  
                 if (view.IsCurvedCornersEnabled)  
                 {  
@@ -47,6 +49,7 @@ namespace AzXamarin.Droid
             DisplayMetrics metrics = context.Resources.DisplayMetrics;  
             return TypedValue.ApplyDimension(ComplexUnitType.Dip, valueInDp, metrics);  
         }  
-    }  
+    } 
+
 
 }

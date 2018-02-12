@@ -1,37 +1,33 @@
 ﻿<Properties StartupConfiguration="{F169C166-02B7-4275-9E29-70CC4779B789}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AzXamarin/Welcome.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.1.5-0/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
       <File FileName="AzXamarin/AzXamarinPage.xaml" Line="5" Column="1" />
       <File FileName="AzXamarin/CustomDate.cs" Line="24" Column="58" />
       <File FileName="AzXamarin/App.xaml" Line="20" Column="15" />
-      <File FileName="AzXamarin/App.xaml.cs" Line="14" Column="12" />
-      <File FileName="AzXamarin/MainPage.xaml" Line="19" Column="1" />
-      <File FileName="AzXamarin/MainPage.xaml.cs" Line="23" Column="11" />
-      <File FileName="AzXamarin/Home.xaml" Line="74" Column="1" />
-      <File FileName="AzXamarin/Home.xaml.cs" Line="26" Column="13" />
-      <File FileName="AzXamarin/MasterPage.xaml" Line="40" Column="1" />
-      <File FileName="AzXamarin/obj/Debug/AzXamarin.App.xaml.g.cs" Line="22" Column="1" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="20" Column="3" />
+      <File FileName="AzXamarin/App.xaml.cs" Line="19" Column="50" />
+      <File FileName="AzXamarin/MainPage.xaml.cs" Line="31" Column="1" />
+      <File FileName="AzXamarin/Home.xaml" Line="72" Column="1" />
+      <File FileName="AzXamarin/Home.xaml.cs" Line="24" Column="76" />
+      <File FileName="AzXamarin/obj/Debug/AzXamarin.MainPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="AzXamarin/MainPage.xaml" Line="20" Column="1" />
+      <File FileName="AzXamarin/MasterPage.xaml.cs" Line="11" Column="62" />
+      <File FileName="AzXamarin/Signup.xaml" Line="112" Column="1" />
+      <File FileName="AzXamarin/CustomEntry.cs" Line="53" Column="9" />
+      <File FileName="Droid/CustomEntryRenderer.cs" Line="22" Column="1" />
+      <File FileName="iOS/CustomEntryRenderer.cs" Line="22" Column="19" />
+      <File FileName="AzXamarin/ScheduleAppoint.xaml" Line="184" Column="1" />
+      <File FileName="AzXamarin/VisitAppointment.xaml" Line="142" Column="2" />
+      <File FileName="AzXamarin/UpcomingPage.xaml" Line="140" Column="1" />
+      <File FileName="AzXamarin/SignUp3.xaml" Line="66" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="33" Column="1" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="1" Column="1" />
       <File FileName="Droid/Resources/AboutResources.txt" Line="1" Column="1" />
-      <File FileName="Droid/Assets/AboutAssets.txt" Line="1" Column="1" />
-      <File FileName="Droid/MainActivity.cs" Line="17" Column="94" />
-      <File FileName="AzXamarin/Welcome.xaml" Line="44" Column="23" />
-      <File FileName="AzXamarin/Welcome.xaml.cs" Line="12" Column="13" />
+      <File FileName="Droid/CustomDateRender.cs" Line="1" Column="1" />
+      <File FileName="AzXamarin/LoginPage.xaml" Line="131" Column="1" />
+      <File FileName="AzXamarin/MasterPageItem.cs" Line="10" Column="7" />
+      <File FileName="AzXamarin/MasterPage.xaml" Line="48" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.1.5-0/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1346" Column="59" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="AzXamarin" expanded="True">
-            <Node name="AzXamarin" expanded="True">
-              <Node name="Welcome.xaml" expanded="True">
-                <Node name="Welcome.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="AzXamarin.Droid" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -40,5 +36,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.AzXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY2233GNNB" />
-  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.f3dbbafa128d5dd2e13428c776dd9bc5b6c3de79" />
+  <MonoDevelop.Ide.ItemProperties.AzXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.84bbe51d7a6fe002bfafe238f74cd3cb44304430" />
 </Properties>

@@ -4,23 +4,21 @@
    <ContentPage.Content>
        
     <StackLayout BackgroundColor="#098FAA">
-    <!-- <StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" 
-                Padding="10,0,55,10"
+ <!--<StackLayout  BackgroundColor="#17DBF3" HeightRequest="75" Orientation="Horizontal" 
+                Padding="10,0,55,0"
                 VerticalOptions="Start" 
                 HorizontalOptions="FillAndExpand">
                  
-                <Image Source="hamburger.png" WidthRequest="40"  BackgroundColor="Transparent" 
-                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
-                    <Image.GestureRecognizers>
-                    <TapGestureRecognizer Tapped ="MenuBar"/> 
-                    </Image.GestureRecognizers>
+                <Image Source="hamburger.png" WidthRequest="30" HeightRequest="20"  BackgroundColor="Transparent" 
+                      VerticalOptions="CenterAndExpand" HorizontalOptions="Start">
+
                 </Image>
                
                 
        
            <Label Text="Home"  TextColor="White" BackgroundColor="Transparent"
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand"/> 
+                    VerticalOptions="CenterAndExpand"/> 
             </StackLayout>-->
             
      <StackLayout  Orientation="Horizontal" BackgroundColor="Transparent"

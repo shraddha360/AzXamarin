@@ -35,8 +35,8 @@
     <ColumnDefinition Width="Auto"  />
  </Grid.ColumnDefinitions>
 
-         <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" WidthRequest="200" Margin="20"/>         
-
+ <Image Source="signintxtfieldbg" Grid.Row="0" Grid.Column="1" WidthRequest="200" Margin="20" HeightRequest= "40" 
+                        BackgroundColor="Transparent"/>         
                  <custom:CustomEntry CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="0" Grid.Column="1" 
@@ -50,21 +50,22 @@
                             WidthRequest="300" Text="" HeightRequest= "40"/>   
 
 
-                    <Image Source="signintxtfieldbg" Grid.Row="1" Grid.Column="1" WidthRequest="200" Margin="20"/>         
-      
-                  <custom:CustomEntry CornerRadius="20" Margin="20"
+                    <Image Source="signintxtfieldbg" Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent" 
+                        WidthRequest="200" Margin="20" HeightRequest= "40"/>         
+                  <custom:CustomEntry CornerRadius="20" Margin="20" 
                         IsCurvedCornersEnabled="True" 
                         Grid.Row="1" Grid.Column="1" 
                              BorderColor="Transparent"       
                              HorizontalTextAlignment="Start"  
                              FontSize="17"  
+                          
                               BackgroundColor="Transparent" 
                              Placeholder="enter your full name"   
                              PlaceholderColor="Gray"  
                              TextColor="Black"
                             WidthRequest="300" Text="" HeightRequest= "40"/> 
 
-             <Image Source="signintxtfieldbg" Grid.Row="2" Grid.Column="1" WidthRequest="200" Margin="20"/>         
+             <Image Source="signintxtfieldbg" Grid.Row="2" Grid.Column="1" WidthRequest="200"  Margin="20" />         
 
                     <custom:CustomDate CornerRadius="20" Margin="20"
                         IsCurvedCornersEnabled="True" 
@@ -88,8 +89,7 @@
 
                 <Grid   ColumnSpacing="10"
                     RowSpacing="0" 
-                    HeightRequest="50" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="EndAndExpand" 
-                     >
+                    HeightRequest="50" BackgroundColor="Transparent" VerticalOptions="Center" HorizontalOptions="EndAndExpand" >
  <Grid.RowDefinitions>
     <RowDefinition Height="1*" />
    </Grid.RowDefinitions>

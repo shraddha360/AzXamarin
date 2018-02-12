@@ -12,16 +12,16 @@
                 HorizontalOptions="FillAndExpand">
             <StackLayout>
                 <Image Source="backicon.png" WidthRequest="40"  BackgroundColor="Transparent"
-                    HeightRequest="30"  VerticalOptions="EndAndExpand" HorizontalOptions="Start">
+                    HeightRequest="30"  VerticalOptions="CenterAndExpand" HorizontalOptions="Start">
                     <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped ="Home"/> 
                     </Image.GestureRecognizers>
                 </Image>
                      </StackLayout>
-              <StackLayout  Padding="-30,0,0,0" HorizontalOptions="CenterAndExpand">
+              <StackLayout  Padding="0,0,0,0" HorizontalOptions="CenterAndExpand">
         <Label Text=" Appointment" TextColor="White"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" BackgroundColor="Transparent"
                     FontSize="25" HorizontalOptions="CenterAndExpand" FontFamily="Lato-Light.ttf"
-                    VerticalOptions="EndAndExpand" /> 
+                    VerticalOptions="CenterAndExpand" /> 
                    </StackLayout>
             </StackLayout> 
 
